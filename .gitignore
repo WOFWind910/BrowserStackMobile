@@ -1,0 +1,16 @@
+bin/
+screenshot/
+reports/
+out/
+.idea/
+.allure/
+allure-results/
+ExportData/
+ExtentReports/
+logs/
+target/
+test-output/
+*.mp4
+*.avi
+allure-report/
+.allure/

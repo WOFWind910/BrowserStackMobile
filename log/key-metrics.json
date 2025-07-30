@@ -1,0 +1,5042 @@
+[
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 556.1434000134468,
+        "duration": 1223.1148999929428,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 7880
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1785.3858999609947,
+        "duration": 445.3583000302315,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 7880
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 2231.627399981022,
+        "duration": 0.02490001916885376,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 7880
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 2231.3172999620438,
+        "duration": 6357.234600007534,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 7880
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 8589.163599967957,
+        "duration": 13416.440900027752,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 7880
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 31734.484300017357,
+        "duration": 1231.008399963379,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 7880
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 81941.2975999713,
+        "duration": 0.05290001630783081,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 7880
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 1771.4726999998093,
+        "duration": 0.0471000075340271,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 8332
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 628.9833999872208,
+        "duration": 1027.8622000217438,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 20324
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1660.7308000326157,
+        "duration": 422.09139996767044,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 20324
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 2083.7412999868393,
+        "duration": 0.06960004568099976,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 20324
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 2083.190900027752,
+        "duration": 6603.188999950886,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 20324
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 8687.24849998951,
+        "duration": 12587.365700006485,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 20324
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 33053.99210000038,
+        "duration": 1247.7350000143051,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 20324
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 77044.53240001202,
+        "duration": 0.03839999437332153,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 20324
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 476.08680003881454,
+        "duration": 994.6588000059128,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 19800
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1474.2705000042915,
+        "duration": 441.840499997139,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 19800
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 1916.6769000291824,
+        "duration": 0.025499999523162842,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 19800
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 1916.4984999895096,
+        "duration": 4847.330099999905,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 19800
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 6764.3336000442505,
+        "duration": 2.726099967956543,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 19800
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 16049.957000017166,
+        "duration": 1204.4373000264168,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 19800
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 54305.59170001745,
+        "duration": 0.054099977016448975,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 19800
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 634.63379997015,
+        "duration": 1259.9808000326157,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 11112
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1898.7124999761581,
+        "duration": 461.3639000058174,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 11112
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 2360.5888999700546,
+        "duration": 0.021400034427642822,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 11112
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 2360.32539999485,
+        "duration": 5407.088899970055,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 11112
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 7768.06970000267,
+        "duration": 3.203599989414215,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 11112
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 17951.753899991512,
+        "duration": 1238.85070002079,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 11112
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 53617.932799994946,
+        "duration": 0.18029999732971191,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 11112
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 537.9233999848366,
+        "duration": 1444.9887999892235,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 21044
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1989.655799984932,
+        "duration": 436.30150002241135,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 21044
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 2426.435100018978,
+        "duration": 0.016499996185302734,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 21044
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 2426.217999994755,
+        "duration": 5979.217299997807,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 21044
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 8406.030299961567,
+        "duration": 4.782100021839142,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 21044
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 18812.105499982834,
+        "duration": 1239.1561000347137,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 21044
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 58176.6128000021,
+        "duration": 0.03329998254776001,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 21044
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 786.7501000165939,
+        "duration": 1054.718699991703,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 18700
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1853.6075000166893,
+        "duration": 460.0611000061035,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 18700
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 2314.3554000258446,
+        "duration": 0.025499999523162842,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 18700
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 2314.072700023651,
+        "duration": 5713.7486000061035,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 18700
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 8028.662200033665,
+        "duration": 4.080299973487854,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 18700
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 18675.694000005722,
+        "duration": 1268.4488999843597,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 18700
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 61631.83520001173,
+        "duration": 0.04110002517700195,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 18700
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 484.3604000210762,
+        "duration": 965.1908999681473,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 7044
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1453.4147999882698,
+        "duration": 1145.4508000016212,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 7044
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 2600.034500002861,
+        "duration": 0.03509998321533203,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 7044
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 2599.6546000242233,
+        "duration": 4772.744499981403,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 7044
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 7372.95710003376,
+        "duration": 2.708299994468689,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 7044
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 16289.973800003529,
+        "duration": 1239.7763000130653,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 7044
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 58455.61699998379,
+        "duration": 0.04129999876022339,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 7044
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 476.656800031662,
+        "duration": 1172.7562999725342,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 18940
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1652.1927000284195,
+        "duration": 1157.7037999629974,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 18940
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 2810.4236000180244,
+        "duration": 0.0153999924659729,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 18940
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 2810.2425000071526,
+        "duration": 5054.788999974728,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 18940
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 7865.5737000107765,
+        "duration": 2.67739999294281,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 18940
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 17177.23860001564,
+        "duration": 1239.9135999679565,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 18940
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 57782.09689998627,
+        "duration": 0.042699992656707764,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 18940
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 482.4176999926567,
+        "duration": 1025.775099992752,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 20460
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1511.1064999699593,
+        "duration": 450.8140000104904,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 20460
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 1962.486899971962,
+        "duration": 0.015200018882751465,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 20460
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 1962.271399974823,
+        "duration": 4748.025600016117,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 20460
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 6710.873899996281,
+        "duration": 2.8632999658584595,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 20460
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 16178.880100011826,
+        "duration": 1292.6568999886513,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 20460
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 52203.460099995136,
+        "duration": 0.046000003814697266,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 20460
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 495.4200999736786,
+        "duration": 1088.2710999846458,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 13664
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1586.7570999860764,
+        "duration": 595.9496999979019,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 13664
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 2183.248699963093,
+        "duration": 0.016200006008148193,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 13664
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 2183.0665999650955,
+        "duration": 4819.11470001936,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 13664
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 7002.820199966431,
+        "duration": 3.0372999906539917,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 13664
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 16077.967700004578,
+        "duration": 1288.290600001812,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 13664
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 55255.39139997959,
+        "duration": 0.04629999399185181,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 13664
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 484.0042999982834,
+        "duration": 1003.2358000278473,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 18476
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1490.8550000190735,
+        "duration": 415.3231999874115,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 18476
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 1906.688400030136,
+        "duration": 0.019099950790405273,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 18476
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 1906.4233999848366,
+        "duration": 5035.41629999876,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 18476
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 6942.463199973106,
+        "duration": 2.8980000019073486,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 18476
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 16131.798399984837,
+        "duration": 1212.6981000304222,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 18476
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 52548.362699985504,
+        "duration": 0.04580003023147583,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 18476
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 499.9225000143051,
+        "duration": 1004.3332999944687,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 11536
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1507.4765000343323,
+        "duration": 424.5020999908447,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 11536
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 1932.4531000256538,
+        "duration": 0.016299962997436523,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 11536
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 1932.2818999886513,
+        "duration": 5132.594400048256,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 11536
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 7065.656599998474,
+        "duration": 3.073900043964386,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 11536
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 16988.71960002184,
+        "duration": 1309.577899992466,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 11536
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 52719.82249999046,
+        "duration": 0.05180001258850098,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 11536
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 491.7552999854088,
+        "duration": 1036.71590000391,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 8300
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1531.674899995327,
+        "duration": 1112.4853000044823,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 8300
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 2644.815699994564,
+        "duration": 0.01690000295639038,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 8300
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 2644.608699977398,
+        "duration": 4771.734200000763,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 8300
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 7416.905900001526,
+        "duration": 3.0896999835968018,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 8300
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 17251.15750002861,
+        "duration": 1236.083399951458,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 8300
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 54735.138899981976,
+        "duration": 0.029100000858306885,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 8300
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 539.9671999812126,
+        "duration": 1031.4768999814987,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 2484
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1576.0001999735832,
+        "duration": 1131.2396000027657,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 2484
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 2708.506900012493,
+        "duration": 0.04119998216629028,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 2484
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 2708.070999979973,
+        "duration": 4787.171700000763,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 2484
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 7495.8039999604225,
+        "duration": 2.791700005531311,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 2484
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 51816.37839996815,
+        "duration": 1254.9544000029564,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 2484
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 54718.22509998083,
+        "duration": 0.5992000102996826,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 2484
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 502.7579999566078,
+        "duration": 1060.119400024414,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 1280
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1567.2707999944687,
+        "duration": 426.021399974823,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 1280
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 1993.9668999910355,
+        "duration": 0.026600003242492676,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 1280
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 1993.6412000060081,
+        "duration": 4580.968599975109,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 1280
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 6575.218400001526,
+        "duration": 3.0840999484062195,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 1280
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 25425.590399980545,
+        "duration": 1202.3234000205994,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 1280
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 28516.361899971962,
+        "duration": 0.06440001726150513,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 1280
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 467.8352999687195,
+        "duration": 1165.0692999958992,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 5268
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1635.8596999645233,
+        "duration": 427.5663999915123,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 5268
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 2063.9501999616623,
+        "duration": 0.015600025653839111,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 5268
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 2063.758899986744,
+        "duration": 4820.883400022984,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 5268
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 6885.248299956322,
+        "duration": 3.147100031375885,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 5268
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 20958.99629998207,
+        "duration": 1265.6586999893188,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 5268
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 23899.26550000906,
+        "duration": 0.03689998388290405,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 5268
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 496.48519998788834,
+        "duration": 982.5473999977112,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 12868
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1482.2687999606133,
+        "duration": 492.54860001802444,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 12868
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 1976.0231000185013,
+        "duration": 0.041999995708465576,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 12868
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 1975.7017999887466,
+        "duration": 4823.980499982834,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 12868
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 6800.261099994183,
+        "duration": 2.9390000104904175,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 12868
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 13857.653100013733,
+        "duration": 0.11890000104904175,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 12868
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 486.9080999493599,
+        "duration": 1089.2250000238419,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 14604
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1579.2925999760628,
+        "duration": 419.39649999141693,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 14604
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 1999.065299987793,
+        "duration": 0.01389998197555542,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 14604
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 1998.9070000052452,
+        "duration": 5313.482299983501,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 14604
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 7312.9634999632835,
+        "duration": 2.685100018978119,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 14604
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 16961.361599981785,
+        "duration": 1281.5516999959946,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 14604
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 55970.124899983406,
+        "duration": 0.047599971294403076,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 14604
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 519.8197000026703,
+        "duration": 1583.3562000393867,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 16284
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 2107.3152000308037,
+        "duration": 439.8974999785423,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 16284
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 2547.7206000089645,
+        "duration": 0.029600024223327637,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 16284
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 2547.4682000279427,
+        "duration": 6130.326799988747,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 16284
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 8678.410700023174,
+        "duration": 3.49509996175766,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 16284
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 18044.15799999237,
+        "duration": 1226.9779000282288,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 16284
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 56420.613499999046,
+        "duration": 0.07249999046325684,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 16284
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 533.6712000370026,
+        "duration": 1147.4296000003815,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 8260
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1685.2646000385284,
+        "duration": 441.00759994983673,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 8260
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 2126.695999979973,
+        "duration": 0.01650005578994751,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 8260
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 2126.491100013256,
+        "duration": 5964.290399968624,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 8260
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 8092.136500000954,
+        "duration": 3.667800009250641,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 8260
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 19301.725000023842,
+        "duration": 1261.7605000138283,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 8260
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 57138.53290003538,
+        "duration": 0.0274999737739563,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 8260
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 725.1313000321388,
+        "duration": 1197.1137999892235,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 15440
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1925.4087000489235,
+        "duration": 423.3187999725342,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 15440
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 2349.6869000196457,
+        "duration": 0.03900003433227539,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 15440
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 2349.2386000156403,
+        "duration": 5161.278999984264,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 15440
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 7511.04129999876,
+        "duration": 2.962100028991699,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 15440
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 17962.16740000248,
+        "duration": 1252.0451000332832,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 15440
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 54460.823900043964,
+        "duration": 0.029999971389770508,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 15440
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 643.9124999642372,
+        "duration": 1334.9370000362396,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 11880
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1982.9293000102043,
+        "duration": 511.5636999607086,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 11880
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 2495.4169999957085,
+        "duration": 0.021399974822998047,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 11880
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 2495.146600008011,
+        "duration": 6261.912400007248,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 11880
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 8757.600899994373,
+        "duration": 2.375,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 11880
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 18201.940400004387,
+        "duration": 1236.2512999773026,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 11880
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 56247.5992000103,
+        "duration": 0.04210001230239868,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 11880
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 531.6937999725342,
+        "duration": 1032.1294000148773,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 17972
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1567.655699968338,
+        "duration": 1175.4065000414848,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 17972
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 2744.1829000115395,
+        "duration": 0.028599977493286133,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 17972
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 2743.855599999428,
+        "duration": 5314.084999978542,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 17972
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 8058.973699986935,
+        "duration": 3.6008999943733215,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 17972
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 17447.535000026226,
+        "duration": 1223.7098999619484,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 17972
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 56946.075999975204,
+        "duration": 0.04809999465942383,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 17972
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 589.6336999535561,
+        "duration": 1199.6793000102043,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 13684
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1792.9111999869347,
+        "duration": 455.69699996709824,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 13684
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 2249.133399963379,
+        "duration": 0.015600025653839111,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 13684
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 3087.524699985981,
+        "duration": 0.02649998664855957,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 13684
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 476.63249999284744,
+        "duration": 1023.5554000139236,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 15336
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1503.4918999671936,
+        "duration": 466.79520004987717,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 15336
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 1970.7035999894142,
+        "duration": 0.016200006008148193,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 15336
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 1970.5225999951363,
+        "duration": 5260.785799980164,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 15336
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 7231.804000020027,
+        "duration": 2.654799997806549,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 15336
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 16467.597599983215,
+        "duration": 1261.606500029564,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 15336
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 58585.8694999814,
+        "duration": 0.04460000991821289,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 15336
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 669.9059000015259,
+        "duration": 1143.7190999984741,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 18672
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1820.6390999555588,
+        "duration": 467.16000002622604,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 18672
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 2288.3950999975204,
+        "duration": 0.026399970054626465,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 18672
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 2288.0855999588966,
+        "duration": 6384.31510001421,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 18672
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 8673.146699965,
+        "duration": 5.688000023365021,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 18672
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 18853.579899966717,
+        "duration": 1263.6905999779701,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 18672
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 73421.61999994516,
+        "duration": 0.05200004577636719,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 18672
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 524.4517000317574,
+        "duration": 1085.8986999988556,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 11920
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1614.9366000294685,
+        "duration": 1155.4142999649048,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 11920
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 2771.506099998951,
+        "duration": 0.05050003528594971,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 11920
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 2771.0843000411987,
+        "duration": 5359.0567999482155,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 11920
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 8130.781199991703,
+        "duration": 3.3235999941825867,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 11920
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 17975.681600034237,
+        "duration": 1322.3258999586105,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 11920
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 69770.87709999084,
+        "duration": 0.04500001668930054,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 11920
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 563.2868000268936,
+        "duration": 1034.5949999690056,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 15724
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1604.3529000282288,
+        "duration": 444.74699997901917,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 15724
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 2049.8289999961853,
+        "duration": 0.018500030040740967,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 15724
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 2049.5637000203133,
+        "duration": 5588.496600031853,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 15724
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 7638.743300020695,
+        "duration": 2.6776000261306763,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 15724
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 18286.252800047398,
+        "duration": 1251.8281999826431,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 15724
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 72322.95890003443,
+        "duration": 0.050099968910217285,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 15724
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 523.505999982357,
+        "duration": 1201.1166999936104,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 6208
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1729.0207999944687,
+        "duration": 446.2267000079155,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 6208
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 2175.6667000055313,
+        "duration": 0.01690000295639038,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 6208
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 2175.480799973011,
+        "duration": 5713.733799993992,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 6208
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 7889.734699964523,
+        "duration": 2.5688000321388245,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 6208
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 17711.519999980927,
+        "duration": 1243.7731000185013,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 6208
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 61292.632300019264,
+        "duration": 0.05199998617172241,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 6208
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 532.7651000022888,
+        "duration": 1187.1618000268936,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 23772
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1724.2689999938011,
+        "duration": 1202.6521000266075,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 23772
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 2927.3788999915123,
+        "duration": 0.015700042247772217,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 23772
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 2927.1805000305176,
+        "duration": 5257.881399989128,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 23772
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 8185.638100028038,
+        "duration": 2.6941999793052673,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 23772
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 18371.113700032234,
+        "duration": 1289.4257999658585,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 23772
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 73096.59030002356,
+        "duration": 0.048799991607666016,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 23772
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 542.5834000110626,
+        "duration": 1175.6394999623299,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 10204
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1722.6208999752998,
+        "duration": 496.4147000312805,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 10204
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 2219.695999979973,
+        "duration": 0.02219998836517334,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 10204
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 2219.296400010586,
+        "duration": 5782.318899989128,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 10204
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 8002.480599999428,
+        "duration": 3.9143999814987183,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 10204
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 19697.065699994564,
+        "duration": 1310.4879999756813,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 10204
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 95529.79869997501,
+        "duration": 0.03320002555847168,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 10204
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 531.5260000228882,
+        "duration": 1320.925300002098,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 3100
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1856.7190999984741,
+        "duration": 676.3860000371933,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 3100
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 2533.710000038147,
+        "duration": 0.01549994945526123,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 3100
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 2533.509700000286,
+        "duration": 5279.118700027466,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 3100
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 7813.255299985409,
+        "duration": 2.605500042438507,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 3100
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 18004.864899992943,
+        "duration": 1238.5052000284195,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 3100
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 88446.25069999695,
+        "duration": 0.07350003719329834,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 3100
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 540.3481000065804,
+        "duration": 1068.287800014019,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 6744
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1612.8106000423431,
+        "duration": 464.5552999973297,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 6744
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 2077.9760000109673,
+        "duration": 0.024700045585632324,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 6744
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 2077.707000017166,
+        "duration": 5505.857500016689,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 6744
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 7584.347800016403,
+        "duration": 4.4510000348091125,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 6744
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 18311.358700037003,
+        "duration": 1284.4318999648094,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 6744
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 90106.40990000963,
+        "duration": 0.022200047969818115,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 6744
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 502.6065999865532,
+        "duration": 1342.0812999606133,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 19852
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1847.8475999832153,
+        "duration": 439.36169999837875,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 19852
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 2287.590399980545,
+        "duration": 0.01410001516342163,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 19852
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 2287.4169999957085,
+        "duration": 5058.250599980354,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 19852
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 7346.255099952221,
+        "duration": 3.345400035381317,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 19852
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 16991.495799958706,
+        "duration": 1265.1658000349998,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 19852
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 95486.05649995804,
+        "duration": 0.04739999771118164,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 19852
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 550.497300028801,
+        "duration": 1241.5514999628067,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 17372
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1796.53510004282,
+        "duration": 1130.274199962616,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 17372
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 2927.3749000430107,
+        "duration": 0.018799960613250732,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 17372
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 2927.147800028324,
+        "duration": 6275.547199964523,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 17372
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 9203.247500002384,
+        "duration": 3.110900044441223,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 17372
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 19396.740900039673,
+        "duration": 1250.2114999890327,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 17372
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 98383.58990001678,
+        "duration": 0.05879998207092285,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 17372
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 535.2962999939919,
+        "duration": 1274.434199988842,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 22956
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1815.8328000307083,
+        "duration": 451.0020999908447,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 22956
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 2267.212199985981,
+        "duration": 0.01260000467300415,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 22956
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 2267.059499979019,
+        "duration": 5740.502800047398,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 22956
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 8008.172800004482,
+        "duration": 2.8909000158309937,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 22956
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 17756.611800014973,
+        "duration": 1299.527899980545,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 22956
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 63338.81180000305,
+        "duration": 0.0471000075340271,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 22956
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 552.7480000257492,
+        "duration": 1230.36519998312,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 1820
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1787.253400027752,
+        "duration": 458.09810000658035,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 1820
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 2245.7583000063896,
+        "duration": 0.014900028705596924,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 1820
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 2245.5830000042915,
+        "duration": 4927.317300021648,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 1820
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 7173.504800021648,
+        "duration": 3.0295000076293945,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 1820
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 16692.95780003071,
+        "duration": 1250.2103999853134,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 1820
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 68725.83810001612,
+        "duration": 0.02529996633529663,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 1820
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 524.4878000020981,
+        "duration": 1279.5120000243187,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 21980
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1808.1646000146866,
+        "duration": 445.29049998521805,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 21980
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 2254.0929000377655,
+        "duration": 0.01949995756149292,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 21980
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 2253.8179000020027,
+        "duration": 5388.270000040531,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 21980
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 7642.693400025368,
+        "duration": 2.818499982357025,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 21980
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 17092.181500017643,
+        "duration": 1296.3227999806404,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 21980
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 65761.13820004463,
+        "duration": 0.022799968719482422,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 21980
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 568.0771999955177,
+        "duration": 1119.321799993515,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 17588
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1692.067899942398,
+        "duration": 472.2686000466347,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 17588
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 2164.845199942589,
+        "duration": 0.022700011730194092,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 17588
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 2164.6096999645233,
+        "duration": 5500.24739998579,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 17588
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 7665.414599955082,
+        "duration": 2.713800013065338,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 17588
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 17894.264999985695,
+        "duration": 1261.3704000115395,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 17588
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 78674.80079996586,
+        "duration": 0.0439000129699707,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 17588
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 490.64509999752045,
+        "duration": 994.3023999929428,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 21688
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1488.696799993515,
+        "duration": 459.5939999818802,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 21688
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 1948.908899962902,
+        "duration": 0.018500030040740967,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 21688
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 1948.7024999856949,
+        "duration": 4700.200599968433,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 21688
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 6649.427599966526,
+        "duration": 3.191200017929077,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 21688
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 15532.151199996471,
+        "duration": 1227.4217999577522,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 21688
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 72930.9632999897,
+        "duration": 0.02060002088546753,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 21688
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 540.8838999867439,
+        "duration": 1163.5070999860764,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 6556
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1708.7220999598503,
+        "duration": 480.3375999927521,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 6556
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 2189.5453999638557,
+        "duration": 0.02060002088546753,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 6556
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 2189.3197000026703,
+        "duration": 4904.954499959946,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 6556
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 7094.760899960995,
+        "duration": 3.1593000292778015,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 6556
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 16364.382599949837,
+        "duration": 1255.770100057125,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 6556
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 66833.93709999323,
+        "duration": 0.04259997606277466,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 6556
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 531.6711000204086,
+        "duration": 1088.2814999818802,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 15776
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1626.0102000236511,
+        "duration": 1154.7177000045776,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 15776
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 2781.7336000204086,
+        "duration": 0.030399978160858154,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 15776
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 2781.3553000092506,
+        "duration": 5181.432200014591,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 15776
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 7963.671800017357,
+        "duration": 3.5532000064849854,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 15776
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 17457.82319998741,
+        "duration": 1289.0636000037193,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 15776
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 66555.60809999704,
+        "duration": 0.04860001802444458,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 15776
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 536.9782999753952,
+        "duration": 1343.5396000146866,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 8112
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1885.3553000092506,
+        "duration": 475.0672000050545,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 8112
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 2360.8012999892235,
+        "duration": 0.014800012111663818,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 8112
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 2360.632300019264,
+        "duration": 5407.421899974346,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 8112
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 7768.728100001812,
+        "duration": 3.4135000109672546,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 8112
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 18045.86779999733,
+        "duration": 1291.05269998312,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 8112
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 66414.28909999132,
+        "duration": 0.049700021743774414,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 8112
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 530.3136000037193,
+        "duration": 1152.7108999490738,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 13608
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1687.8854999542236,
+        "duration": 484.96780002117157,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 13608
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 2173.9077999591827,
+        "duration": 0.041900038719177246,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 13608
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 2173.4571999907494,
+        "duration": 4977.951600015163,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 13608
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 7152.521799981594,
+        "duration": 2.823300004005432,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 13608
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 16366.34859997034,
+        "duration": 1322.0853000283241,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 13608
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 64093.73669999838,
+        "duration": 0.045499980449676514,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 13608
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 553.030699968338,
+        "duration": 1267.6414999961853,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 14064
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1826.2656999826431,
+        "duration": 486.9070000052452,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 14064
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 2313.709399998188,
+        "duration": 0.0153999924659729,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 14064
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 2313.5206999778748,
+        "duration": 5489.10070002079,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 14064
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 7803.478100001812,
+        "duration": 3.790499985218048,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 14064
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 17267.646799981594,
+        "duration": 1292.4519000053406,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 14064
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 63090.45389997959,
+        "duration": 0.030099987983703613,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 14064
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 531.112900018692,
+        "duration": 1387.8511999845505,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 14636
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1925.1374000310898,
+        "duration": 443.59079998731613,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 14636
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 2369.244700014591,
+        "duration": 0.021700024604797363,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 14636
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 2369.012600004673,
+        "duration": 5606.217299997807,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 14636
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 7975.898600041866,
+        "duration": 3.495299994945526,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 14636
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 17341.875500023365,
+        "duration": 1240.0988999605179,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 14636
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 63526.67500001192,
+        "duration": 0.04580003023147583,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 14636
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 485.69309997558594,
+        "duration": 1109.3356000185013,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 5704
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1598.5144999623299,
+        "duration": 459.73140001296997,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 5704
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 2058.801899969578,
+        "duration": 0.021400034427642822,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 5704
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 2058.4893000125885,
+        "duration": 4927.2261999845505,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 5704
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 6986.261600017548,
+        "duration": 2.805699944496155,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 5704
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 17217.56099998951,
+        "duration": 1276.112500011921,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 5704
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 101952.18169999123,
+        "duration": 0.04909998178482056,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 5704
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 548.8310000300407,
+        "duration": 1438.330199956894,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 13288
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1991.1838999986649,
+        "duration": 497.90570002794266,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 13288
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 2489.574999988079,
+        "duration": 0.019800007343292236,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 13288
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 2489.358699977398,
+        "duration": 5630.3828999996185,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 13288
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 8120.760800004005,
+        "duration": 4.145299971103668,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 13288
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 17754.14530003071,
+        "duration": 1287.9945999979973,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 13288
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 104222.44400000572,
+        "duration": 0.04629999399185181,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 13288
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 491.9918999671936,
+        "duration": 1019.4965000152588,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 17140
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1516.2914000153542,
+        "duration": 457.2950999736786,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 17140
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 1974.09090000391,
+        "duration": 0.016200006008148193,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 17140
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 1973.9168000221252,
+        "duration": 4604.719499945641,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 17140
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 6579.1669999957085,
+        "duration": 2.8967000246047974,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 17140
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 16617.36470001936,
+        "duration": 1377.527899980545,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 17140
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 110114.84859997034,
+        "duration": 0.06610000133514404,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 17140
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 540.6837999820709,
+        "duration": 1084.5992000102997,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 13096
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1630.3914999961853,
+        "duration": 487.5658999681473,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 13096
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 2118.6413999795914,
+        "duration": 0.02799999713897705,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 13096
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 2118.3260999917984,
+        "duration": 6600.599500000477,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 13096
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 8719.566799998283,
+        "duration": 3.7265999913215637,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 13096
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 18375.20389997959,
+        "duration": 1313.9948999881744,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 13096
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 107628.11019998789,
+        "duration": 0.042900025844573975,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 13096
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 492.9491000175476,
+        "duration": 1030.6948999762535,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 11992
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1526.419000029564,
+        "duration": 472.86169999837875,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 11992
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 1999.6761000156403,
+        "duration": 0.014899969100952148,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 11992
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 1999.510300040245,
+        "duration": 5095.675899982452,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 11992
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 7096.0041000247,
+        "duration": 3.6514999866485596,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 11992
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 16331.330799996853,
+        "duration": 1276.2502000331879,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 11992
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 80843.61030000448,
+        "duration": 0.04930001497268677,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 11992
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 556.6412999629974,
+        "duration": 1177.8838000297546,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 21588
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1740.1741999983788,
+        "duration": 438.9185000061989,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 21588
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 2179.6004999876022,
+        "duration": 0.01759999990463257,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 21588
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 2179.324499964714,
+        "duration": 6132.598699986935,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 21588
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 8312.640899956226,
+        "duration": 3.747099995613098,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 21588
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 12138.765799999237,
+        "duration": 0.04229998588562012,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 21588
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 479.69369995594025,
+        "duration": 900.4173000454903,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 22696
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1382.928099989891,
+        "duration": 441.0916000008583,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 22696
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 1824.4437999725342,
+        "duration": 0.024800002574920654,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 22696
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 1824.2640999555588,
+        "duration": 4739.227300047874,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 22696
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 6564.18900001049,
+        "duration": 3.4513999819755554,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 22696
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 24389.824000000954,
+        "duration": 0.06869995594024658,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 22696
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 508.2019000053406,
+        "duration": 1004.6678000092506,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 3204
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1517.7761999964714,
+        "duration": 499.7740000486374,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 3204
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 2018.184300005436,
+        "duration": 0.019500017166137695,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 3204
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 2017.8461000323296,
+        "duration": 5053.120000004768,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 3204
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 7071.440800011158,
+        "duration": 2.5564000010490417,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 3204
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 24393.305000007153,
+        "duration": 0.08630001544952393,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 3204
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 538.9936000108719,
+        "duration": 1075.0016000270844,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 21100
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1618.8613000512123,
+        "duration": 482.02259999513626,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 21100
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 2101.3957999944687,
+        "duration": 0.014400005340576172,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 21100
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 2101.211899995804,
+        "duration": 5625.429000020027,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 21100
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 7727.536300003529,
+        "duration": 2.982800006866455,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 21100
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 17015.00190001726,
+        "duration": 1303.6011000275612,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 21100
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 85111.68440002203,
+        "duration": 0.037100017070770264,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 21100
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 486.8133000135422,
+        "duration": 930.5454999804497,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 10332
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1420.202899992466,
+        "duration": 428.3439000248909,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 10332
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 1849.062399983406,
+        "duration": 0.014800012111663818,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 10332
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 1848.8858000040054,
+        "duration": 4582.2228999733925,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 10332
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 6432.392400026321,
+        "duration": 4.390599966049194,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 10332
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 15297.022800028324,
+        "duration": 1325.0073999762535,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 10332
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 148263.614199996,
+        "duration": 0.04659998416900635,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 10332
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 545.4042000174522,
+        "duration": 1107.7638999819756,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 22568
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1657.5965000391006,
+        "duration": 438.6647999882698,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 22568
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 2096.749199986458,
+        "duration": 0.019800007343292236,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 22568
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 2096.5266000032425,
+        "duration": 5740.835600018501,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 22568
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 7837.9334000349045,
+        "duration": 2.717299997806549,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 22568
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 18674.24620002508,
+        "duration": 1289.8641999959946,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 22568
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 156680.96009999514,
+        "duration": 0.04989999532699585,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 22568
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 492.3101000189781,
+        "duration": 1223.506399989128,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 24336
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1719.6195999979973,
+        "duration": 449.02009999752045,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 24336
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 2169.416500031948,
+        "duration": 0.024800002574920654,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 24336
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 2169.1618000268936,
+        "duration": 4948.090600013733,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 24336
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 7118.03360003233,
+        "duration": 2.7721999883651733,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 24336
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 17415.87690001726,
+        "duration": 1281.9891999959946,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 24336
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 167447.89620000124,
+        "duration": 0.050999999046325684,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 24336
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 379.0623000264168,
+        "duration": 1194.303099989891,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 11816
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1577.3465000391006,
+        "duration": 423.8986999988556,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 11816
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 2001.662800014019,
+        "duration": 0.015200018882751465,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 11816
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 2001.4855999946594,
+        "duration": 4927.910700023174,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 11816
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 6929.915100038052,
+        "duration": 2.9343000054359436,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 11816
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 15780.563700020313,
+        "duration": 1308.4305999875069,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 11816
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 156732.70270001888,
+        "duration": 0.04650002717971802,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 11816
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 372.2636999487877,
+        "duration": 990.2797000408173,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 23156
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1365.4643999934196,
+        "duration": 499.5499999523163,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 23156
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 1865.83109998703,
+        "duration": 0.020500004291534424,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 23156
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 1865.5291000008583,
+        "duration": 4308.829999983311,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 23156
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 6175.412399947643,
+        "duration": 3.841800034046173,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 23156
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 15064.019299983978,
+        "duration": 1334.8198999762535,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 23156
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 159925.98929995298,
+        "duration": 0.045900046825408936,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 23156
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 534.3841000199318,
+        "duration": 1331.9423999786377,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 16732
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1870.5392000079155,
+        "duration": 449.4419000148773,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 16732
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 2320.525700032711,
+        "duration": 0.01759999990463257,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 16732
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 2320.30680000782,
+        "duration": 5259.483600020409,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 16732
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 7580.400000035763,
+        "duration": 2.8461999893188477,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 16732
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 17087.28030002117,
+        "duration": 1274.8280999660492,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 16732
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 149478.56679999828,
+        "duration": 0.07340002059936523,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 16732
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 493.6560000181198,
+        "duration": 949.1051999926567,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 19152
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1446.6453999876976,
+        "duration": 440.3386000394821,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 19152
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 1887.4308000206947,
+        "duration": 0.014499962329864502,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 19152
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 1887.2353000044823,
+        "duration": 5329.463400006294,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 19152
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 7217.253000020981,
+        "duration": 2.7601999640464783,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 19152
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 16211.822899997234,
+        "duration": 1303.9007999897003,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 19152
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 90192.7296000123,
+        "duration": 0.04460000991821289,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 19152
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 530.2486000061035,
+        "duration": 1247.325500011444,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 22208
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1781.1740999817848,
+        "duration": 458.8328000307083,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 22208
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 2240.443300008774,
+        "duration": 0.01669996976852417,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 22208
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 2240.256099998951,
+        "duration": 6257.683099985123,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 22208
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 8498.485700011253,
+        "duration": 2.9805999994277954,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 22208
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 17712.453800022602,
+        "duration": 1324.4531999826431,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 22208
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 71319.64649999142,
+        "duration": 0.04589998722076416,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 22208
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 487.7656999826431,
+        "duration": 1035.8123000264168,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 19288
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1527.2684000134468,
+        "duration": 412.0512999892235,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 19288
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 1939.7368000149727,
+        "duration": 0.014800012111663818,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 19288
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 1939.575200021267,
+        "duration": 4489.415899991989,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 19288
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 6429.5325999855995,
+        "duration": 3.0522000193595886,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 19288
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 15333.837400019169,
+        "duration": 1259.227499961853,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 19288
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 76833.75739997625,
+        "duration": 0.055299997329711914,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 19288
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 740.8584000468254,
+        "duration": 1336.9144999980927,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 14396
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 2082.0653000473976,
+        "duration": 521.3478999733925,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 14396
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 2604.1650000214577,
+        "duration": 0.02770000696182251,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 14396
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 2603.777700006962,
+        "duration": 5613.1176000237465,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 14396
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 8217.656900048256,
+        "duration": 3.8585000038146973,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 14396
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 17670.34960001707,
+        "duration": 1374.462599992752,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 14396
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 67757.11940002441,
+        "duration": 0.03149998188018799,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 14396
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 536.7088000178337,
+        "duration": 1028.065299987793,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 12456
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1570.8392999768257,
+        "duration": 467.61630004644394,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 12456
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 2039.0385000109673,
+        "duration": 0.02490001916885376,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 12456
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 2038.777999997139,
+        "duration": 4961.740899980068,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 12456
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 7001.050700008869,
+        "duration": 2.881399989128113,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 12456
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 16379.646899998188,
+        "duration": 1323.1000999808311,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 12456
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 74936.15609997511,
+        "duration": 0.04700005054473877,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 12456
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 546.538300037384,
+        "duration": 1099.4847999811172,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 14368
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1650.2150000333786,
+        "duration": 438.51819998025894,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 14368
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 2089.228900015354,
+        "duration": 0.040499985218048096,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 14368
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 2089.0372000336647,
+        "duration": 5360.962199985981,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 14368
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 7450.514299988747,
+        "duration": 2.669100046157837,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 14368
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 16801.613499999046,
+        "duration": 1303.7863000035286,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 14368
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 26909.524100005627,
+        "duration": 0.07109999656677246,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 14368
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 546.6651000380516,
+        "duration": 1278.205599963665,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 19068
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1829.1719000339508,
+        "duration": 480.4388999938965,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 19068
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 2310.119200050831,
+        "duration": 0.018599987030029297,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 19068
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 2309.87190002203,
+        "duration": 5310.976999998093,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 19068
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 7621.504800021648,
+        "duration": 2.876699984073639,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 19068
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 17012.12690001726,
+        "duration": 1267.300500035286,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 19068
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 71234.8071000576,
+        "duration": 0.04339998960494995,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 19068
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 496.7544000148773,
+        "duration": 1002.0214999914169,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 14328
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1501.862500011921,
+        "duration": 459.63069999217987,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 14328
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 1962.355899989605,
+        "duration": 0.027199983596801758,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 14328
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 1962.0716000199318,
+        "duration": 4544.56409996748,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 14328
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 6507.105499982834,
+        "duration": 2.6586999893188477,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 14328
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 11771.574100017548,
+        "duration": 0.03909999132156372,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 14328
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 381.8406999707222,
+        "duration": 1215.5890000462532,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 22832
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1600.4096999764442,
+        "duration": 572.1035000085831,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 22832
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 2173.084100008011,
+        "duration": 0.015799999237060547,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 22832
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 2172.888400018215,
+        "duration": 4637.378899991512,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 22832
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 6810.803200006485,
+        "duration": 3.224900007247925,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 22832
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 54876.887300014496,
+        "duration": 1263.556400001049,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 22832
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 148904.0351999998,
+        "duration": 0.04530000686645508,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 22832
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 482.1642999649048,
+        "duration": 955.2897000312805,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 15352
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1441.7229999899864,
+        "duration": 521.3786000013351,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 15352
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 1963.6262999773026,
+        "duration": 0.016200006008148193,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 15352
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 1963.4460999965668,
+        "duration": 4882.675899982452,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 15352
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 6846.618399977684,
+        "duration": 2.729699969291687,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 15352
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 12032.450800001621,
+        "duration": 1349.1345999836922,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 15352
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 112388.90939998627,
+        "duration": 0.0559999942779541,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 15352
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 376.41200000047684,
+        "duration": 1039.19730001688,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 7516
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1419.7184000015259,
+        "duration": 443.8835000395775,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 7516
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 1863.9677000045776,
+        "duration": 0.014300048351287842,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 7516
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 1863.813400030136,
+        "duration": 4519.287999987602,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 7516
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 6383.882700026035,
+        "duration": 3.309599995613098,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 7516
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 10887.440600037575,
+        "duration": 1274.5239999890327,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 7516
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 246739.95880001783,
+        "duration": 0.044499993324279785,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 7516
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 524.6434000134468,
+        "duration": 1231.6096999645233,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 20896
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1760.9954000115395,
+        "duration": 472.2737999558449,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 20896
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 2233.794600009918,
+        "duration": 0.020299971103668213,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 20896
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 2233.5767999887466,
+        "duration": 6050.802500009537,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 20896
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 8285.470899999142,
+        "duration": 4.037699997425079,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 20896
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 13460.64880001545,
+        "duration": 1727.9138000011444,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 20896
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 74717.68449997902,
+        "duration": 0.046999990940093994,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 20896
+    }
+]
