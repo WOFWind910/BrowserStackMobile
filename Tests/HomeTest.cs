@@ -16,6 +16,7 @@ namespace BrowserStack.Test
             home.GoToCatalog();
             home.SelectSort();
             home.ClickProduct();
+            home.RateProduct();
             home.IncreaseQuantity();
             home.IncreaseQuantity();
             home.AddToCart();

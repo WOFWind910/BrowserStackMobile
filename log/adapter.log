@@ -4437,3 +4437,64 @@ Passed!  - Failed:     0, Passed:     1, Skipped:     0, Total:     1, Duration:
 
 2025-07-30 14:44:07.5900|INFO|A.E|File watcher stopping...
 2025-07-30 14:44:07.5900|INFO|A.E|Cleaning up adapter
+2025-07-31 08:21:12.8295|INFO|BStack.VisualStudio.TestAdapter.BStackAdapter|nunit test started from test explorer
+2025-07-31 08:21:12.8590|INFO|A.E|Invoking browserstack-sdk with args: --skip-build-browserstack "C:\Users\Admin\Downloads\nunit-appium-app-browserstack-master\android\bin\Debug\net8.0\android.dll"" --settings "C:\Users\Admin\AppData\Local\Temp\.browserstack\.runsettings" --filter "(FullyQualifiedName=BrowserStack.MainTest.TestApp)"
+2025-07-31 08:21:12.8590|INFO|A.E|Starting file watcher in background...
+2025-07-31 08:21:12.8590|INFO|A.E|Setting test assembly Path - C:\Users\Admin\Downloads\nunit-appium-app-browserstack-master\android\bin\Debug\net8.0\android.dll
+2025-07-31 08:21:12.8590|INFO|A.E|File watcher started
+2025-07-31 08:21:12.8590|INFO|A.E|File watcher started on a background thread.
+2025-07-31 08:26:28.1908|INFO|A.E|Exec: dotnet browserstack-sdk --skip-build-browserstack "C:\Users\Admin\Downloads\nunit-appium-app-browserstack-master\android\bin\Debug\net8.0\android.dll"
+2025-07-31 08:26:28.1908|INFO|A.E|0 : 
+2025-07-31 08:21:13.3450|INFO|browserstack_sdk.Program|SDK run started with id: 5f8f71af-d15f-476c-bfc7-df273d0379b4
+2025-07-31 08:21:13.3450|INFO|browserstack_sdk.Program|Running SDK with args: --skip-build-browserstack, C:\Users\Admin\Downloads\nunit-appium-app-browserstack-master\android\bin\Debug\net8.0\android.dll
+2025-07-31 08:21:13.3450|INFO|browserstack_sdk.Program|HandleAdapterProcessExit: registering process exit handler for pid: 17548
+2025-07-31 08:21:13.3929|INFO|browserstack_sdk.utils|Using dotnet: C:\Program Files\dotnet\dotnet.exe
+2025-07-31 08:21:15.4375|INFO|browserstack_sdk.Program|Detected Selenium version 3.141.0
+2025-07-31 08:21:15.4375|INFO|browserstack_sdk.Program|Detected Appium version 4.4.0
+2025-07-31 08:21:15.4469|INFO|browserstack_sdk.Program|Running for f/w nunit 3.13.3
+2025-07-31 08:21:15.5833|INFO|browserstack_sdk.Program|Detected dotnet version 9.0.101
+2025-07-31 08:21:15.7952|INFO|browserstack_sdk.utils|Using existing app id bs://0a1bbed3029d51337bbb0230730a6deef4e9e0b3 for hash : f84207b7a3cb34f24b85c58f23448953.
+2025-07-31 08:21:15.7952|INFO|browserstack_sdk.Configuration|Using App : bs://0a1bbed3029d51337bbb0230730a6deef4e9e0b3.
+2025-07-31 08:21:15.7952|INFO|browserstack_sdk.Program|Adapter Flow Triggered with testDllPath: C:\Users\Admin\Downloads\nunit-appium-app-browserstack-master\android\bin\Debug\net8.0\android.dll
+2025-07-31 08:21:15.7952|INFO|browserstack_sdk.Program|Setting Event Listener Path: C:\Users\Admin\Downloads\nunit-appium-app-browserstack-master\android\bin\Debug\net8.0\BrowserstackEventListener.addins and BrowserstackListener Dll path :: BrowserstackListener.dll
+2025-07-31 08:21:15.7952|INFO|browserstack_sdk.Program|SetupObservability: File already exists
+2025-07-31 08:21:15.7952|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][17980] CliShouldSpawn: testFramework=nunit
+2025-07-31 08:21:15.7952|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][17980] CliShouldSpawn: IsTurboScaleSession=False
+2025-07-31 08:21:15.7952|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][17980] CliShouldSpawn: IsTestOrchestrationEnabled=False
+2025-07-31 08:21:15.7952|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][17980] CliShouldSpawn: isSpecflow=False
+2025-07-31 08:21:15.7952|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][17980] CliShouldSpawn: isReqnroll=False
+2025-07-31 08:21:15.8122|INFO|BrowserstackSDK.v2.CLIUtils|[SDKCLI][17980] Current CLI Path Found: C:\Users\Admin\.browserstack\cli\binary-win-x64.exe
+2025-07-31 08:21:18.1186|INFO|BrowserstackSDK.v2.CLIUtils|[SDKCLI][17980] Downloading SDK binary from: https://sdk-assets.browserstack.com/binary-win-x64-1.6.2.zip
+2025-07-31 08:21:32.5019|INFO|BrowserstackSDK.v2.CLIUtils|[SDKCLI][17980] Downloaded binary: binary-win-x64.exe
+2025-07-31 08:21:32.5019|INFO|BrowserstackSDK.v2.CLIUtils|[SDKCLI][17980] Resolved binary path: C:\Users\Admin\.browserstack\cli\binary-win-x64.exe
+2025-07-31 08:21:42.4034|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][17980] Main process started - GrpcClient
+2025-07-31 08:21:42.4034|INFO|browserstack_sdk.utils|Architecture Info - OS: Win32NT, OSVersion: Microsoft Windows NT 10.0.26100.0, Process Arch: X64, System Arch: X64
+2025-07-31 08:21:45.7950|INFO|browserstack_sdk.Program|Starting local
+2025-07-31 08:21:51.7130|INFO|browserstack_sdk.Program|Local started
+GIT FOUND
+2025-07-31 08:21:51.9012|INFO|browserstack_sdk.Utils.OrchestrationPoller|AbortBuildOnFailure is not enabled or not supported for the framework:nunit
+[17980] 
+2025-07-31 08:26:15.7022|INFO|browserstack_sdk.Program|[17980] Standard Output - 
+The following arguments have been ignored : "--no-build"
+VSTest version 17.12.0 (x64)
+
+Starting test execution, please wait...
+BrowserStack test logger version 0.17.0.0 is initialized
+A total of 1 test files matched the specified pattern.
+Failed to load extensions from file 'C:\Users\Admin\Downloads\nunit-appium-app-browserstack-master\android\bin\Debug\net8.0\ZZStack.TestAdapter.dll'. Please use /diag for more information.
+≡ƒôä Report path: C:\Users\Admin\Downloads\nunit-appium-app-browserstack-master\android\Reports\Task1_Spark.html
+Γ£à ─É├ú scroll tß╗¢i phß║ºn tß╗¡ c├│ resource-id: com.saucelabs.mydemoapp.android:id/productHeightLightsTV
+Γ£à ─É├ú scroll tß╗¢i phß║ºn tß╗¡ c├│ resource-id: com.saucelabs.mydemoapp.android:id/paymentBtn
+
+Results File: C:\Users\Admin\AppData\Local\Temp\.browserstack\results_dotnet\result_0\NUnit-Browserstack.xml
+
+Passed!  - Failed:     0, Passed:     1, Skipped:     0, Total:     1, Duration: 4 m 18 s - android.dll (net8.0)
+
+2025-07-31 08:26:15.7022|ERROR|browserstack_sdk.Program|[17980] Standard Error - 
+
+2025-07-31 08:26:15.7022|INFO|browserstack_sdk.Program|Stopping local
+2025-07-31 08:26:25.5763|INFO|TestObservability.BuildLifeCycle|Visit https://observability.browserstack.com/builds/cyh95y473bfv8rpjn5d1ehkoc1wza5mioexg6eew to view build report
+
+
+2025-07-31 08:26:28.6069|INFO|A.E|File watcher stopping...
+2025-07-31 08:26:28.6069|INFO|A.E|Cleaning up adapter

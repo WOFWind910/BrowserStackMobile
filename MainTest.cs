@@ -18,9 +18,9 @@ namespace BrowserStack
         [Test]
         public void TestApp()
         {
-            //LoginTest.Login_Test();
-            //HomeTest.AddToCart();
-            //CartTest.CheckOut();
+            LoginTest.Login_Test();
+            HomeTest.AddToCart();
+            CartTest.CheckOut();
             DrawingTest.Drawing();
         }
     }

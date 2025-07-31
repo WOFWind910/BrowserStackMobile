@@ -170,3 +170,4 @@ C:\Users\Admin\Downloads\nunit-appium-app-browserstack-master\android\bin\Debug\
 C:\Users\Admin\Downloads\nunit-appium-app-browserstack-master\android\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
 C:\Users\Admin\Downloads\nunit-appium-app-browserstack-master\android\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
 C:\Users\Admin\Downloads\nunit-appium-app-browserstack-master\android\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Admin\Downloads\nunit-appium-app-browserstack-master\android\obj\Debug\net8.0\android.sourcelink.json

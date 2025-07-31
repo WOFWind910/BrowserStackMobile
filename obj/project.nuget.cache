@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FnIIYDsr4e4=",
+  "dgSpecHash": "y8JzlUDNxaA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\Downloads\\nunit-appium-app-browserstack-master\\android\\android.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Downloads\\BrowserStack\\android\\android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\appium.webdriver\\4.4.0\\appium.webdriver.4.4.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\browserstack.testadapter\\0.17.0\\browserstack.testadapter.0.17.0.nupkg.sha512",

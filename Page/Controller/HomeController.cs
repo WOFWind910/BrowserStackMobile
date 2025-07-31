@@ -29,10 +29,6 @@ namespace BrowserStack.Page.Controller
         public void RateProduct()
         {
            ClickElement(fiveStar);
-        }
-
-        public void ClickContinue()
-        {
             ClickElement(continueBtn);
         }
 
