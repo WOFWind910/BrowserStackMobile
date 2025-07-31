@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BrowserStack.Test
+namespace BrowserStack.Tests
 {
     internal class CartTest
     {
@@ -15,7 +15,7 @@ namespace BrowserStack.Test
         protected static CartController cart = new CartController();
         protected static LoginController login = new LoginController();
 
-        public static void CheckOut()
+        public static void CheckOut_Test()
         {
             home.GoToCart();
             cart.DecreaseQuantity(1);

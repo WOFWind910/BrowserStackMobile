@@ -1,4 +1,4 @@
-﻿using BrowserStack.Test;
+﻿using BrowserStack.Tests;
 using System;
 using System.Collections.Generic;
 using System.Linq;

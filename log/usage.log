@@ -4436,3 +4436,702 @@ Passed!  - Failed:     0, Passed:     1, Skipped:     0, Total:     1, Duration:
 
 2025-07-31 08:26:15.7022|INFO|browserstack_sdk.Program|Stopping local
 2025-07-31 08:26:25.5763|INFO|TestObservability.BuildLifeCycle|Visit https://observability.browserstack.com/builds/cyh95y473bfv8rpjn5d1ehkoc1wza5mioexg6eew to view build report
+2025-07-31 10:06:26.4027|INFO|browserstack_sdk.Program|SDK run started with id: dbc0d861-5fdf-4db7-934f-efbf92ba10b7
+2025-07-31 10:06:26.4351|INFO|browserstack_sdk.Program|Running SDK with args: --add-patch-bstack, obj\Debug\net8.0, C:\Users\Admin\Downloads\BrowserStack\android\bin\Debug\net8.0\android.dll, Debug
+2025-07-31 10:06:26.4815|INFO|browserstack_sdk.utils|Using dotnet: C:\Program Files\dotnet\dotnet.exe
+2025-07-31 10:06:28.8426|INFO|browserstack_sdk.Program|Detected Selenium version 3.141.0
+2025-07-31 10:06:28.8426|INFO|browserstack_sdk.Program|Detected Appium version 4.4.0
+2025-07-31 10:06:28.8426|INFO|browserstack_sdk.Program|Running for f/w nunit 3.13.3
+2025-07-31 10:06:28.9789|INFO|browserstack_sdk.Program|Detected dotnet version 9.0.101
+2025-07-31 10:06:29.3179|INFO|browserstack_sdk.utils|Using existing app id bs://0a1bbed3029d51337bbb0230730a6deef4e9e0b3 for hash : f84207b7a3cb34f24b85c58f23448953.
+2025-07-31 10:06:29.3179|INFO|browserstack_sdk.Configuration|Using App : bs://0a1bbed3029d51337bbb0230730a6deef4e9e0b3.
+2025-07-31 10:06:29.3179|INFO|browserstack_sdk.Program|Adapter Flow Triggered with testDllPath: C:\Users\Admin\Downloads\BrowserStack\android\bin\Debug\net8.0\android.dll
+2025-07-31 10:06:29.3179|INFO|browserstack_sdk.Program|Setting Event Listener Path: C:\Users\Admin\Downloads\BrowserStack\android\bin\Debug\net8.0\BrowserstackEventListener.addins and BrowserstackListener Dll path :: BrowserstackListener.dll
+2025-07-31 10:06:29.3179|INFO|browserstack_sdk.Program|SetupObservability: File already exists
+2025-07-31 10:06:29.3463|INFO|browserstack_sdk.utils|Using dotnet: C:\Program Files\dotnet\dotnet.exe
+2025-07-31 10:06:42.5671|INFO|browserstack_sdk.Program|SDK run started with id: bf1bc36b-474a-4eab-b60b-2ff6c20a8b49
+2025-07-31 10:06:42.5896|INFO|browserstack_sdk.Program|Running SDK with args: --skip-build-browserstack, C:\Users\Admin\Downloads\BrowserStack\android\bin\Debug\net8.0\android.dll
+2025-07-31 10:06:42.5896|INFO|browserstack_sdk.Program|HandleAdapterProcessExit: registering process exit handler for pid: 12780
+2025-07-31 10:06:42.6234|INFO|browserstack_sdk.utils|Using dotnet: C:\Program Files\dotnet\dotnet.exe
+2025-07-31 10:06:44.5414|INFO|browserstack_sdk.Program|Detected Selenium version 3.141.0
+2025-07-31 10:06:44.5414|INFO|browserstack_sdk.Program|Detected Appium version 4.4.0
+2025-07-31 10:06:44.5414|INFO|browserstack_sdk.Program|Running for f/w nunit 3.13.3
+2025-07-31 10:06:44.7105|INFO|browserstack_sdk.Program|Detected dotnet version 9.0.101
+2025-07-31 10:06:44.9116|INFO|browserstack_sdk.utils|Using existing app id bs://0a1bbed3029d51337bbb0230730a6deef4e9e0b3 for hash : f84207b7a3cb34f24b85c58f23448953.
+2025-07-31 10:06:44.9116|INFO|browserstack_sdk.Configuration|Using App : bs://0a1bbed3029d51337bbb0230730a6deef4e9e0b3.
+2025-07-31 10:06:44.9116|INFO|browserstack_sdk.Program|Adapter Flow Triggered with testDllPath: C:\Users\Admin\Downloads\BrowserStack\android\bin\Debug\net8.0\android.dll
+2025-07-31 10:06:44.9116|INFO|browserstack_sdk.Program|Setting Event Listener Path: C:\Users\Admin\Downloads\BrowserStack\android\bin\Debug\net8.0\BrowserstackEventListener.addins and BrowserstackListener Dll path :: BrowserstackListener.dll
+2025-07-31 10:06:44.9116|INFO|browserstack_sdk.Program|SetupObservability: File already exists
+2025-07-31 10:06:44.9166|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][22296] CliShouldSpawn: testFramework=nunit
+2025-07-31 10:06:44.9166|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][22296] CliShouldSpawn: IsTurboScaleSession=False
+2025-07-31 10:06:44.9166|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][22296] CliShouldSpawn: IsTestOrchestrationEnabled=False
+2025-07-31 10:06:44.9166|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][22296] CliShouldSpawn: isSpecflow=False
+2025-07-31 10:06:44.9166|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][22296] CliShouldSpawn: isReqnroll=False
+2025-07-31 10:06:44.9321|INFO|BrowserstackSDK.v2.CLIUtils|[SDKCLI][22296] Current CLI Path Found: C:\Users\Admin\.browserstack\cli\binary-win-x64.exe
+2025-07-31 10:06:47.4980|INFO|BrowserstackSDK.v2.CLIUtils|[SDKCLI][22296] Resolved binary path: C:\Users\Admin\.browserstack\cli\binary-win-x64.exe
+2025-07-31 10:07:07.6707|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][22296] Main process started - GrpcClient
+2025-07-31 10:07:07.6707|INFO|browserstack_sdk.utils|Architecture Info - OS: Win32NT, OSVersion: Microsoft Windows NT 10.0.26100.0, Process Arch: X64, System Arch: X64
+2025-07-31 10:07:11.0921|INFO|browserstack_sdk.Program|Starting local
+2025-07-31 10:07:15.4826|INFO|browserstack_sdk.Program|Local started
+2025-07-31 10:07:15.5886|INFO|browserstack_sdk.Utils.OrchestrationPoller|AbortBuildOnFailure is not enabled or not supported for the framework:nunit
+2025-07-31 10:08:53.6426|INFO|browserstack_sdk.Program|[22296] Standard Output - 
+The following arguments have been ignored : "--no-build"
+VSTest version 17.12.0 (x64)
+
+Starting test execution, please wait...
+BrowserStack test logger version 0.17.0.0 is initialized
+A total of 1 test files matched the specified pattern.
+Failed to load extensions from file 'C:\Users\Admin\Downloads\BrowserStack\android\bin\Debug\net8.0\ZZStack.TestAdapter.dll'. Please use /diag for more information.
+📄 Report path: C:\Users\Admin\Downloads\BrowserStack\android\Reports\Task1_Spark.html
+Timed out after 30 seconds
+
+  Failed Checkout [1 m 29 s]
+  Error Message:
+   OpenQA.Selenium.WebDriverTimeoutException : Timed out after 30 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : An element could not be located on the page using the given search parameters.
+  Stack Trace:
+     at BrowserStack.MainTest.Checkout(MainTest this)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+--NoSuchElementException
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Appium.AppiumDriver`1.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Appium.AppiumDriver`1.FindElement(String by, String value)
+   at OpenQA.Selenium.Appium.AppiumDriver`1.FindElementByAccessibilityId(String selector)
+   at OpenQA.Selenium.Appium.ByAccessibilityId.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass19_0.<ElementToBeClickable>b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+
+  Standard Output Messages:
+ 📄 Report path: C:\Users\Admin\Downloads\BrowserStack\android\Reports\Task1_Spark.html
+ Timed out after 30 seconds
+
+
+Results File: C:\Users\Admin\AppData\Local\Temp\.browserstack\results_dotnet\result_0\NUnit-Browserstack.xml
+
+Failed!  - Failed:     1, Passed:     0, Skipped:     0, Total:     1, Duration: 1 m 29 s - android.dll (net8.0)
+
+2025-07-31 10:08:53.6426|ERROR|browserstack_sdk.Program|[22296] Standard Error - 
+
+2025-07-31 10:08:53.6426|INFO|browserstack_sdk.Program|Stopping local
+2025-07-31 10:09:01.9659|INFO|TestObservability.BuildLifeCycle|Visit https://observability.browserstack.com/builds/3l4t3q0ndqaqnrrtj07szh44pimzifuvyhewhfjd to view build report
+2025-07-31 10:15:48.1216|INFO|browserstack_sdk.Program|SDK run started with id: c9f3daa5-4edb-4f2a-917e-dd0f852293b5
+2025-07-31 10:15:48.1363|INFO|browserstack_sdk.Program|Running SDK with args: --skip-build-browserstack, C:\Users\Admin\Downloads\BrowserStack\android\bin\Debug\net8.0\android.dll
+2025-07-31 10:15:48.1363|INFO|browserstack_sdk.Program|HandleAdapterProcessExit: registering process exit handler for pid: 22468
+2025-07-31 10:15:48.1746|INFO|browserstack_sdk.utils|Using dotnet: C:\Program Files\dotnet\dotnet.exe
+2025-07-31 10:15:50.4203|INFO|browserstack_sdk.Program|Detected Selenium version 3.141.0
+2025-07-31 10:15:50.4203|INFO|browserstack_sdk.Program|Detected Appium version 4.4.0
+2025-07-31 10:15:50.4203|INFO|browserstack_sdk.Program|Running for f/w nunit 3.13.3
+2025-07-31 10:15:50.5611|INFO|browserstack_sdk.Program|Detected dotnet version 9.0.101
+2025-07-31 10:15:50.8397|INFO|browserstack_sdk.utils|Using existing app id bs://0a1bbed3029d51337bbb0230730a6deef4e9e0b3 for hash : f84207b7a3cb34f24b85c58f23448953.
+2025-07-31 10:15:50.8397|INFO|browserstack_sdk.Configuration|Using App : bs://0a1bbed3029d51337bbb0230730a6deef4e9e0b3.
+2025-07-31 10:15:50.8397|INFO|browserstack_sdk.Program|Adapter Flow Triggered with testDllPath: C:\Users\Admin\Downloads\BrowserStack\android\bin\Debug\net8.0\android.dll
+2025-07-31 10:15:50.8397|INFO|browserstack_sdk.Program|Setting Event Listener Path: C:\Users\Admin\Downloads\BrowserStack\android\bin\Debug\net8.0\BrowserstackEventListener.addins and BrowserstackListener Dll path :: BrowserstackListener.dll
+2025-07-31 10:15:50.8397|INFO|browserstack_sdk.Program|SetupObservability: File already exists
+2025-07-31 10:15:50.8397|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][14844] CliShouldSpawn: testFramework=nunit
+2025-07-31 10:15:50.8397|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][14844] CliShouldSpawn: IsTurboScaleSession=False
+2025-07-31 10:15:50.8397|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][14844] CliShouldSpawn: IsTestOrchestrationEnabled=False
+2025-07-31 10:15:50.8397|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][14844] CliShouldSpawn: isSpecflow=False
+2025-07-31 10:15:50.8397|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][14844] CliShouldSpawn: isReqnroll=False
+2025-07-31 10:15:50.8619|INFO|BrowserstackSDK.v2.CLIUtils|[SDKCLI][14844] Current CLI Path Found: C:\Users\Admin\.browserstack\cli\binary-win-x64.exe
+2025-07-31 10:15:51.9232|INFO|BrowserstackSDK.v2.CLIUtils|[SDKCLI][14844] Resolved binary path: C:\Users\Admin\.browserstack\cli\binary-win-x64.exe
+2025-07-31 10:15:59.4827|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][14844] Main process started - GrpcClient
+2025-07-31 10:15:59.4827|INFO|browserstack_sdk.utils|Architecture Info - OS: Win32NT, OSVersion: Microsoft Windows NT 10.0.26100.0, Process Arch: X64, System Arch: X64
+2025-07-31 10:16:03.0123|INFO|browserstack_sdk.Program|Starting local
+2025-07-31 10:16:07.6496|INFO|browserstack_sdk.Program|Local started
+2025-07-31 10:16:07.7655|INFO|browserstack_sdk.Utils.OrchestrationPoller|AbortBuildOnFailure is not enabled or not supported for the framework:nunit
+2025-07-31 10:16:09.4709|INFO|browserstack_sdk.Program|HandleAdapterProcessExit: Adapter process exited, exiting cli process
+2025-07-31 10:16:15.4289|INFO|BrowserStackSDK.v2.utils.FileUploader|Starting PostRunCleanUp for 0 tracked thread(s)
+2025-07-31 10:16:15.4323|INFO|BrowserStackSDK.v2.utils.FileUploader|Cleaned up 0 attachment directories
+2025-07-31 10:16:15.4323|INFO|BrowserStackSDK.v2.utils.FileUploader|Cleaned up 0 build metadata files, 0 test metadata files, and 0 other BrowserStack temp files
+2025-07-31 10:16:15.4323|INFO|BrowserStackSDK.v2.utils.FileUploader|Cleared all custom metadata from CustomTagManager
+2025-07-31 10:16:15.4323|INFO|BrowserStackSDK.v2.utils.FileUploader|PostRunCleanUp completed
+2025-07-31 10:16:15.4323|INFO|browserstack_sdk.Program|Stopping local
+2025-07-31 10:16:18.4243|ERROR|TestObservability.BuildLifeCycle|Build Hashed ID or JWT Token is not set. Cannot stop build.
+2025-07-31 10:16:18.9483|INFO|browserstack_sdk.Program|Detected Selenium version 3.141.0
+2025-07-31 10:16:18.9483|INFO|browserstack_sdk.Program|Detected Appium version 4.4.0
+2025-07-31 10:16:18.9483|INFO|browserstack_sdk.Program|Running for f/w nunit 3.13.3
+2025-07-31 10:16:19.0878|INFO|browserstack_sdk.Program|Detected dotnet version 9.0.101
+2025-07-31 10:16:19.3082|INFO|browserstack_sdk.utils|Using existing app id bs://0a1bbed3029d51337bbb0230730a6deef4e9e0b3 for hash : f84207b7a3cb34f24b85c58f23448953.
+2025-07-31 10:16:19.3082|INFO|browserstack_sdk.Configuration|Using App : bs://0a1bbed3029d51337bbb0230730a6deef4e9e0b3.
+2025-07-31 10:16:19.3082|INFO|browserstack_sdk.Program|Adapter Flow Triggered with testDllPath: C:\Users\Admin\Downloads\BrowserStack\android\bin\Debug\net8.0\android.dll
+2025-07-31 10:16:19.3082|INFO|browserstack_sdk.Program|Setting Event Listener Path: C:\Users\Admin\Downloads\BrowserStack\android\bin\Debug\net8.0\BrowserstackEventListener.addins and BrowserstackListener Dll path :: BrowserstackListener.dll
+2025-07-31 10:16:19.3082|INFO|browserstack_sdk.Program|SetupObservability: File already exists
+2025-07-31 10:16:19.3335|INFO|browserstack_sdk.utils|Using dotnet: C:\Program Files\dotnet\dotnet.exe
+2025-07-31 10:16:25.2294|INFO|browserstack_sdk.Program|SDK run started with id: 8e93e8c3-d885-46e3-990f-0b21fe92dda5
+2025-07-31 10:16:25.2540|INFO|browserstack_sdk.Program|Running SDK with args: --skip-build-browserstack, C:\Users\Admin\Downloads\BrowserStack\android\bin\Debug\net8.0\android.dll
+2025-07-31 10:16:25.2540|INFO|browserstack_sdk.Program|HandleAdapterProcessExit: registering process exit handler for pid: 11692
+2025-07-31 10:16:25.2914|INFO|browserstack_sdk.utils|Using dotnet: C:\Program Files\dotnet\dotnet.exe
+2025-07-31 10:16:27.3381|INFO|browserstack_sdk.Program|Detected Selenium version 3.141.0
+2025-07-31 10:16:27.3381|INFO|browserstack_sdk.Program|Detected Appium version 4.4.0
+2025-07-31 10:16:27.3381|INFO|browserstack_sdk.Program|Running for f/w nunit 3.13.3
+2025-07-31 10:16:27.4716|INFO|browserstack_sdk.Program|Detected dotnet version 9.0.101
+2025-07-31 10:16:27.6872|INFO|browserstack_sdk.utils|Using existing app id bs://0a1bbed3029d51337bbb0230730a6deef4e9e0b3 for hash : f84207b7a3cb34f24b85c58f23448953.
+2025-07-31 10:16:27.6872|INFO|browserstack_sdk.Configuration|Using App : bs://0a1bbed3029d51337bbb0230730a6deef4e9e0b3.
+2025-07-31 10:16:27.6872|INFO|browserstack_sdk.Program|Adapter Flow Triggered with testDllPath: C:\Users\Admin\Downloads\BrowserStack\android\bin\Debug\net8.0\android.dll
+2025-07-31 10:16:27.6872|INFO|browserstack_sdk.Program|Setting Event Listener Path: C:\Users\Admin\Downloads\BrowserStack\android\bin\Debug\net8.0\BrowserstackEventListener.addins and BrowserstackListener Dll path :: BrowserstackListener.dll
+2025-07-31 10:16:27.6872|INFO|browserstack_sdk.Program|SetupObservability: File already exists
+2025-07-31 10:16:27.6872|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][22032] CliShouldSpawn: testFramework=nunit
+2025-07-31 10:16:27.6872|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][22032] CliShouldSpawn: IsTurboScaleSession=False
+2025-07-31 10:16:27.6872|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][22032] CliShouldSpawn: IsTestOrchestrationEnabled=False
+2025-07-31 10:16:27.6872|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][22032] CliShouldSpawn: isSpecflow=False
+2025-07-31 10:16:27.6872|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][22032] CliShouldSpawn: isReqnroll=False
+2025-07-31 10:16:27.6975|INFO|BrowserstackSDK.v2.CLIUtils|[SDKCLI][22032] Current CLI Path Found: C:\Users\Admin\.browserstack\cli\binary-win-x64.exe
+2025-07-31 10:16:28.6634|INFO|BrowserstackSDK.v2.CLIUtils|[SDKCLI][22032] Resolved binary path: C:\Users\Admin\.browserstack\cli\binary-win-x64.exe
+2025-07-31 10:16:35.0554|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][22032] Main process started - GrpcClient
+2025-07-31 10:16:35.0571|INFO|browserstack_sdk.utils|Architecture Info - OS: Win32NT, OSVersion: Microsoft Windows NT 10.0.26100.0, Process Arch: X64, System Arch: X64
+2025-07-31 10:16:38.8811|INFO|browserstack_sdk.Program|Starting local
+2025-07-31 10:16:44.8004|INFO|browserstack_sdk.Program|Local started
+2025-07-31 10:16:44.9024|INFO|browserstack_sdk.Utils.OrchestrationPoller|AbortBuildOnFailure is not enabled or not supported for the framework:nunit
+2025-07-31 10:17:42.5449|INFO|browserstack_sdk.Program|[22032] Standard Output - 
+The following arguments have been ignored : "--no-build"
+VSTest version 17.12.0 (x64)
+
+Starting test execution, please wait...
+BrowserStack test logger version 0.17.0.0 is initialized
+A total of 1 test files matched the specified pattern.
+Failed to load extensions from file 'C:\Users\Admin\Downloads\BrowserStack\android\bin\Debug\net8.0\ZZStack.TestAdapter.dll'. Please use /diag for more information.
+📄 Report path: C:\Users\Admin\Downloads\BrowserStack\android\Reports\Task1_Spark.html
+
+Results File: C:\Users\Admin\AppData\Local\Temp\.browserstack\results_dotnet\result_0\NUnit-Browserstack.xml
+
+Passed!  - Failed:     0, Passed:     1, Skipped:     0, Total:     1, Duration: 44 s - android.dll (net8.0)
+
+2025-07-31 10:17:42.5464|ERROR|browserstack_sdk.Program|[22032] Standard Error - 
+
+2025-07-31 10:17:42.5464|INFO|browserstack_sdk.Program|Stopping local
+2025-07-31 10:17:50.8814|INFO|TestObservability.BuildLifeCycle|Visit https://observability.browserstack.com/builds/9cr0o2gn5jqofyxjvp4gnrfy7oifr9sjsznisday to view build report
+2025-07-31 10:19:28.5148|INFO|browserstack_sdk.Program|SDK run started with id: baf07b00-198a-4644-8449-d84bfebd4456
+2025-07-31 10:19:28.5285|INFO|browserstack_sdk.Program|Running SDK with args: --skip-build-browserstack, C:\Users\Admin\Downloads\BrowserStack\android\bin\Debug\net8.0\android.dll
+2025-07-31 10:19:28.5285|INFO|browserstack_sdk.Program|HandleAdapterProcessExit: registering process exit handler for pid: 22480
+2025-07-31 10:19:28.5663|INFO|browserstack_sdk.utils|Using dotnet: C:\Program Files\dotnet\dotnet.exe
+2025-07-31 10:19:31.1395|INFO|browserstack_sdk.Program|Detected Selenium version 3.141.0
+2025-07-31 10:19:31.1395|INFO|browserstack_sdk.Program|Detected Appium version 4.4.0
+2025-07-31 10:19:31.1395|INFO|browserstack_sdk.Program|Running for f/w nunit 3.13.3
+2025-07-31 10:19:31.3016|INFO|browserstack_sdk.Program|Detected dotnet version 9.0.101
+2025-07-31 10:19:31.5457|INFO|browserstack_sdk.utils|Using existing app id bs://0a1bbed3029d51337bbb0230730a6deef4e9e0b3 for hash : f84207b7a3cb34f24b85c58f23448953.
+2025-07-31 10:19:31.5457|INFO|browserstack_sdk.Configuration|Using App : bs://0a1bbed3029d51337bbb0230730a6deef4e9e0b3.
+2025-07-31 10:19:31.5457|INFO|browserstack_sdk.Program|Adapter Flow Triggered with testDllPath: C:\Users\Admin\Downloads\BrowserStack\android\bin\Debug\net8.0\android.dll
+2025-07-31 10:19:31.5457|INFO|browserstack_sdk.Program|Setting Event Listener Path: C:\Users\Admin\Downloads\BrowserStack\android\bin\Debug\net8.0\BrowserstackEventListener.addins and BrowserstackListener Dll path :: BrowserstackListener.dll
+2025-07-31 10:19:31.5457|INFO|browserstack_sdk.Program|SetupObservability: File already exists
+2025-07-31 10:19:31.5532|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][24552] CliShouldSpawn: testFramework=nunit
+2025-07-31 10:19:31.5532|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][24552] CliShouldSpawn: IsTurboScaleSession=False
+2025-07-31 10:19:31.5532|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][24552] CliShouldSpawn: IsTestOrchestrationEnabled=False
+2025-07-31 10:19:31.5532|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][24552] CliShouldSpawn: isSpecflow=False
+2025-07-31 10:19:31.5532|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][24552] CliShouldSpawn: isReqnroll=False
+2025-07-31 10:19:31.5595|INFO|BrowserstackSDK.v2.CLIUtils|[SDKCLI][24552] Current CLI Path Found: C:\Users\Admin\.browserstack\cli\binary-win-x64.exe
+2025-07-31 10:19:32.5044|INFO|BrowserstackSDK.v2.CLIUtils|[SDKCLI][24552] Resolved binary path: C:\Users\Admin\.browserstack\cli\binary-win-x64.exe
+2025-07-31 10:19:40.7118|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][24552] Main process started - GrpcClient
+2025-07-31 10:19:40.7118|INFO|browserstack_sdk.utils|Architecture Info - OS: Win32NT, OSVersion: Microsoft Windows NT 10.0.26100.0, Process Arch: X64, System Arch: X64
+2025-07-31 10:19:44.7841|INFO|browserstack_sdk.Program|Starting local
+2025-07-31 10:19:49.2158|INFO|browserstack_sdk.Program|Local started
+2025-07-31 10:19:49.3173|INFO|browserstack_sdk.Utils.OrchestrationPoller|AbortBuildOnFailure is not enabled or not supported for the framework:nunit
+2025-07-31 10:22:21.4240|INFO|browserstack_sdk.Program|[24552] Standard Output - 
+The following arguments have been ignored : "--no-build"
+VSTest version 17.12.0 (x64)
+
+Starting test execution, please wait...
+BrowserStack test logger version 0.17.0.0 is initialized
+A total of 1 test files matched the specified pattern.
+Failed to load extensions from file 'C:\Users\Admin\Downloads\BrowserStack\android\bin\Debug\net8.0\ZZStack.TestAdapter.dll'. Please use /diag for more information.
+📄 Report path: C:\Users\Admin\Downloads\BrowserStack\android\Reports\Task1_Spark.html
+
+  Failed Product [19 s]
+  Error Message:
+   System.ObjectDisposedException : Cannot access a disposed object.
+Object name: 'System.Threading.ThreadLocal`1[[AventStack.ExtentReports.ExtentTest, ExtentReports, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+  Stack Trace:
+     at System.Threading.ThreadLocal`1.SetValueSlow(T value, LinkedSlotVolatile[] slotArray)
+   at BrowserStack.Helper.ExtentManager.SetTest(String testName) in C:\Users\Admin\Downloads\BrowserStack\android\Helper\ExtentManager.cs:line 18
+   at BrowserStack.Test.BaseTest.Init() in C:\Users\Admin\Downloads\BrowserStack\android\Tests\BaseTest.cs:line 35
+   at InvokeStub_BaseTest.Init(Object, Object, IntPtr*)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+
+  Failed Checkout [19 s]
+  Error Message:
+   System.ObjectDisposedException : Cannot access a disposed object.
+Object name: 'System.Threading.ThreadLocal`1[[AventStack.ExtentReports.ExtentTest, ExtentReports, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+  Stack Trace:
+     at System.Threading.ThreadLocal`1.SetValueSlow(T value, LinkedSlotVolatile[] slotArray)
+   at BrowserStack.Helper.ExtentManager.SetTest(String testName) in C:\Users\Admin\Downloads\BrowserStack\android\Helper\ExtentManager.cs:line 18
+   at BrowserStack.Test.BaseTest.Init() in C:\Users\Admin\Downloads\BrowserStack\android\Tests\BaseTest.cs:line 35
+   at InvokeStub_BaseTest.Init(Object, Object, IntPtr*)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+
+  Failed Drawing [19 s]
+  Error Message:
+   System.ObjectDisposedException : Cannot access a disposed object.
+Object name: 'System.Threading.ThreadLocal`1[[AventStack.ExtentReports.ExtentTest, ExtentReports, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+  Stack Trace:
+     at System.Threading.ThreadLocal`1.SetValueSlow(T value, LinkedSlotVolatile[] slotArray)
+   at BrowserStack.Helper.ExtentManager.SetTest(String testName) in C:\Users\Admin\Downloads\BrowserStack\android\Helper\ExtentManager.cs:line 18
+   at BrowserStack.Test.BaseTest.Init() in C:\Users\Admin\Downloads\BrowserStack\android\Tests\BaseTest.cs:line 35
+   at InvokeStub_BaseTest.Init(Object, Object, IntPtr*)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+
+Results File: C:\Users\Admin\AppData\Local\Temp\.browserstack\results_dotnet\result_0\NUnit-Browserstack.xml
+
+Failed!  - Failed:     3, Passed:     1, Skipped:     0, Total:     4, Duration: 2 m 21 s - android.dll (net8.0)
+
+2025-07-31 10:22:21.4240|ERROR|browserstack_sdk.Program|[24552] Standard Error - 
+
+2025-07-31 10:22:21.4240|INFO|browserstack_sdk.Program|Stopping local
+2025-07-31 10:22:29.9702|INFO|TestObservability.BuildLifeCycle|Visit https://observability.browserstack.com/builds/vetuj20glwpiacea6eplxs3xjnvev98netupiard to view build report
+2025-07-31 13:28:54.7783|INFO|browserstack_sdk.Program|SDK run started with id: 73236686-df56-4185-92b9-4c19f59bc977
+2025-07-31 13:28:54.8070|INFO|browserstack_sdk.Program|Running SDK with args: --add-patch-bstack, obj\Debug\net8.0, C:\Users\Admin\Downloads\BrowserStack\android\bin\Debug\net8.0\android.dll, Debug
+2025-07-31 13:28:54.8484|INFO|browserstack_sdk.utils|Using dotnet: C:\Program Files\dotnet\dotnet.exe
+2025-07-31 13:28:57.1528|INFO|browserstack_sdk.Program|Detected Selenium version 3.141.0
+2025-07-31 13:28:57.1528|INFO|browserstack_sdk.Program|Detected Appium version 4.4.0
+2025-07-31 13:28:57.1528|INFO|browserstack_sdk.Program|Running for f/w nunit 3.13.3
+2025-07-31 13:28:57.2825|INFO|browserstack_sdk.Program|Detected dotnet version 9.0.101
+2025-07-31 13:28:57.6471|INFO|browserstack_sdk.utils|Using existing app id bs://0a1bbed3029d51337bbb0230730a6deef4e9e0b3 for hash : f84207b7a3cb34f24b85c58f23448953.
+2025-07-31 13:28:57.6471|INFO|browserstack_sdk.Configuration|Using App : bs://0a1bbed3029d51337bbb0230730a6deef4e9e0b3.
+2025-07-31 13:28:57.6471|INFO|browserstack_sdk.Program|Adapter Flow Triggered with testDllPath: C:\Users\Admin\Downloads\BrowserStack\android\bin\Debug\net8.0\android.dll
+2025-07-31 13:28:57.6471|INFO|browserstack_sdk.Program|Setting Event Listener Path: C:\Users\Admin\Downloads\BrowserStack\android\bin\Debug\net8.0\BrowserstackEventListener.addins and BrowserstackListener Dll path :: BrowserstackListener.dll
+2025-07-31 13:28:57.6471|INFO|browserstack_sdk.Program|SetupObservability: File already exists
+2025-07-31 13:28:57.6746|INFO|browserstack_sdk.utils|Using dotnet: C:\Program Files\dotnet\dotnet.exe
+2025-07-31 13:29:11.4740|INFO|browserstack_sdk.Program|SDK run started with id: 32402193-1186-48fa-a902-355ed6d5615f
+2025-07-31 13:29:11.4881|INFO|browserstack_sdk.Program|Running SDK with args: --skip-build-browserstack, C:\Users\Admin\Downloads\BrowserStack\android\bin\Debug\net8.0\android.dll
+2025-07-31 13:29:11.4881|INFO|browserstack_sdk.Program|HandleAdapterProcessExit: registering process exit handler for pid: 16176
+2025-07-31 13:29:11.5268|INFO|browserstack_sdk.utils|Using dotnet: C:\Program Files\dotnet\dotnet.exe
+2025-07-31 13:29:13.8351|INFO|browserstack_sdk.Program|Detected Selenium version 3.141.0
+2025-07-31 13:29:13.8351|INFO|browserstack_sdk.Program|Detected Appium version 4.4.0
+2025-07-31 13:29:13.8351|INFO|browserstack_sdk.Program|Running for f/w nunit 3.13.3
+2025-07-31 13:29:13.9646|INFO|browserstack_sdk.Program|Detected dotnet version 9.0.101
+2025-07-31 13:29:14.1856|INFO|browserstack_sdk.utils|Using existing app id bs://0a1bbed3029d51337bbb0230730a6deef4e9e0b3 for hash : f84207b7a3cb34f24b85c58f23448953.
+2025-07-31 13:29:14.1856|INFO|browserstack_sdk.Configuration|Using App : bs://0a1bbed3029d51337bbb0230730a6deef4e9e0b3.
+2025-07-31 13:29:14.1856|INFO|browserstack_sdk.Program|Adapter Flow Triggered with testDllPath: C:\Users\Admin\Downloads\BrowserStack\android\bin\Debug\net8.0\android.dll
+2025-07-31 13:29:14.1856|INFO|browserstack_sdk.Program|Setting Event Listener Path: C:\Users\Admin\Downloads\BrowserStack\android\bin\Debug\net8.0\BrowserstackEventListener.addins and BrowserstackListener Dll path :: BrowserstackListener.dll
+2025-07-31 13:29:14.1856|INFO|browserstack_sdk.Program|SetupObservability: File already exists
+2025-07-31 13:29:14.1856|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][8880] CliShouldSpawn: testFramework=nunit
+2025-07-31 13:29:14.1856|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][8880] CliShouldSpawn: IsTurboScaleSession=False
+2025-07-31 13:29:14.1856|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][8880] CliShouldSpawn: IsTestOrchestrationEnabled=False
+2025-07-31 13:29:14.1856|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][8880] CliShouldSpawn: isSpecflow=False
+2025-07-31 13:29:14.1856|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][8880] CliShouldSpawn: isReqnroll=False
+2025-07-31 13:29:14.2279|INFO|BrowserstackSDK.v2.CLIUtils|[SDKCLI][8880] Current CLI Path Found: C:\Users\Admin\.browserstack\cli\binary-win-x64.exe
+2025-07-31 13:29:16.8518|INFO|BrowserstackSDK.v2.CLIUtils|[SDKCLI][8880] Downloading SDK binary from: https://sdk-assets.browserstack.com/binary-win-x64-1.6.3.zip
+2025-07-31 13:29:34.9835|INFO|BrowserstackSDK.v2.CLIUtils|[SDKCLI][8880] Downloaded binary: binary-win-x64.exe
+2025-07-31 13:29:35.0448|INFO|BrowserstackSDK.v2.CLIUtils|[SDKCLI][8880] Resolved binary path: C:\Users\Admin\.browserstack\cli\binary-win-x64.exe
+2025-07-31 13:29:57.8879|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][8880] Main process started - GrpcClient
+2025-07-31 13:29:57.8904|INFO|browserstack_sdk.utils|Architecture Info - OS: Win32NT, OSVersion: Microsoft Windows NT 10.0.26100.0, Process Arch: X64, System Arch: X64
+2025-07-31 13:30:01.3595|INFO|browserstack_sdk.Program|Starting local
+2025-07-31 13:30:06.8886|INFO|browserstack_sdk.Program|Local started
+2025-07-31 13:30:07.0225|INFO|browserstack_sdk.Utils.OrchestrationPoller|AbortBuildOnFailure is not enabled or not supported for the framework:nunit
+2025-07-31 13:34:27.7183|INFO|browserstack_sdk.Program|[8880] Standard Output - 
+The following arguments have been ignored : "--no-build"
+VSTest version 17.12.0 (x64)
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+Failed to load extensions from file 'C:\Users\Admin\Downloads\BrowserStack\android\bin\Debug\net8.0\ZZStack.TestAdapter.dll'. Please use /diag for more information.
+📄 Report path: C:\Users\Admin\Downloads\BrowserStack\android\Reports\Task1_Spark.html
+✅ Đã scroll tới phần tử có resource-id: com.saucelabs.mydemoapp.android:id/productHeightLightsTV
+✅ Đã scroll tới phần tử có resource-id: com.saucelabs.mydemoapp.android:id/paymentBtn
+
+  Failed TestApp [4 m 15 s]
+  Error Message:
+   OpenQA.Selenium.WebDriverTimeoutException : Timed out after 30 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : An element could not be located on the page using the given search parameters.
+  Stack Trace:
+     at BrowserStack.MainTest.TestApp(MainTest this)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+--NoSuchElementException
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Appium.AppiumDriver`1.FindElement(String by, String value)
+   at OpenQA.Selenium.Appium.AppiumDriver`1.FindElementByAccessibilityId(String selector)
+   at OpenQA.Selenium.Appium.ByAccessibilityId.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass19_0.<ElementToBeClickable>b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+
+  Standard Output Messages:
+ 📄 Report path: C:\Users\Admin\Downloads\BrowserStack\android\Reports\Task1_Spark.html
+ ✅ Đã scroll tới phần tử có resource-id: com.saucelabs.mydemoapp.android:id/productHeightLightsTV
+ ✅ Đã scroll tới phần tử có resource-id: com.saucelabs.mydemoapp.android:id/paymentBtn
+
+
+Results File: C:\Users\Admin\AppData\Local\Temp\.browserstack\results_dotnet\result_0\NUnit-Browserstack.xml
+
+Failed!  - Failed:     1, Passed:     0, Skipped:     0, Total:     1, Duration: 4 m 15 s - android.dll (net8.0)
+
+2025-07-31 13:34:27.7183|ERROR|browserstack_sdk.Program|[8880] Standard Error - 
+
+2025-07-31 13:34:27.7183|INFO|browserstack_sdk.Program|Stopping local
+2025-07-31 13:34:37.3242|INFO|TestObservability.BuildLifeCycle|Visit https://observability.browserstack.com/builds/g3o6mj78zewxnvowpokir2u4y4xsfkzzxdcbcddg to view build report
+2025-07-31 13:38:35.8068|INFO|browserstack_sdk.Program|SDK run started with id: 95c81b68-2fa6-4e7b-aa4e-672cc4aea848
+2025-07-31 13:38:35.8224|INFO|browserstack_sdk.Program|Running SDK with args: --skip-build-browserstack, C:\Users\Admin\Downloads\BrowserStack\android\bin\Debug\net8.0\android.dll
+2025-07-31 13:38:35.8224|INFO|browserstack_sdk.Program|HandleAdapterProcessExit: registering process exit handler for pid: 9068
+2025-07-31 13:38:35.8632|INFO|browserstack_sdk.utils|Using dotnet: C:\Program Files\dotnet\dotnet.exe
+2025-07-31 13:38:38.3393|INFO|browserstack_sdk.Program|Detected Selenium version 3.141.0
+2025-07-31 13:38:38.3393|INFO|browserstack_sdk.Program|Detected Appium version 4.4.0
+2025-07-31 13:38:38.3393|INFO|browserstack_sdk.Program|Running for f/w nunit 3.13.3
+2025-07-31 13:38:38.4930|INFO|browserstack_sdk.Program|Detected dotnet version 9.0.101
+2025-07-31 13:38:38.7767|INFO|browserstack_sdk.utils|Using existing app id bs://0a1bbed3029d51337bbb0230730a6deef4e9e0b3 for hash : f84207b7a3cb34f24b85c58f23448953.
+2025-07-31 13:38:38.7767|INFO|browserstack_sdk.Configuration|Using App : bs://0a1bbed3029d51337bbb0230730a6deef4e9e0b3.
+2025-07-31 13:38:38.7767|INFO|browserstack_sdk.Program|Adapter Flow Triggered with testDllPath: C:\Users\Admin\Downloads\BrowserStack\android\bin\Debug\net8.0\android.dll
+2025-07-31 13:38:38.7767|INFO|browserstack_sdk.Program|Setting Event Listener Path: C:\Users\Admin\Downloads\BrowserStack\android\bin\Debug\net8.0\BrowserstackEventListener.addins and BrowserstackListener Dll path :: BrowserstackListener.dll
+2025-07-31 13:38:38.7767|INFO|browserstack_sdk.Program|SetupObservability: File already exists
+2025-07-31 13:38:38.7767|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][10860] CliShouldSpawn: testFramework=nunit
+2025-07-31 13:38:38.7767|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][10860] CliShouldSpawn: IsTurboScaleSession=False
+2025-07-31 13:38:38.7767|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][10860] CliShouldSpawn: IsTestOrchestrationEnabled=False
+2025-07-31 13:38:38.7767|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][10860] CliShouldSpawn: isSpecflow=False
+2025-07-31 13:38:38.7767|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][10860] CliShouldSpawn: isReqnroll=False
+2025-07-31 13:38:38.7951|INFO|BrowserstackSDK.v2.CLIUtils|[SDKCLI][10860] Current CLI Path Found: C:\Users\Admin\.browserstack\cli\binary-win-x64.exe
+2025-07-31 13:38:42.1432|INFO|BrowserstackSDK.v2.CLIUtils|[SDKCLI][10860] Resolved binary path: C:\Users\Admin\.browserstack\cli\binary-win-x64.exe
+2025-07-31 13:38:50.1462|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][10860] Main process started - GrpcClient
+2025-07-31 13:38:50.1462|INFO|browserstack_sdk.utils|Architecture Info - OS: Win32NT, OSVersion: Microsoft Windows NT 10.0.26100.0, Process Arch: X64, System Arch: X64
+2025-07-31 13:38:53.6044|INFO|browserstack_sdk.Program|Starting local
+2025-07-31 13:38:58.4734|INFO|browserstack_sdk.Program|Local started
+2025-07-31 13:38:58.6518|INFO|browserstack_sdk.Utils.OrchestrationPoller|AbortBuildOnFailure is not enabled or not supported for the framework:nunit
+2025-07-31 13:43:00.8532|INFO|browserstack_sdk.Program|[10860] Standard Output - 
+The following arguments have been ignored : "--no-build"
+VSTest version 17.12.0 (x64)
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+Failed to load extensions from file 'C:\Users\Admin\Downloads\BrowserStack\android\bin\Debug\net8.0\ZZStack.TestAdapter.dll'. Please use /diag for more information.
+📄 Report path: C:\Users\Admin\Downloads\BrowserStack\android\Reports\Task1_Spark.html
+✅ Đã scroll tới phần tử có resource-id: com.saucelabs.mydemoapp.android:id/productHeightLightsTV
+✅ Đã scroll tới phần tử có resource-id: com.saucelabs.mydemoapp.android:id/paymentBtn
+
+Results File: C:\Users\Admin\AppData\Local\Temp\.browserstack\results_dotnet\result_0\NUnit-Browserstack.xml
+
+Passed!  - Failed:     0, Passed:     1, Skipped:     0, Total:     1, Duration: 3 m 57 s - android.dll (net8.0)
+
+2025-07-31 13:43:00.8532|ERROR|browserstack_sdk.Program|[10860] Standard Error - 
+
+2025-07-31 13:43:00.8532|INFO|browserstack_sdk.Program|Stopping local
+2025-07-31 13:43:09.9833|INFO|TestObservability.BuildLifeCycle|Visit https://observability.browserstack.com/builds/de2kswwj8feiuj5ir6rjgp8i2dw40r9olzmhlnou to view build report
+2025-07-31 13:48:19.3187|INFO|browserstack_sdk.Program|SDK run started with id: a1f9c2d5-39cf-470b-8e7a-cd476df2288a
+2025-07-31 13:48:19.3392|INFO|browserstack_sdk.Program|Running SDK with args: --add-patch-bstack, obj\Debug\net8.0, C:\Users\Admin\Downloads\BrowserStack\android\bin\Debug\net8.0\android.dll, Debug
+2025-07-31 13:48:19.3810|INFO|browserstack_sdk.utils|Using dotnet: C:\Program Files\dotnet\dotnet.exe
+2025-07-31 13:48:21.6369|INFO|browserstack_sdk.Program|Detected Selenium version 3.141.0
+2025-07-31 13:48:21.6369|INFO|browserstack_sdk.Program|Detected Appium version 4.4.0
+2025-07-31 13:48:21.6369|INFO|browserstack_sdk.Program|Running for f/w nunit 3.13.3
+2025-07-31 13:48:21.7711|INFO|browserstack_sdk.Program|Detected dotnet version 9.0.101
+2025-07-31 13:48:22.0917|INFO|browserstack_sdk.utils|Using existing app id bs://0a1bbed3029d51337bbb0230730a6deef4e9e0b3 for hash : f84207b7a3cb34f24b85c58f23448953.
+2025-07-31 13:48:22.0917|INFO|browserstack_sdk.Configuration|Using App : bs://0a1bbed3029d51337bbb0230730a6deef4e9e0b3.
+2025-07-31 13:48:22.0917|INFO|browserstack_sdk.Program|Adapter Flow Triggered with testDllPath: C:\Users\Admin\Downloads\BrowserStack\android\bin\Debug\net8.0\android.dll
+2025-07-31 13:48:22.0917|INFO|browserstack_sdk.Program|Setting Event Listener Path: C:\Users\Admin\Downloads\BrowserStack\android\bin\Debug\net8.0\BrowserstackEventListener.addins and BrowserstackListener Dll path :: BrowserstackListener.dll
+2025-07-31 13:48:22.0917|INFO|browserstack_sdk.Program|SetupObservability: File already exists
+2025-07-31 13:48:22.1169|INFO|browserstack_sdk.utils|Using dotnet: C:\Program Files\dotnet\dotnet.exe
+2025-07-31 13:48:32.9724|INFO|browserstack_sdk.Program|SDK run started with id: 68e7c4f7-ea42-401f-b190-6c38e6dd05ca
+2025-07-31 13:48:32.9724|INFO|browserstack_sdk.Program|Running SDK with args: --skip-build-browserstack, C:\Users\Admin\Downloads\BrowserStack\android\bin\Debug\net8.0\android.dll
+2025-07-31 13:48:32.9885|INFO|browserstack_sdk.Program|HandleAdapterProcessExit: registering process exit handler for pid: 12116
+2025-07-31 13:48:33.0213|INFO|browserstack_sdk.utils|Using dotnet: C:\Program Files\dotnet\dotnet.exe
+2025-07-31 13:48:35.1313|INFO|browserstack_sdk.Program|Detected Selenium version 3.141.0
+2025-07-31 13:48:35.1313|INFO|browserstack_sdk.Program|Detected Appium version 4.4.0
+2025-07-31 13:48:35.1313|INFO|browserstack_sdk.Program|Running for f/w nunit 3.13.3
+2025-07-31 13:48:35.2785|INFO|browserstack_sdk.Program|Detected dotnet version 9.0.101
+2025-07-31 13:48:35.4873|INFO|browserstack_sdk.utils|Using existing app id bs://0a1bbed3029d51337bbb0230730a6deef4e9e0b3 for hash : f84207b7a3cb34f24b85c58f23448953.
+2025-07-31 13:48:35.4873|INFO|browserstack_sdk.Configuration|Using App : bs://0a1bbed3029d51337bbb0230730a6deef4e9e0b3.
+2025-07-31 13:48:35.4873|INFO|browserstack_sdk.Program|Adapter Flow Triggered with testDllPath: C:\Users\Admin\Downloads\BrowserStack\android\bin\Debug\net8.0\android.dll
+2025-07-31 13:48:35.4873|INFO|browserstack_sdk.Program|Setting Event Listener Path: C:\Users\Admin\Downloads\BrowserStack\android\bin\Debug\net8.0\BrowserstackEventListener.addins and BrowserstackListener Dll path :: BrowserstackListener.dll
+2025-07-31 13:48:35.4873|INFO|browserstack_sdk.Program|SetupObservability: File already exists
+2025-07-31 13:48:35.4951|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][1840] CliShouldSpawn: testFramework=nunit
+2025-07-31 13:48:35.4951|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][1840] CliShouldSpawn: IsTurboScaleSession=False
+2025-07-31 13:48:35.4951|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][1840] CliShouldSpawn: IsTestOrchestrationEnabled=False
+2025-07-31 13:48:35.4951|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][1840] CliShouldSpawn: isSpecflow=False
+2025-07-31 13:48:35.4951|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][1840] CliShouldSpawn: isReqnroll=False
+2025-07-31 13:48:35.5131|INFO|BrowserstackSDK.v2.CLIUtils|[SDKCLI][1840] Current CLI Path Found: C:\Users\Admin\.browserstack\cli\binary-win-x64.exe
+2025-07-31 13:48:36.6769|INFO|BrowserstackSDK.v2.CLIUtils|[SDKCLI][1840] Resolved binary path: C:\Users\Admin\.browserstack\cli\binary-win-x64.exe
+2025-07-31 13:48:44.3590|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][1840] Main process started - GrpcClient
+2025-07-31 13:48:44.3590|INFO|browserstack_sdk.utils|Architecture Info - OS: Win32NT, OSVersion: Microsoft Windows NT 10.0.26100.0, Process Arch: X64, System Arch: X64
+2025-07-31 13:48:48.9149|INFO|browserstack_sdk.Program|Starting local
+2025-07-31 13:48:53.5709|INFO|browserstack_sdk.Program|Local started
+2025-07-31 13:48:53.6826|INFO|browserstack_sdk.Utils.OrchestrationPoller|AbortBuildOnFailure is not enabled or not supported for the framework:nunit
+2025-07-31 13:48:59.3228|INFO|browserstack_sdk.Program|[1840] Standard Output - 
+The following arguments have been ignored : "--no-build"
+VSTest version 17.12.0 (x64)
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+Failed to load extensions from file 'C:\Users\Admin\Downloads\BrowserStack\android\bin\Debug\net8.0\ZZStack.TestAdapter.dll'. Please use /diag for more information.
+📄 Report path: C:\Users\Admin\Downloads\BrowserStack\android\Reports\Task1_Spark.html
+
+  Failed TestApp [1 s]
+  Error Message:
+   OpenQA.Selenium.WebDriverException : App Automate testing time has expired. Contact BrowserStack Support at https://www.browserstack.com/contact for extending your Free Trial.
+  Stack Trace:
+     at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Appium.AppiumDriver`1.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(RemoteWebDriver this, ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Appium.AppiumDriver`1..ctor(ICommandExecutor commandExecutor, ICapabilities appiumOptions)
+   at OpenQA.Selenium.Appium.AppiumDriver`1..ctor(Uri remoteAddress, ICapabilities appiumOptions, TimeSpan commandTimeout)
+   at OpenQA.Selenium.Appium.AppiumDriver`1..ctor(Uri remoteAddress, ICapabilities appiumOptions)
+   at OpenQA.Selenium.Appium.Android.AndroidDriver`1..ctor(Uri remoteAddress, DriverOptions driverOptions)
+   at BrowserStack.Test.BaseTest.Init() in C:\Users\Admin\Downloads\BrowserStack\android\Tests\BaseTest.cs:line 33
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+
+  Standard Output Messages:
+ 📄 Report path: C:\Users\Admin\Downloads\BrowserStack\android\Reports\Task1_Spark.html
+
+
+Results File: C:\Users\Admin\AppData\Local\Temp\.browserstack\results_dotnet\result_0\NUnit-Browserstack.xml
+
+Failed!  - Failed:     1, Passed:     0, Skipped:     0, Total:     1, Duration: 1 s - android.dll (net8.0)
+
+2025-07-31 13:48:59.3228|ERROR|browserstack_sdk.Program|[1840] Standard Error - 
+
+2025-07-31 13:48:59.3228|INFO|browserstack_sdk.Program|Stopping local
+2025-07-31 13:49:07.7724|INFO|TestObservability.BuildLifeCycle|Visit https://observability.browserstack.com/builds/x30yv4wwuwmdjhmdjjj70z3fryee5shqszenusoc to view build report
+2025-07-31 13:50:28.8867|INFO|browserstack_sdk.Program|SDK run started with id: 7703e46f-5fbd-47ea-a6fe-80129bf06fcd
+2025-07-31 13:50:28.9006|INFO|browserstack_sdk.Program|Running SDK with args: --skip-build-browserstack, C:\Users\Admin\Downloads\BrowserStack\android\bin\Debug\net8.0\android.dll
+2025-07-31 13:50:28.9006|INFO|browserstack_sdk.Program|HandleAdapterProcessExit: registering process exit handler for pid: 24284
+2025-07-31 13:50:28.9353|INFO|browserstack_sdk.utils|Using dotnet: C:\Program Files\dotnet\dotnet.exe
+2025-07-31 13:50:31.2126|INFO|browserstack_sdk.Program|Detected Selenium version 3.141.0
+2025-07-31 13:50:31.2126|INFO|browserstack_sdk.Program|Detected Appium version 4.4.0
+2025-07-31 13:50:31.2126|INFO|browserstack_sdk.Program|Running for f/w nunit 3.13.3
+2025-07-31 13:50:31.3556|INFO|browserstack_sdk.Program|Detected dotnet version 9.0.101
+2025-07-31 13:50:31.5737|INFO|browserstack_sdk.utils|Using existing app id bs://0a1bbed3029d51337bbb0230730a6deef4e9e0b3 for hash : f84207b7a3cb34f24b85c58f23448953.
+2025-07-31 13:50:31.5737|INFO|browserstack_sdk.Configuration|Using App : bs://0a1bbed3029d51337bbb0230730a6deef4e9e0b3.
+2025-07-31 13:50:31.5737|INFO|browserstack_sdk.Program|Adapter Flow Triggered with testDllPath: C:\Users\Admin\Downloads\BrowserStack\android\bin\Debug\net8.0\android.dll
+2025-07-31 13:50:31.5737|INFO|browserstack_sdk.Program|Setting Event Listener Path: C:\Users\Admin\Downloads\BrowserStack\android\bin\Debug\net8.0\BrowserstackEventListener.addins and BrowserstackListener Dll path :: BrowserstackListener.dll
+2025-07-31 13:50:31.5737|INFO|browserstack_sdk.Program|SetupObservability: File already exists
+2025-07-31 13:50:31.5737|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][13072] CliShouldSpawn: testFramework=nunit
+2025-07-31 13:50:31.5737|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][13072] CliShouldSpawn: IsTurboScaleSession=False
+2025-07-31 13:50:31.5737|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][13072] CliShouldSpawn: IsTestOrchestrationEnabled=False
+2025-07-31 13:50:31.5737|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][13072] CliShouldSpawn: isSpecflow=False
+2025-07-31 13:50:31.5737|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][13072] CliShouldSpawn: isReqnroll=False
+2025-07-31 13:50:31.5884|INFO|BrowserstackSDK.v2.CLIUtils|[SDKCLI][13072] Current CLI Path Found: C:\Users\Admin\.browserstack\cli\binary-win-x64.exe
+2025-07-31 13:50:32.6092|INFO|BrowserstackSDK.v2.CLIUtils|[SDKCLI][13072] Resolved binary path: C:\Users\Admin\.browserstack\cli\binary-win-x64.exe
+2025-07-31 13:50:40.3689|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][13072] Main process started - GrpcClient
+2025-07-31 13:50:40.3689|INFO|browserstack_sdk.utils|Architecture Info - OS: Win32NT, OSVersion: Microsoft Windows NT 10.0.26100.0, Process Arch: X64, System Arch: X64
+2025-07-31 13:50:43.7213|INFO|browserstack_sdk.Program|Starting local
+2025-07-31 13:50:48.3937|INFO|browserstack_sdk.Program|Local started
+2025-07-31 13:50:48.5053|INFO|browserstack_sdk.Utils.OrchestrationPoller|AbortBuildOnFailure is not enabled or not supported for the framework:nunit
+2025-07-31 13:50:53.6874|INFO|browserstack_sdk.Program|[13072] Standard Output - 
+The following arguments have been ignored : "--no-build"
+VSTest version 17.12.0 (x64)
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+Failed to load extensions from file 'C:\Users\Admin\Downloads\BrowserStack\android\bin\Debug\net8.0\ZZStack.TestAdapter.dll'. Please use /diag for more information.
+📄 Report path: C:\Users\Admin\Downloads\BrowserStack\android\Reports\Task1_Spark.html
+
+  Failed TestApp [1 s]
+  Error Message:
+   OpenQA.Selenium.WebDriverException : App Automate testing time has expired. Contact BrowserStack Support at https://www.browserstack.com/contact for extending your Free Trial.
+  Stack Trace:
+     at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Appium.AppiumDriver`1.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(RemoteWebDriver this, ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Appium.AppiumDriver`1..ctor(ICommandExecutor commandExecutor, ICapabilities appiumOptions)
+   at OpenQA.Selenium.Appium.AppiumDriver`1..ctor(Uri remoteAddress, ICapabilities appiumOptions, TimeSpan commandTimeout)
+   at OpenQA.Selenium.Appium.AppiumDriver`1..ctor(Uri remoteAddress, ICapabilities appiumOptions)
+   at OpenQA.Selenium.Appium.Android.AndroidDriver`1..ctor(Uri remoteAddress, DriverOptions driverOptions)
+   at BrowserStack.Test.BaseTest.Init() in C:\Users\Admin\Downloads\BrowserStack\android\Tests\BaseTest.cs:line 33
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+
+  Standard Output Messages:
+ 📄 Report path: C:\Users\Admin\Downloads\BrowserStack\android\Reports\Task1_Spark.html
+
+
+Results File: C:\Users\Admin\AppData\Local\Temp\.browserstack\results_dotnet\result_0\NUnit-Browserstack.xml
+
+Failed!  - Failed:     1, Passed:     0, Skipped:     0, Total:     1, Duration: 1 s - android.dll (net8.0)
+
+2025-07-31 13:50:53.6874|ERROR|browserstack_sdk.Program|[13072] Standard Error - 
+
+2025-07-31 13:50:53.6874|INFO|browserstack_sdk.Program|Stopping local
+2025-07-31 13:51:02.1280|INFO|TestObservability.BuildLifeCycle|Visit https://observability.browserstack.com/builds/px0svt2couwyrz7tnsouy8blfyutkb4u4lbfdnmr to view build report
+2025-07-31 13:55:13.2668|INFO|browserstack_sdk.Program|SDK run started with id: b3acc000-44aa-4fef-aed5-fbf73d30e615
+2025-07-31 13:55:13.2870|INFO|browserstack_sdk.Program|Running SDK with args: --skip-build-browserstack, C:\Users\Admin\Downloads\BrowserStack\android\bin\Debug\net8.0\android.dll
+2025-07-31 13:55:13.2870|INFO|browserstack_sdk.Program|HandleAdapterProcessExit: registering process exit handler for pid: 24464
+2025-07-31 13:55:13.3441|INFO|browserstack_sdk.utils|Using dotnet: C:\Program Files\dotnet\dotnet.exe
+2025-07-31 13:55:15.8602|INFO|browserstack_sdk.Program|Detected Selenium version 3.141.0
+2025-07-31 13:55:15.8602|INFO|browserstack_sdk.Program|Detected Appium version 4.4.0
+2025-07-31 13:55:15.8602|INFO|browserstack_sdk.Program|Running for f/w nunit 3.13.3
+2025-07-31 13:55:16.0007|INFO|browserstack_sdk.Program|Detected dotnet version 9.0.101
+2025-07-31 13:55:16.2909|INFO|browserstack_sdk.utils|Using existing app id bs://0a1bbed3029d51337bbb0230730a6deef4e9e0b3 for hash : f84207b7a3cb34f24b85c58f23448953.
+2025-07-31 13:55:16.2909|INFO|browserstack_sdk.Configuration|Using App : bs://0a1bbed3029d51337bbb0230730a6deef4e9e0b3.
+2025-07-31 13:55:16.2909|INFO|browserstack_sdk.Program|Adapter Flow Triggered with testDllPath: C:\Users\Admin\Downloads\BrowserStack\android\bin\Debug\net8.0\android.dll
+2025-07-31 13:55:16.2909|INFO|browserstack_sdk.Program|Setting Event Listener Path: C:\Users\Admin\Downloads\BrowserStack\android\bin\Debug\net8.0\BrowserstackEventListener.addins and BrowserstackListener Dll path :: BrowserstackListener.dll
+2025-07-31 13:55:16.2909|INFO|browserstack_sdk.Program|SetupObservability: File already exists
+2025-07-31 13:55:16.2909|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][21368] CliShouldSpawn: testFramework=nunit
+2025-07-31 13:55:16.2909|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][21368] CliShouldSpawn: IsTurboScaleSession=False
+2025-07-31 13:55:16.2909|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][21368] CliShouldSpawn: IsTestOrchestrationEnabled=False
+2025-07-31 13:55:16.2909|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][21368] CliShouldSpawn: isSpecflow=False
+2025-07-31 13:55:16.2909|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][21368] CliShouldSpawn: isReqnroll=False
+2025-07-31 13:55:16.3221|INFO|BrowserstackSDK.v2.CLIUtils|[SDKCLI][21368] Current CLI Path Found: C:\Users\Admin\.browserstack\cli\binary-win-x64.exe
+2025-07-31 13:55:17.5535|INFO|BrowserstackSDK.v2.CLIUtils|[SDKCLI][21368] Resolved binary path: C:\Users\Admin\.browserstack\cli\binary-win-x64.exe
+2025-07-31 13:55:25.3042|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][21368] Main process started - GrpcClient
+2025-07-31 13:55:25.3042|INFO|browserstack_sdk.utils|Architecture Info - OS: Win32NT, OSVersion: Microsoft Windows NT 10.0.26100.0, Process Arch: X64, System Arch: X64
+2025-07-31 13:55:28.7399|INFO|browserstack_sdk.Program|Starting local
+2025-07-31 13:55:34.0689|INFO|browserstack_sdk.Program|Local started
+2025-07-31 13:55:34.1817|INFO|browserstack_sdk.Utils.OrchestrationPoller|AbortBuildOnFailure is not enabled or not supported for the framework:nunit
+2025-07-31 13:55:39.3557|INFO|browserstack_sdk.Program|[21368] Standard Output - 
+The following arguments have been ignored : "--no-build"
+VSTest version 17.12.0 (x64)
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+Failed to load extensions from file 'C:\Users\Admin\Downloads\BrowserStack\android\bin\Debug\net8.0\ZZStack.TestAdapter.dll'. Please use /diag for more information.
+📄 Report path: C:\Users\Admin\Downloads\BrowserStack\android\Reports\Task1_Spark.html
+
+  Failed TestApp [1 s]
+  Error Message:
+   OpenQA.Selenium.WebDriverException : App Automate testing time has expired. Contact BrowserStack Support at https://www.browserstack.com/contact for extending your Free Trial.
+  Stack Trace:
+     at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Appium.AppiumDriver`1.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(RemoteWebDriver this, ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Appium.AppiumDriver`1..ctor(ICommandExecutor commandExecutor, ICapabilities appiumOptions)
+   at OpenQA.Selenium.Appium.AppiumDriver`1..ctor(Uri remoteAddress, ICapabilities appiumOptions, TimeSpan commandTimeout)
+   at OpenQA.Selenium.Appium.AppiumDriver`1..ctor(Uri remoteAddress, ICapabilities appiumOptions)
+   at OpenQA.Selenium.Appium.Android.AndroidDriver`1..ctor(Uri remoteAddress, DriverOptions driverOptions)
+   at BrowserStack.Test.BaseTest.Init() in C:\Users\Admin\Downloads\BrowserStack\android\Tests\BaseTest.cs:line 33
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+
+  Standard Output Messages:
+ 📄 Report path: C:\Users\Admin\Downloads\BrowserStack\android\Reports\Task1_Spark.html
+
+
+Results File: C:\Users\Admin\AppData\Local\Temp\.browserstack\results_dotnet\result_0\NUnit-Browserstack.xml
+
+Failed!  - Failed:     1, Passed:     0, Skipped:     0, Total:     1, Duration: 1 s - android.dll (net8.0)
+
+2025-07-31 13:55:39.3557|ERROR|browserstack_sdk.Program|[21368] Standard Error - 
+
+2025-07-31 13:55:39.3630|INFO|browserstack_sdk.Program|Stopping local
+2025-07-31 13:55:47.6584|INFO|TestObservability.BuildLifeCycle|Visit https://observability.browserstack.com/builds/6yxzldsri6rbn53xjhsg340vcysrt7mitod2psyg to view build report
+2025-07-31 13:58:42.9808|INFO|browserstack_sdk.Program|SDK run started with id: 869a29c7-2c44-47d8-af35-51ce7b42197c
+2025-07-31 13:58:42.9975|INFO|browserstack_sdk.Program|Running SDK with args: --skip-build-browserstack, C:\Users\Admin\Downloads\BrowserStack\android\bin\Debug\net8.0\android.dll
+2025-07-31 13:58:42.9975|INFO|browserstack_sdk.Program|HandleAdapterProcessExit: registering process exit handler for pid: 11808
+2025-07-31 13:58:43.0324|INFO|browserstack_sdk.utils|Using dotnet: C:\Program Files\dotnet\dotnet.exe
+2025-07-31 13:58:45.5453|INFO|browserstack_sdk.Program|Detected Selenium version 3.141.0
+2025-07-31 13:58:45.5453|INFO|browserstack_sdk.Program|Detected Appium version 4.4.0
+2025-07-31 13:58:45.5453|INFO|browserstack_sdk.Program|Running for f/w nunit 3.13.3
+2025-07-31 13:58:45.6888|INFO|browserstack_sdk.Program|Detected dotnet version 9.0.101
+2025-07-31 13:58:45.9106|INFO|browserstack_sdk.utils|Using existing app id bs://0a1bbed3029d51337bbb0230730a6deef4e9e0b3 for hash : f84207b7a3cb34f24b85c58f23448953.
+2025-07-31 13:58:45.9106|INFO|browserstack_sdk.Configuration|Using App : bs://0a1bbed3029d51337bbb0230730a6deef4e9e0b3.
+2025-07-31 13:58:45.9106|INFO|browserstack_sdk.Program|Adapter Flow Triggered with testDllPath: C:\Users\Admin\Downloads\BrowserStack\android\bin\Debug\net8.0\android.dll
+2025-07-31 13:58:45.9106|INFO|browserstack_sdk.Program|Setting Event Listener Path: C:\Users\Admin\Downloads\BrowserStack\android\bin\Debug\net8.0\BrowserstackEventListener.addins and BrowserstackListener Dll path :: BrowserstackListener.dll
+2025-07-31 13:58:45.9106|INFO|browserstack_sdk.Program|SetupObservability: File already exists
+2025-07-31 13:58:45.9154|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][19744] CliShouldSpawn: testFramework=nunit
+2025-07-31 13:58:45.9154|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][19744] CliShouldSpawn: IsTurboScaleSession=False
+2025-07-31 13:58:45.9154|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][19744] CliShouldSpawn: IsTestOrchestrationEnabled=False
+2025-07-31 13:58:45.9154|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][19744] CliShouldSpawn: isSpecflow=False
+2025-07-31 13:58:45.9154|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][19744] CliShouldSpawn: isReqnroll=False
+2025-07-31 13:58:45.9154|INFO|BrowserstackSDK.v2.CLIUtils|[SDKCLI][19744] Current CLI Path Found: C:\Users\Admin\.browserstack\cli\binary-win-x64.exe
+2025-07-31 13:58:46.9501|INFO|BrowserstackSDK.v2.CLIUtils|[SDKCLI][19744] Resolved binary path: C:\Users\Admin\.browserstack\cli\binary-win-x64.exe
+2025-07-31 13:58:54.8446|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][19744] Main process started - GrpcClient
+2025-07-31 13:58:54.8446|INFO|browserstack_sdk.utils|Architecture Info - OS: Win32NT, OSVersion: Microsoft Windows NT 10.0.26100.0, Process Arch: X64, System Arch: X64
+2025-07-31 13:58:58.2264|INFO|browserstack_sdk.Program|Starting local
+2025-07-31 13:59:02.7164|INFO|browserstack_sdk.Program|Local started
+2025-07-31 13:59:02.8154|INFO|browserstack_sdk.Utils.OrchestrationPoller|AbortBuildOnFailure is not enabled or not supported for the framework:nunit
+2025-07-31 13:59:08.0507|INFO|browserstack_sdk.Program|[19744] Standard Output - 
+The following arguments have been ignored : "--no-build"
+VSTest version 17.12.0 (x64)
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+Failed to load extensions from file 'C:\Users\Admin\Downloads\BrowserStack\android\bin\Debug\net8.0\ZZStack.TestAdapter.dll'. Please use /diag for more information.
+📄 Report path: C:\Users\Admin\Downloads\BrowserStack\android\Reports\Task1_Spark.html
+
+  Failed TestApp [1 s]
+  Error Message:
+   OpenQA.Selenium.WebDriverException : App Automate testing time has expired. Contact BrowserStack Support at https://www.browserstack.com/contact for extending your Free Trial.
+  Stack Trace:
+     at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Appium.AppiumDriver`1.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(RemoteWebDriver this, ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Appium.AppiumDriver`1..ctor(ICommandExecutor commandExecutor, ICapabilities appiumOptions)
+   at OpenQA.Selenium.Appium.AppiumDriver`1..ctor(Uri remoteAddress, ICapabilities appiumOptions, TimeSpan commandTimeout)
+   at OpenQA.Selenium.Appium.AppiumDriver`1..ctor(Uri remoteAddress, ICapabilities appiumOptions)
+   at OpenQA.Selenium.Appium.Android.AndroidDriver`1..ctor(Uri remoteAddress, DriverOptions driverOptions)
+   at BrowserStack.Test.BaseTest.Init() in C:\Users\Admin\Downloads\BrowserStack\android\Tests\BaseTest.cs:line 33
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+
+  Standard Output Messages:
+ 📄 Report path: C:\Users\Admin\Downloads\BrowserStack\android\Reports\Task1_Spark.html
+
+
+Results File: C:\Users\Admin\AppData\Local\Temp\.browserstack\results_dotnet\result_0\NUnit-Browserstack.xml
+
+Failed!  - Failed:     1, Passed:     0, Skipped:     0, Total:     1, Duration: 1 s - android.dll (net8.0)
+
+2025-07-31 13:59:08.0507|ERROR|browserstack_sdk.Program|[19744] Standard Error - 
+
+2025-07-31 13:59:08.0567|INFO|browserstack_sdk.Program|Stopping local
+2025-07-31 13:59:16.7076|INFO|TestObservability.BuildLifeCycle|Visit https://observability.browserstack.com/builds/s46skexgyh9gxnnew344iofuzj717bfms7fagxg8 to view build report
+2025-07-31 14:03:10.0156|INFO|browserstack_sdk.Program|SDK run started with id: c629d80a-a956-413d-8d3c-30ed6d5bd604
+2025-07-31 14:03:10.0327|INFO|browserstack_sdk.Program|Running SDK with args: --skip-build-browserstack, C:\Users\Admin\Downloads\BrowserStack\android\bin\Debug\net8.0\android.dll
+2025-07-31 14:03:10.0327|INFO|browserstack_sdk.Program|HandleAdapterProcessExit: registering process exit handler for pid: 6820
+2025-07-31 14:03:10.0810|INFO|browserstack_sdk.utils|Using dotnet: C:\Program Files\dotnet\dotnet.exe
+2025-07-31 14:03:12.6870|INFO|browserstack_sdk.Program|Detected Selenium version 3.141.0
+2025-07-31 14:03:12.6870|INFO|browserstack_sdk.Program|Detected Appium version 4.4.0
+2025-07-31 14:03:12.6870|INFO|browserstack_sdk.Program|Running for f/w nunit 3.13.3
+2025-07-31 14:03:12.8388|INFO|browserstack_sdk.Program|Detected dotnet version 9.0.101
+2025-07-31 14:03:13.2826|INFO|browserstack_sdk.utils|Using existing app id bs://0a1bbed3029d51337bbb0230730a6deef4e9e0b3 for hash : f84207b7a3cb34f24b85c58f23448953.
+2025-07-31 14:03:13.2826|INFO|browserstack_sdk.Configuration|Using App : bs://0a1bbed3029d51337bbb0230730a6deef4e9e0b3.
+2025-07-31 14:03:13.2826|INFO|browserstack_sdk.Program|Adapter Flow Triggered with testDllPath: C:\Users\Admin\Downloads\BrowserStack\android\bin\Debug\net8.0\android.dll
+2025-07-31 14:03:13.2826|INFO|browserstack_sdk.Program|Setting Event Listener Path: C:\Users\Admin\Downloads\BrowserStack\android\bin\Debug\net8.0\BrowserstackEventListener.addins and BrowserstackListener Dll path :: BrowserstackListener.dll
+2025-07-31 14:03:13.2826|INFO|browserstack_sdk.Program|SetupObservability: File already exists
+2025-07-31 14:03:13.2906|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][20000] CliShouldSpawn: testFramework=nunit
+2025-07-31 14:03:13.2906|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][20000] CliShouldSpawn: IsTurboScaleSession=False
+2025-07-31 14:03:13.2906|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][20000] CliShouldSpawn: IsTestOrchestrationEnabled=False
+2025-07-31 14:03:13.2906|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][20000] CliShouldSpawn: isSpecflow=False
+2025-07-31 14:03:13.2906|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][20000] CliShouldSpawn: isReqnroll=False
+2025-07-31 14:03:13.3102|INFO|BrowserstackSDK.v2.CLIUtils|[SDKCLI][20000] Current CLI Path Found: C:\Users\Admin\.browserstack\cli\binary-win-x64.exe
+2025-07-31 14:03:15.1276|INFO|BrowserstackSDK.v2.CLIUtils|[SDKCLI][20000] Resolved binary path: C:\Users\Admin\.browserstack\cli\binary-win-x64.exe
+2025-07-31 14:03:22.6722|INFO|BrowserstackSDK.v2.BrowserstackCLI|[SDKCLI][20000] Main process started - GrpcClient
+2025-07-31 14:03:22.6722|INFO|browserstack_sdk.utils|Architecture Info - OS: Win32NT, OSVersion: Microsoft Windows NT 10.0.26100.0, Process Arch: X64, System Arch: X64
+2025-07-31 14:03:26.0480|INFO|browserstack_sdk.Program|Starting local
+2025-07-31 14:03:31.2344|INFO|browserstack_sdk.Program|Local started
+2025-07-31 14:03:31.3468|INFO|browserstack_sdk.Utils.OrchestrationPoller|AbortBuildOnFailure is not enabled or not supported for the framework:nunit
+2025-07-31 14:03:36.7433|INFO|browserstack_sdk.Program|[20000] Standard Output - 
+The following arguments have been ignored : "--no-build"
+VSTest version 17.12.0 (x64)
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+Failed to load extensions from file 'C:\Users\Admin\Downloads\BrowserStack\android\bin\Debug\net8.0\ZZStack.TestAdapter.dll'. Please use /diag for more information.
+📄 Report path: C:\Users\Admin\Downloads\BrowserStack\android\Reports\Task1_Spark.html
+
+  Failed TestApp [1 s]
+  Error Message:
+   OpenQA.Selenium.WebDriverException : App Automate testing time has expired. Contact BrowserStack Support at https://www.browserstack.com/contact for extending your Free Trial.
+  Stack Trace:
+     at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Appium.AppiumDriver`1.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(RemoteWebDriver this, ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Appium.AppiumDriver`1..ctor(ICommandExecutor commandExecutor, ICapabilities appiumOptions)
+   at OpenQA.Selenium.Appium.AppiumDriver`1..ctor(Uri remoteAddress, ICapabilities appiumOptions, TimeSpan commandTimeout)
+   at OpenQA.Selenium.Appium.AppiumDriver`1..ctor(Uri remoteAddress, ICapabilities appiumOptions)
+   at OpenQA.Selenium.Appium.Android.AndroidDriver`1..ctor(Uri remoteAddress, DriverOptions driverOptions)
+   at BrowserStack.Test.BaseTest.Init() in C:\Users\Admin\Downloads\BrowserStack\android\Tests\BaseTest.cs:line 33
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+
+  Standard Output Messages:
+ 📄 Report path: C:\Users\Admin\Downloads\BrowserStack\android\Reports\Task1_Spark.html
+
+
+Results File: C:\Users\Admin\AppData\Local\Temp\.browserstack\results_dotnet\result_0\NUnit-Browserstack.xml
+
+Failed!  - Failed:     1, Passed:     0, Skipped:     0, Total:     1, Duration: 1 s - android.dll (net8.0)
+
+2025-07-31 14:03:36.7447|ERROR|browserstack_sdk.Program|[20000] Standard Error - 
+
+2025-07-31 14:03:36.7447|INFO|browserstack_sdk.Program|Stopping local
+2025-07-31 14:03:44.9656|INFO|TestObservability.BuildLifeCycle|Visit https://observability.browserstack.com/builds/8cn9hcgqeti7quvwoygbdttyjq408ag0uhunwtur to view build report

@@ -6,12 +6,12 @@ using System.Text;
 using System.Threading.Tasks;
 using  BrowserStack.Page.Controller;
 
-namespace BrowserStack.Test
+namespace BrowserStack.Tests
 {
     internal class HomeTest
     {
         protected static HomeController home = new HomeController();
-        public static void AddToCart()
+        public static void ProductPageTest()
         {
             home.GoToCatalog();
             home.SelectSort();

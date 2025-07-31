@@ -13,7 +13,7 @@ using OpenQA.Selenium.Support.UI;
 using BrowserStack.Helper;
 using TestStatus = NUnit.Framework.Interfaces.TestStatus;
 
-namespace BrowserStack.Test
+namespace BrowserStack.Tests
 {
     public class BaseTest
     {

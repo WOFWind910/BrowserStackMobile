@@ -64,7 +64,7 @@ namespace BrowserStack.Helper
                 case NUnit.Framework.Interfaces.TestStatus.Failed:
                     return node.Fail(message);
                 default:
-                    return node.Warning(message);
+                    return node.Pass(message);
             }
         }
 

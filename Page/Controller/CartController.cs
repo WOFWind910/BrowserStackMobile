@@ -8,7 +8,7 @@ using static BrowserStack.Helper.ExtentManager;
 using static BrowserStack.Page.Locator.Cart;
 using BrowserStack.Datatest;
 using NUnit.Framework;
-using BrowserStack.Test;
+using BrowserStack.Tests;
 namespace BrowserStack.Page.Controller
 {
     internal class CartController : BaseTest

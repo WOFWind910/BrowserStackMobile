@@ -1,4 +1,4 @@
-﻿using BrowserStack.Test;
+﻿using BrowserStack.Tests;
 using OpenQA.Selenium;
 using System;
 using System.Collections.Generic;

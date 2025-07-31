@@ -1,4 +1,4 @@
-﻿using BrowserStack.Test;
+﻿using BrowserStack.Tests;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Appium.Android;
 using OpenQA.Selenium.Appium.MultiTouch;

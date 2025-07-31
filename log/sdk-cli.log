@@ -23716,3 +23716,2047 @@
 2025-07-31T01:26:21.505Z CLI info  [trungkinphm_X3vExD]  [cyh95y473bfv8rpjn5d1ehkoc1wza5mioexg6eew]  [8ad83763-54a5-418a-a985-cb52094716dd]  [PRODUCTION] Making POST request to https://api.browserstack.com
 2025-07-31T01:26:21.506Z CLI info [observability:module]  [trungkinphm_X3vExD]  [cyh95y473bfv8rpjn5d1ehkoc1wza5mioexg6eew]  [8ad83763-54a5-418a-a985-cb52094716dd]  Visit https://observability.browserstack.com/builds/cyh95y473bfv8rpjn5d1ehkoc1wza5mioexg6eew to view build report, insights, and many more debugging information all at one place!
 2025-07-31T01:26:24.296Z CLI info  [trungkinphm_X3vExD]  [cyh95y473bfv8rpjn5d1ehkoc1wza5mioexg6eew]  [8ad83763-54a5-418a-a985-cb52094716dd]  [PRODUCTION] Making POST request to https://eds.browserstack.com
+2025-07-31T03:06:47.824Z CLI info [main]     Server listening on port: 5400
+2025-07-31T03:06:48.046Z CLI info     Config : {"userName":"trungkinphm_X3vExD","accessKey":"LWqTUxCHdcLrLXhgXzAF","projectName":"BrowserStack Samples","buildName":"browserstack build","buildIdentifier":"#${BUILD_NUMBER}","source":"nunit:appium-sample-sdk:v1.0","app":"./SauceLabs-Demo-App.apk","platforms":[{"deviceName":"Samsung Galaxy S22","osVersion":12,"platformName":"android"}],"browserstackLocal":true,"debug":false,"networkLogs":false,"consoleLogs":"errors"}
+2025-07-31T03:06:48.118Z CLI info [testhub:module]  [trungkinphm_X3vExD]   [47cb033d-d1fd-40cd-a37b-cecaee769252]  Starting testhub from 16096:0
+2025-07-31T03:06:48.119Z CLI info [testhub:module]  [trungkinphm_X3vExD]   [47cb033d-d1fd-40cd-a37b-cecaee769252]  startBuild: payload=
+
+{"started_at":"2025-07-31T03:06:48.118Z","host_info":{"hostname":"LAPTOP-8LJ9PLF7","platform":"win32","type":"Windows_NT","version":"Windows 10 Home Single Language","arch":"x64"},"ci_info":{"build_number":null},"version_control":{"name":"git","sha":"9a7d41544c7a4ad98f3cef385f401c746dc719d7","short_sha":"9a7d41544c","branch":"main","tag":null,"committer":"WOFWind910 <kien.pt.64cntt@ntu.edu.vn>","committer_date":"2025-07-31T02:56:23.000Z","author":"WOFWind910 <kien.pt.64cntt@ntu.edu.vn>","author_date":"2025-07-31T02:56:23.000Z","commit_message":"up","root":"C:\\Users\\Admin\\Downloads\\BrowserStack\\android","common_git_dir":"C:\\Users\\Admin\\Downloads\\BrowserStack\\android\\.git","worktree_git_dir":"C:\\Users\\Admin\\Downloads\\BrowserStack\\android\\.git","last_tag":null,"commits_since_last_tag":0,"remotes":[{"name":"origin","url":"https://github.com/WOFWind910/BrowserStackMobile.git"}]},"project_name":"BrowserStack Samples","name":"browserstack build","build_identifier":"#90","build_run_identifier":null,"description":"","tags":[],"failed_tests_rerun":false,"accessibility":{"settings":{}},"framework_details":{"frameworkName":"nunit","frameworkVersion":"3.13.3","sdkVersion":"1.20.0","cliVersion":"1.6.2","language":"csharp","testFramework":{"name":"selenium","version":"3.141.0"},"source":"nunit:appium-sample-sdk:v1.0"},"product_map":{"observability":true,"accessibility":null,"percy":false,"automate":false,"app_automate":false},"browserstackAutomation":true,"test_orchestration":{}}
+2025-07-31T03:06:48.119Z CLI info  [trungkinphm_X3vExD]   [47cb033d-d1fd-40cd-a37b-cecaee769252]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T03:06:49.233Z CLI info [testhub:module]  [trungkinphm_X3vExD]   [47cb033d-d1fd-40cd-a37b-cecaee769252]  startBuild: response=3l4t3q0ndqaqnrrtj07szh44pimzifuvyhewhfjd
+2025-07-31T03:06:49.236Z CLI info  [trungkinphm_X3vExD]  [3l4t3q0ndqaqnrrtj07szh44pimzifuvyhewhfjd]  [47cb033d-d1fd-40cd-a37b-cecaee769252]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-07-31T03:06:49.239Z CLI info  [trungkinphm_X3vExD]  [3l4t3q0ndqaqnrrtj07szh44pimzifuvyhewhfjd]  [47cb033d-d1fd-40cd-a37b-cecaee769252]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2025-07-31T03:06:49.680Z CLI error  [trungkinphm_X3vExD]  [3l4t3q0ndqaqnrrtj07szh44pimzifuvyhewhfjd]  [47cb033d-d1fd-40cd-a37b-cecaee769252]  error invoking callback for eventName: {}
+2025-07-31T03:06:49.680Z CLI error  [trungkinphm_X3vExD]  [3l4t3q0ndqaqnrrtj07szh44pimzifuvyhewhfjd]  [47cb033d-d1fd-40cd-a37b-cecaee769252]  Error: invalid percyToken=null
+    at C:\snapshot\browserstack-binary\cli\dist\index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-07-31T03:06:55.824Z CLI info [appautomate:service]  [trungkinphm_X3vExD]  [3l4t3q0ndqaqnrrtj07szh44pimzifuvyhewhfjd]  [47cb033d-d1fd-40cd-a37b-cecaee769252]  Using app: ./SauceLabs-Demo-App.apk
+2025-07-31T03:06:55.825Z CLI info [appautomate:service]  [trungkinphm_X3vExD]  [3l4t3q0ndqaqnrrtj07szh44pimzifuvyhewhfjd]  [47cb033d-d1fd-40cd-a37b-cecaee769252]  Uploading app C:\Users\Admin\Downloads\BrowserStack\android\SauceLabs-Demo-App.apk  to browserstack
+2025-07-31T03:06:55.828Z CLI info  [trungkinphm_X3vExD]  [3l4t3q0ndqaqnrrtj07szh44pimzifuvyhewhfjd]  [47cb033d-d1fd-40cd-a37b-cecaee769252]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-07-31T03:07:07.543Z CLI info [appautomate:service]  [trungkinphm_X3vExD]  [3l4t3q0ndqaqnrrtj07szh44pimzifuvyhewhfjd]  [47cb033d-d1fd-40cd-a37b-cecaee769252]  App upload completed: {"app_url":"bs://0a1bbed3029d51337bbb0230730a6deef4e9e0b3"}
+2025-07-31T03:07:16.901Z CLI info  [trungkinphm_X3vExD]  [3l4t3q0ndqaqnrrtj07szh44pimzifuvyhewhfjd]  [47cb033d-d1fd-40cd-a37b-cecaee769252]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2025-07-31T03:07:17.538Z CLI info  [trungkinphm_X3vExD]  [3l4t3q0ndqaqnrrtj07szh44pimzifuvyhewhfjd]  [47cb033d-d1fd-40cd-a37b-cecaee769252]  [PRODUCTION] Making GET request to https://hub-apse.browserstack.com
+2025-07-31T03:07:17.539Z CLI info  [trungkinphm_X3vExD]  [3l4t3q0ndqaqnrrtj07szh44pimzifuvyhewhfjd]  [47cb033d-d1fd-40cd-a37b-cecaee769252]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2025-07-31T03:07:17.540Z CLI info  [trungkinphm_X3vExD]  [3l4t3q0ndqaqnrrtj07szh44pimzifuvyhewhfjd]  [47cb033d-d1fd-40cd-a37b-cecaee769252]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2025-07-31T03:07:39.851Z CLI info [testhub:request-queue-handler]  [trungkinphm_X3vExD]  [3l4t3q0ndqaqnrrtj07szh44pimzifuvyhewhfjd]  [47cb033d-d1fd-40cd-a37b-cecaee769252]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'nunit',
+    uuid: '113caf1b-c2cb-40e4-8158-2ed40fe5c6fd',
+    name: 'Checkout',
+    body: {
+      lang: 'csharp',
+      code: '        {\r\n            CartTest.CheckOut_Test();\r\n        }\r\n'
+    },
+    identifier: 'Checkout',
+    scope: '',
+    scopes: [ 'BrowserStack', 'MainTest' ],
+    file_name: 'MainTest.cs',
+    vc_filepath: 'MainTest.cs',
+    location: 'MainTest.cs',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-07-31T03:07:39.844Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'Checkout' },
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: false,
+      app_automate: true
+    }
+  },
+  logs: []
+} to 16096:0
+2025-07-31T03:07:41.437Z CLI info [testhub:request-queue-handler]  [trungkinphm_X3vExD]  [3l4t3q0ndqaqnrrtj07szh44pimzifuvyhewhfjd]  [47cb033d-d1fd-40cd-a37b-cecaee769252]  Processing batch event [
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'nunit',
+      uuid: '113caf1b-c2cb-40e4-8158-2ed40fe5c6fd',
+      name: 'Checkout',
+      body: [Object],
+      identifier: 'Checkout',
+      scope: '',
+      scopes: [Array],
+      file_name: 'MainTest.cs',
+      vc_filepath: 'MainTest.cs',
+      location: 'MainTest.cs',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-07-31T03:07:39.844Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      product_map: [Object]
+    },
+    logs: []
+  }
+] to 16096:0
+2025-07-31T03:07:41.438Z CLI info  [trungkinphm_X3vExD]  [3l4t3q0ndqaqnrrtj07szh44pimzifuvyhewhfjd]  [47cb033d-d1fd-40cd-a37b-cecaee769252]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T03:08:12.763Z CLI info [testhub:request-queue-handler]  [trungkinphm_X3vExD]  [3l4t3q0ndqaqnrrtj07szh44pimzifuvyhewhfjd]  [47cb033d-d1fd-40cd-a37b-cecaee769252]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkState: 'LOG',
+      timestamp: '2025-07-31T10:08:12.7533736+07:00',
+      uuid: '113caf1b-c2cb-40e4-8158-2ed40fe5c6fd',
+      kind: 'TEST_LOG',
+      message: '"Timed out after 30 seconds"',
+      level: 'INFO',
+      test_run_uuid: '113caf1b-c2cb-40e4-8158-2ed40fe5c6fd'
+    }
+  ]
+} to 16096:0
+2025-07-31T03:08:12.767Z CLI info [testhub:request-queue-handler]  [trungkinphm_X3vExD]  [3l4t3q0ndqaqnrrtj07szh44pimzifuvyhewhfjd]  [47cb033d-d1fd-40cd-a37b-cecaee769252]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkState: 'LOG',
+      timestamp: '2025-07-31T10:08:12.7739530+07:00',
+      uuid: '113caf1b-c2cb-40e4-8158-2ed40fe5c6fd',
+      kind: 'TEST_LOG',
+      message: '"Timed out after 30 seconds"',
+      level: 'INFO',
+      test_run_uuid: '113caf1b-c2cb-40e4-8158-2ed40fe5c6fd'
+    }
+  ]
+} to 16096:0
+2025-07-31T03:08:13.631Z CLI info [testhub:request-queue-handler]  [trungkinphm_X3vExD]  [3l4t3q0ndqaqnrrtj07szh44pimzifuvyhewhfjd]  [47cb033d-d1fd-40cd-a37b-cecaee769252]  Processing batch event [
+  { event_type: 'LogCreated', logs: [ [Object] ] },
+  { event_type: 'LogCreated', logs: [ [Object] ] }
+] to 16096:0
+2025-07-31T03:08:13.632Z CLI info  [trungkinphm_X3vExD]  [3l4t3q0ndqaqnrrtj07szh44pimzifuvyhewhfjd]  [47cb033d-d1fd-40cd-a37b-cecaee769252]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T03:08:45.233Z CLI warn [observability:csharp:nunit]  [trungkinphm_X3vExD]  [3l4t3q0ndqaqnrrtj07szh44pimzifuvyhewhfjd]  [47cb033d-d1fd-40cd-a37b-cecaee769252]  TestRunFinished: event={"isBrowserstackAutomationSession":true,"test_framework_name":"nunit","test_framework_version":"latest","test_logs":[],"test_uuid":"113caf1b-c2cb-40e4-8158-2ed40fe5c6fd","test_result":"skipped","test_rerun_name":"Checkout","test_id":"0-1003","test_name":"Checkout","test_tags":[],"test_code":"        {\r\n            CartTest.CheckOut_Test();\r\n        }\r\n","test_file_path":"MainTest.cs","test_location":"MainTest.cs","test_file_name":"MainTest.cs","test_scopes":["BrowserStack","MainTest"],"test_session_name":"BrowserStack.MainTest.Checkout","custom_metadata":{},"test_session_id":"d4036a35e82140864488a4b28b1d0c160242655b","test_started_at":"2025-07-31T03:07:39.8448280Z","test_result_at":"7/31/2025 10:08:43 AM","test_failure":null,"test_failure_type":null,"test_failure_reason":null,"logs":[]}
+2025-07-31T03:08:45.235Z CLI info [testhub:request-queue-handler]  [trungkinphm_X3vExD]  [3l4t3q0ndqaqnrrtj07szh44pimzifuvyhewhfjd]  [47cb033d-d1fd-40cd-a37b-cecaee769252]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'nunit',
+    uuid: '113caf1b-c2cb-40e4-8158-2ed40fe5c6fd',
+    name: 'Checkout',
+    body: {
+      lang: 'csharp',
+      code: '        {\r\n            CartTest.CheckOut_Test();\r\n        }\r\n'
+    },
+    identifier: 'Checkout',
+    scope: '',
+    scopes: [ 'BrowserStack', 'MainTest' ],
+    file_name: 'MainTest.cs',
+    vc_filepath: 'MainTest.cs',
+    location: 'MainTest.cs',
+    result: 'skipped',
+    duration_in_ms: null,
+    started_at: '2025-07-31T03:07:39.844Z',
+    failure: null,
+    failure_type: null,
+    failure_reason: null,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'Checkout' },
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: false,
+      app_automate: true
+    }
+  },
+  logs: []
+} to 16096:0
+2025-07-31T03:08:45.799Z CLI info [testhub:request-queue-handler]  [trungkinphm_X3vExD]  [3l4t3q0ndqaqnrrtj07szh44pimzifuvyhewhfjd]  [47cb033d-d1fd-40cd-a37b-cecaee769252]  Processing batch event [
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'nunit',
+      uuid: '113caf1b-c2cb-40e4-8158-2ed40fe5c6fd',
+      name: 'Checkout',
+      body: [Object],
+      identifier: 'Checkout',
+      scope: '',
+      scopes: [Array],
+      file_name: 'MainTest.cs',
+      vc_filepath: 'MainTest.cs',
+      location: 'MainTest.cs',
+      result: 'skipped',
+      duration_in_ms: null,
+      started_at: '2025-07-31T03:07:39.844Z',
+      failure: null,
+      failure_type: null,
+      failure_reason: null,
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      product_map: [Object]
+    },
+    logs: []
+  }
+] to 16096:0
+2025-07-31T03:08:45.801Z CLI info  [trungkinphm_X3vExD]  [3l4t3q0ndqaqnrrtj07szh44pimzifuvyhewhfjd]  [47cb033d-d1fd-40cd-a37b-cecaee769252]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T03:08:46.747Z CLI warn [observability:csharp:nunit]  [trungkinphm_X3vExD]  [3l4t3q0ndqaqnrrtj07szh44pimzifuvyhewhfjd]  [47cb033d-d1fd-40cd-a37b-cecaee769252]  TestRunFinished: event={"isBrowserstackAutomationSession":true,"test_framework_name":"nunit","test_framework_version":"latest","test_logs":[],"test_uuid":"113caf1b-c2cb-40e4-8158-2ed40fe5c6fd","test_result":"failed","test_rerun_name":"Checkout","test_id":"0-1003","test_name":"Checkout","test_tags":[],"test_code":"        {\r\n            CartTest.CheckOut_Test();\r\n        }\r\n","test_file_path":"MainTest.cs","test_location":"MainTest.cs","test_file_name":"MainTest.cs","test_scopes":["BrowserStack","MainTest"],"test_session_name":"BrowserStack.MainTest.Checkout","custom_metadata":{},"test_session_id":"d4036a35e82140864488a4b28b1d0c160242655b","test_started_at":"2025-07-31T03:07:39.8448280Z","test_result_at":"7/31/2025 10:08:45 AM","test_failure":[{"backtrace":["at BrowserStack.MainTest.Checkout(MainTest this)","at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)","at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)","--NoSuchElementException","at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)","at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)","at OpenQA.Selenium.Appium.AppiumDriver`1.Execute(String driverCommandToExecute, Dictionary`2 parameters)","at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)","at OpenQA.Selenium.Appium.AppiumDriver`1.FindElement(String by, String value)","at OpenQA.Selenium.Appium.AppiumDriver`1.FindElementByAccessibilityId(String selector)","at OpenQA.Selenium.Appium.ByAccessibilityId.FindElement(ISearchContext context)","at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)","at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass19_0.<ElementToBeClickable>b__0(IWebDriver driver)","at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)"]}],"test_failure_type":"UnhandledError","test_failure_reason":"OpenQA.Selenium.WebDriverTimeoutException : Timed out after 30 seconds\r   ----> OpenQA.Selenium.NoSuchElementException : An element could not be located on the page using the given search parameters.","logs":[]}
+2025-07-31T03:08:46.748Z CLI info [testhub:request-queue-handler]  [trungkinphm_X3vExD]  [3l4t3q0ndqaqnrrtj07szh44pimzifuvyhewhfjd]  [47cb033d-d1fd-40cd-a37b-cecaee769252]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'nunit',
+    uuid: '113caf1b-c2cb-40e4-8158-2ed40fe5c6fd',
+    name: 'Checkout',
+    body: {
+      lang: 'csharp',
+      code: '        {\r\n            CartTest.CheckOut_Test();\r\n        }\r\n'
+    },
+    identifier: 'Checkout',
+    scope: '',
+    scopes: [ 'BrowserStack', 'MainTest' ],
+    file_name: 'MainTest.cs',
+    vc_filepath: 'MainTest.cs',
+    location: 'MainTest.cs',
+    result: 'failed',
+    duration_in_ms: null,
+    started_at: '2025-07-31T03:07:39.844Z',
+    failure: [ [Object] ],
+    failure_type: 'UnhandledError',
+    failure_reason: 'OpenQA.Selenium.WebDriverTimeoutException : Timed out after 30 seconds\r   ----> OpenQA.Selenium.NoSuchElementException : An element could not be located on the page using the given search parameters.',
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'Checkout' },
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: false,
+      app_automate: true
+    }
+  },
+  logs: []
+} to 16096:0
+2025-07-31T03:08:47.813Z CLI info [testhub:request-queue-handler]  [trungkinphm_X3vExD]  [3l4t3q0ndqaqnrrtj07szh44pimzifuvyhewhfjd]  [47cb033d-d1fd-40cd-a37b-cecaee769252]  Processing batch event [
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'nunit',
+      uuid: '113caf1b-c2cb-40e4-8158-2ed40fe5c6fd',
+      name: 'Checkout',
+      body: [Object],
+      identifier: 'Checkout',
+      scope: '',
+      scopes: [Array],
+      file_name: 'MainTest.cs',
+      vc_filepath: 'MainTest.cs',
+      location: 'MainTest.cs',
+      result: 'failed',
+      duration_in_ms: null,
+      started_at: '2025-07-31T03:07:39.844Z',
+      failure: [Array],
+      failure_type: 'UnhandledError',
+      failure_reason: 'OpenQA.Selenium.WebDriverTimeoutException : Timed out after 30 seconds\r   ----> OpenQA.Selenium.NoSuchElementException : An element could not be located on the page using the given search parameters.',
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      product_map: [Object]
+    },
+    logs: []
+  }
+] to 16096:0
+2025-07-31T03:08:47.814Z CLI info  [trungkinphm_X3vExD]  [3l4t3q0ndqaqnrrtj07szh44pimzifuvyhewhfjd]  [47cb033d-d1fd-40cd-a37b-cecaee769252]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T03:08:48.774Z CLI info [testhub:request-queue-handler]  [trungkinphm_X3vExD]  [3l4t3q0ndqaqnrrtj07szh44pimzifuvyhewhfjd]  [47cb033d-d1fd-40cd-a37b-cecaee769252]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '113caf1b-c2cb-40e4-8158-2ed40fe5c6fd',
+    integrations: { browserstack: [Object] }
+  }
+} to 16096:0
+2025-07-31T03:08:48.779Z CLI warn [observability:csharp:nunit]  [trungkinphm_X3vExD]  [3l4t3q0ndqaqnrrtj07szh44pimzifuvyhewhfjd]  [47cb033d-d1fd-40cd-a37b-cecaee769252]  TestRunFinished: event={"isBrowserstackAutomationSession":true,"test_framework_name":"nunit","test_framework_version":"latest","test_logs":[],"test_uuid":"113caf1b-c2cb-40e4-8158-2ed40fe5c6fd","test_result":"failed","test_rerun_name":"Checkout","test_id":"0-1003","test_name":"Checkout","test_tags":[],"test_code":"        {\r\n            CartTest.CheckOut_Test();\r\n        }\r\n","test_file_path":"MainTest.cs","test_location":"MainTest.cs","test_file_name":"MainTest.cs","test_scopes":["BrowserStack","MainTest"],"test_session_name":"BrowserStack.MainTest.Checkout","custom_metadata":{},"test_session_id":"d4036a35e82140864488a4b28b1d0c160242655b","test_started_at":"2025-07-31T03:07:39.8448280Z","test_result_at":"7/31/2025 10:08:45 AM","test_failure":[{"backtrace":["OpenQA.Selenium.WebDriverTimeoutException : Timed out after 30 seconds\r\n  ----> OpenQA.Selenium.NoSuchElementException : An element could not be located on the page using the given search parameters.\n   at BrowserStack.MainTest.Checkout(MainTest this)\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)\r\n--NoSuchElementException\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1.FindElement(String by, String value)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1.FindElementByAccessibilityId(String selector)\r\n   at OpenQA.Selenium.Appium.ByAccessibilityId.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)\r\n   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass19_0.<ElementToBeClickable>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)"]}],"test_failure_type":"UnhandledError","test_failure_reason":"OpenQA.Selenium.WebDriverTimeoutException : Timed out after 30 seconds\r\n  ----> OpenQA.Selenium.NoSuchElementException : An element could not be located on the page using the given search parameters.","test_ended_at":"2025-07-31T03:08:48.7460809Z","cbt_session_created":true,"logs":[]}
+2025-07-31T03:08:48.780Z CLI info [testhub:request-queue-handler]  [trungkinphm_X3vExD]  [3l4t3q0ndqaqnrrtj07szh44pimzifuvyhewhfjd]  [47cb033d-d1fd-40cd-a37b-cecaee769252]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'nunit',
+    uuid: '113caf1b-c2cb-40e4-8158-2ed40fe5c6fd',
+    name: 'Checkout',
+    body: {
+      lang: 'csharp',
+      code: '        {\r\n            CartTest.CheckOut_Test();\r\n        }\r\n'
+    },
+    identifier: 'Checkout',
+    scope: '',
+    scopes: [ 'BrowserStack', 'MainTest' ],
+    file_name: 'MainTest.cs',
+    vc_filepath: 'MainTest.cs',
+    location: 'MainTest.cs',
+    result: 'failed',
+    duration_in_ms: 68902,
+    started_at: '2025-07-31T03:07:39.844Z',
+    finished_at: '2025-07-31T03:08:48.746Z',
+    failure: [ [Object] ],
+    failure_type: 'UnhandledError',
+    failure_reason: 'OpenQA.Selenium.WebDriverTimeoutException : Timed out after 30 seconds\r\n' +
+      '  ----> OpenQA.Selenium.NoSuchElementException : An element could not be located on the page using the given search parameters.',
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'Checkout' },
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: false,
+      app_automate: true
+    }
+  },
+  logs: []
+} to 16096:0
+2025-07-31T03:08:49.819Z CLI info [testhub:request-queue-handler]  [trungkinphm_X3vExD]  [3l4t3q0ndqaqnrrtj07szh44pimzifuvyhewhfjd]  [47cb033d-d1fd-40cd-a37b-cecaee769252]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '113caf1b-c2cb-40e4-8158-2ed40fe5c6fd',
+      integrations: [Object]
+    }
+  },
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'nunit',
+      uuid: '113caf1b-c2cb-40e4-8158-2ed40fe5c6fd',
+      name: 'Checkout',
+      body: [Object],
+      identifier: 'Checkout',
+      scope: '',
+      scopes: [Array],
+      file_name: 'MainTest.cs',
+      vc_filepath: 'MainTest.cs',
+      location: 'MainTest.cs',
+      result: 'failed',
+      duration_in_ms: 68902,
+      started_at: '2025-07-31T03:07:39.844Z',
+      finished_at: '2025-07-31T03:08:48.746Z',
+      failure: [Array],
+      failure_type: 'UnhandledError',
+      failure_reason: 'OpenQA.Selenium.WebDriverTimeoutException : Timed out after 30 seconds\r\n' +
+        '  ----> OpenQA.Selenium.NoSuchElementException : An element could not be located on the page using the given search parameters.',
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      product_map: [Object]
+    },
+    logs: []
+  }
+] to 16096:0
+2025-07-31T03:08:49.821Z CLI info  [trungkinphm_X3vExD]  [3l4t3q0ndqaqnrrtj07szh44pimzifuvyhewhfjd]  [47cb033d-d1fd-40cd-a37b-cecaee769252]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T03:08:56.391Z CLI info  [trungkinphm_X3vExD]  [3l4t3q0ndqaqnrrtj07szh44pimzifuvyhewhfjd]  [47cb033d-d1fd-40cd-a37b-cecaee769252]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T03:08:57.148Z CLI error [testhub:module]  [trungkinphm_X3vExD]  [3l4t3q0ndqaqnrrtj07szh44pimzifuvyhewhfjd]  [47cb033d-d1fd-40cd-a37b-cecaee769252]  [collectBuildData] Exception in collecting build data for build UUID 3l4t3q0ndqaqnrrtj07szh44pimzifuvyhewhfjd: {"message":"Build data collection started"}
+2025-07-31T03:08:57.148Z CLI info  [trungkinphm_X3vExD]  [3l4t3q0ndqaqnrrtj07szh44pimzifuvyhewhfjd]  [47cb033d-d1fd-40cd-a37b-cecaee769252]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-07-31T03:08:57.945Z CLI info [testhub:module]  [trungkinphm_X3vExD]  [3l4t3q0ndqaqnrrtj07szh44pimzifuvyhewhfjd]  [47cb033d-d1fd-40cd-a37b-cecaee769252]  stopBuild: 3l4t3q0ndqaqnrrtj07szh44pimzifuvyhewhfjd request={"finished_at":"2025-07-31T03:08:56.049Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2025-07-31T03:08:57.948Z CLI info  [trungkinphm_X3vExD]  [3l4t3q0ndqaqnrrtj07szh44pimzifuvyhewhfjd]  [47cb033d-d1fd-40cd-a37b-cecaee769252]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-07-31T03:08:57.949Z CLI info [observability:module]  [trungkinphm_X3vExD]  [3l4t3q0ndqaqnrrtj07szh44pimzifuvyhewhfjd]  [47cb033d-d1fd-40cd-a37b-cecaee769252]  Visit https://observability.browserstack.com/builds/3l4t3q0ndqaqnrrtj07szh44pimzifuvyhewhfjd to view build report, insights, and many more debugging information all at one place!
+2025-07-31T03:09:00.784Z CLI info  [trungkinphm_X3vExD]  [3l4t3q0ndqaqnrrtj07szh44pimzifuvyhewhfjd]  [47cb033d-d1fd-40cd-a37b-cecaee769252]  [PRODUCTION] Making POST request to https://eds.browserstack.com
+2025-07-31T03:15:52.261Z CLI info [main]     Server listening on port: 5400
+2025-07-31T03:15:52.458Z CLI info     Config : {"userName":"trungkinphm_X3vExD","accessKey":"LWqTUxCHdcLrLXhgXzAF","projectName":"BrowserStack Samples","buildName":"browserstack build","buildIdentifier":"#${BUILD_NUMBER}","source":"nunit:appium-sample-sdk:v1.0","app":"./SauceLabs-Demo-App.apk","platforms":[{"deviceName":"Samsung Galaxy S22","osVersion":12,"platformName":"android"}],"browserstackLocal":true,"debug":false,"networkLogs":false,"consoleLogs":"errors"}
+2025-07-31T03:15:52.507Z CLI info [testhub:module]  [trungkinphm_X3vExD]   [a7b5d72c-fb6f-47fd-a636-0b6566ac0829]  Starting testhub from 8864:0
+2025-07-31T03:15:52.508Z CLI info [testhub:module]  [trungkinphm_X3vExD]   [a7b5d72c-fb6f-47fd-a636-0b6566ac0829]  startBuild: payload=
+
+{"started_at":"2025-07-31T03:15:52.507Z","host_info":{"hostname":"LAPTOP-8LJ9PLF7","platform":"win32","type":"Windows_NT","version":"Windows 10 Home Single Language","arch":"x64"},"ci_info":{"build_number":null},"version_control":{"name":"git","sha":"9a7d41544c7a4ad98f3cef385f401c746dc719d7","short_sha":"9a7d41544c","branch":"main","tag":null,"committer":"WOFWind910 <kien.pt.64cntt@ntu.edu.vn>","committer_date":"2025-07-31T02:56:23.000Z","author":"WOFWind910 <kien.pt.64cntt@ntu.edu.vn>","author_date":"2025-07-31T02:56:23.000Z","commit_message":"up","root":"C:\\Users\\Admin\\Downloads\\BrowserStack\\android","common_git_dir":"C:\\Users\\Admin\\Downloads\\BrowserStack\\android\\.git","worktree_git_dir":"C:\\Users\\Admin\\Downloads\\BrowserStack\\android\\.git","last_tag":null,"commits_since_last_tag":0,"remotes":[{"name":"origin","url":"https://github.com/WOFWind910/BrowserStackMobile.git"}]},"project_name":"BrowserStack Samples","name":"browserstack build","build_identifier":"#91","build_run_identifier":null,"description":"","tags":[],"failed_tests_rerun":false,"accessibility":{"settings":{}},"framework_details":{"frameworkName":"nunit","frameworkVersion":"3.13.3","sdkVersion":"1.20.0","cliVersion":"1.6.2","language":"csharp","testFramework":{"name":"selenium","version":"3.141.0"},"source":"nunit:appium-sample-sdk:v1.0"},"product_map":{"observability":true,"accessibility":null,"percy":false,"automate":false,"app_automate":false},"browserstackAutomation":true,"test_orchestration":{}}
+2025-07-31T03:15:52.508Z CLI info  [trungkinphm_X3vExD]   [a7b5d72c-fb6f-47fd-a636-0b6566ac0829]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T03:15:53.564Z CLI info [testhub:module]  [trungkinphm_X3vExD]   [a7b5d72c-fb6f-47fd-a636-0b6566ac0829]  startBuild: response=0qtucq49ydjvhn1diy4usuhjbtrogajut155qdhm
+2025-07-31T03:15:53.566Z CLI info  [trungkinphm_X3vExD]  [0qtucq49ydjvhn1diy4usuhjbtrogajut155qdhm]  [a7b5d72c-fb6f-47fd-a636-0b6566ac0829]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-07-31T03:15:53.570Z CLI info  [trungkinphm_X3vExD]  [0qtucq49ydjvhn1diy4usuhjbtrogajut155qdhm]  [a7b5d72c-fb6f-47fd-a636-0b6566ac0829]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2025-07-31T03:15:54.083Z CLI error  [trungkinphm_X3vExD]  [0qtucq49ydjvhn1diy4usuhjbtrogajut155qdhm]  [a7b5d72c-fb6f-47fd-a636-0b6566ac0829]  error invoking callback for eventName: {}
+2025-07-31T03:15:54.083Z CLI error  [trungkinphm_X3vExD]  [0qtucq49ydjvhn1diy4usuhjbtrogajut155qdhm]  [a7b5d72c-fb6f-47fd-a636-0b6566ac0829]  Error: invalid percyToken=null
+    at C:\snapshot\browserstack-binary\cli\dist\index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-07-31T03:15:59.369Z CLI info [appautomate:service]  [trungkinphm_X3vExD]  [0qtucq49ydjvhn1diy4usuhjbtrogajut155qdhm]  [a7b5d72c-fb6f-47fd-a636-0b6566ac0829]  Using app: ./SauceLabs-Demo-App.apk
+2025-07-31T03:15:59.369Z CLI info [appautomate:service]  [trungkinphm_X3vExD]  [0qtucq49ydjvhn1diy4usuhjbtrogajut155qdhm]  [a7b5d72c-fb6f-47fd-a636-0b6566ac0829]  Uploading app C:\Users\Admin\Downloads\BrowserStack\android\SauceLabs-Demo-App.apk  to browserstack
+2025-07-31T03:15:59.371Z CLI info [appautomate:service]  [trungkinphm_X3vExD]  [0qtucq49ydjvhn1diy4usuhjbtrogajut155qdhm]  [a7b5d72c-fb6f-47fd-a636-0b6566ac0829]  App already uploaded with md5 Hash Id: bs://0a1bbed3029d51337bbb0230730a6deef4e9e0b3
+2025-07-31T03:16:09.232Z CLI info  [trungkinphm_X3vExD]  [0qtucq49ydjvhn1diy4usuhjbtrogajut155qdhm]  [a7b5d72c-fb6f-47fd-a636-0b6566ac0829]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2025-07-31T03:16:09.836Z CLI info  [trungkinphm_X3vExD]  [0qtucq49ydjvhn1diy4usuhjbtrogajut155qdhm]  [a7b5d72c-fb6f-47fd-a636-0b6566ac0829]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T03:16:09.879Z CLI info  [trungkinphm_X3vExD]  [0qtucq49ydjvhn1diy4usuhjbtrogajut155qdhm]  [a7b5d72c-fb6f-47fd-a636-0b6566ac0829]  [PRODUCTION] Making GET request to https://hub-apse.browserstack.com
+2025-07-31T03:16:09.879Z CLI info  [trungkinphm_X3vExD]  [0qtucq49ydjvhn1diy4usuhjbtrogajut155qdhm]  [a7b5d72c-fb6f-47fd-a636-0b6566ac0829]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2025-07-31T03:16:09.880Z CLI info  [trungkinphm_X3vExD]  [0qtucq49ydjvhn1diy4usuhjbtrogajut155qdhm]  [a7b5d72c-fb6f-47fd-a636-0b6566ac0829]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2025-07-31T03:16:10.608Z CLI error [testhub:module]  [trungkinphm_X3vExD]  [0qtucq49ydjvhn1diy4usuhjbtrogajut155qdhm]  [a7b5d72c-fb6f-47fd-a636-0b6566ac0829]  [collectBuildData] Exception in collecting build data for build UUID 0qtucq49ydjvhn1diy4usuhjbtrogajut155qdhm: {"message":"Build data collection started"}
+2025-07-31T03:16:10.609Z CLI info  [trungkinphm_X3vExD]  [0qtucq49ydjvhn1diy4usuhjbtrogajut155qdhm]  [a7b5d72c-fb6f-47fd-a636-0b6566ac0829]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-07-31T03:16:11.360Z CLI info [testhub:module]  [trungkinphm_X3vExD]  [0qtucq49ydjvhn1diy4usuhjbtrogajut155qdhm]  [a7b5d72c-fb6f-47fd-a636-0b6566ac0829]  stopBuild: 0qtucq49ydjvhn1diy4usuhjbtrogajut155qdhm request={"finished_at":"2025-07-31T03:16:09.484Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2025-07-31T03:16:11.361Z CLI info  [trungkinphm_X3vExD]  [0qtucq49ydjvhn1diy4usuhjbtrogajut155qdhm]  [a7b5d72c-fb6f-47fd-a636-0b6566ac0829]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-07-31T03:16:11.362Z CLI info [observability:module]  [trungkinphm_X3vExD]  [0qtucq49ydjvhn1diy4usuhjbtrogajut155qdhm]  [a7b5d72c-fb6f-47fd-a636-0b6566ac0829]  Visit https://observability.browserstack.com/builds/0qtucq49ydjvhn1diy4usuhjbtrogajut155qdhm to view build report, insights, and many more debugging information all at one place!
+2025-07-31T03:16:14.162Z CLI info  [trungkinphm_X3vExD]  [0qtucq49ydjvhn1diy4usuhjbtrogajut155qdhm]  [a7b5d72c-fb6f-47fd-a636-0b6566ac0829]  [PRODUCTION] Making POST request to https://eds.browserstack.com
+2025-07-31T03:16:28.981Z CLI info [main]     Server listening on port: 5400
+2025-07-31T03:16:29.175Z CLI info     Config : {"userName":"trungkinphm_X3vExD","accessKey":"LWqTUxCHdcLrLXhgXzAF","projectName":"BrowserStack Samples","buildName":"browserstack build","buildIdentifier":"#${BUILD_NUMBER}","source":"nunit:appium-sample-sdk:v1.0","app":"./SauceLabs-Demo-App.apk","platforms":[{"deviceName":"Samsung Galaxy S22","osVersion":12,"platformName":"android"}],"browserstackLocal":true,"debug":false,"networkLogs":false,"consoleLogs":"errors"}
+2025-07-31T03:16:29.193Z CLI info [testhub:module]  [trungkinphm_X3vExD]   [d4f6d03c-b52a-4505-9999-f84210daac34]  Starting testhub from 2068:0
+2025-07-31T03:16:29.194Z CLI info [testhub:module]  [trungkinphm_X3vExD]   [d4f6d03c-b52a-4505-9999-f84210daac34]  startBuild: payload=
+
+{"started_at":"2025-07-31T03:16:29.194Z","host_info":{"hostname":"LAPTOP-8LJ9PLF7","platform":"win32","type":"Windows_NT","version":"Windows 10 Home Single Language","arch":"x64"},"ci_info":{"build_number":null},"version_control":{"name":"git","sha":"9a7d41544c7a4ad98f3cef385f401c746dc719d7","short_sha":"9a7d41544c","branch":"main","tag":null,"committer":"WOFWind910 <kien.pt.64cntt@ntu.edu.vn>","committer_date":"2025-07-31T02:56:23.000Z","author":"WOFWind910 <kien.pt.64cntt@ntu.edu.vn>","author_date":"2025-07-31T02:56:23.000Z","commit_message":"up","root":"C:\\Users\\Admin\\Downloads\\BrowserStack\\android","common_git_dir":"C:\\Users\\Admin\\Downloads\\BrowserStack\\android\\.git","worktree_git_dir":"C:\\Users\\Admin\\Downloads\\BrowserStack\\android\\.git","last_tag":null,"commits_since_last_tag":0,"remotes":[{"name":"origin","url":"https://github.com/WOFWind910/BrowserStackMobile.git"}]},"project_name":"BrowserStack Samples","name":"browserstack build","build_identifier":"#92","build_run_identifier":null,"description":"","tags":[],"failed_tests_rerun":false,"accessibility":{"settings":{}},"framework_details":{"frameworkName":"nunit","frameworkVersion":"3.13.3","sdkVersion":"1.20.0","cliVersion":"1.6.2","language":"csharp","testFramework":{"name":"selenium","version":"3.141.0"},"source":"nunit:appium-sample-sdk:v1.0"},"product_map":{"observability":true,"accessibility":null,"percy":false,"automate":false,"app_automate":false},"browserstackAutomation":true,"test_orchestration":{}}
+2025-07-31T03:16:29.195Z CLI info  [trungkinphm_X3vExD]   [d4f6d03c-b52a-4505-9999-f84210daac34]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T03:16:30.124Z CLI info [testhub:module]  [trungkinphm_X3vExD]   [d4f6d03c-b52a-4505-9999-f84210daac34]  startBuild: response=9cr0o2gn5jqofyxjvp4gnrfy7oifr9sjsznisday
+2025-07-31T03:16:30.126Z CLI info  [trungkinphm_X3vExD]  [9cr0o2gn5jqofyxjvp4gnrfy7oifr9sjsznisday]  [d4f6d03c-b52a-4505-9999-f84210daac34]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-07-31T03:16:30.128Z CLI info  [trungkinphm_X3vExD]  [9cr0o2gn5jqofyxjvp4gnrfy7oifr9sjsznisday]  [d4f6d03c-b52a-4505-9999-f84210daac34]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2025-07-31T03:16:30.577Z CLI error  [trungkinphm_X3vExD]  [9cr0o2gn5jqofyxjvp4gnrfy7oifr9sjsznisday]  [d4f6d03c-b52a-4505-9999-f84210daac34]  error invoking callback for eventName: {}
+2025-07-31T03:16:30.577Z CLI error  [trungkinphm_X3vExD]  [9cr0o2gn5jqofyxjvp4gnrfy7oifr9sjsznisday]  [d4f6d03c-b52a-4505-9999-f84210daac34]  Error: invalid percyToken=null
+    at C:\snapshot\browserstack-binary\cli\dist\index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-07-31T03:16:34.968Z CLI info [appautomate:service]  [trungkinphm_X3vExD]  [9cr0o2gn5jqofyxjvp4gnrfy7oifr9sjsznisday]  [d4f6d03c-b52a-4505-9999-f84210daac34]  Using app: ./SauceLabs-Demo-App.apk
+2025-07-31T03:16:34.968Z CLI info [appautomate:service]  [trungkinphm_X3vExD]  [9cr0o2gn5jqofyxjvp4gnrfy7oifr9sjsznisday]  [d4f6d03c-b52a-4505-9999-f84210daac34]  Uploading app C:\Users\Admin\Downloads\BrowserStack\android\SauceLabs-Demo-App.apk  to browserstack
+2025-07-31T03:16:34.971Z CLI info [appautomate:service]  [trungkinphm_X3vExD]  [9cr0o2gn5jqofyxjvp4gnrfy7oifr9sjsznisday]  [d4f6d03c-b52a-4505-9999-f84210daac34]  App already uploaded with md5 Hash Id: bs://0a1bbed3029d51337bbb0230730a6deef4e9e0b3
+2025-07-31T03:16:46.361Z CLI info  [trungkinphm_X3vExD]  [9cr0o2gn5jqofyxjvp4gnrfy7oifr9sjsznisday]  [d4f6d03c-b52a-4505-9999-f84210daac34]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2025-07-31T03:16:47.014Z CLI info  [trungkinphm_X3vExD]  [9cr0o2gn5jqofyxjvp4gnrfy7oifr9sjsznisday]  [d4f6d03c-b52a-4505-9999-f84210daac34]  [PRODUCTION] Making GET request to https://hub-apse.browserstack.com
+2025-07-31T03:16:47.014Z CLI info  [trungkinphm_X3vExD]  [9cr0o2gn5jqofyxjvp4gnrfy7oifr9sjsznisday]  [d4f6d03c-b52a-4505-9999-f84210daac34]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2025-07-31T03:16:47.015Z CLI info  [trungkinphm_X3vExD]  [9cr0o2gn5jqofyxjvp4gnrfy7oifr9sjsznisday]  [d4f6d03c-b52a-4505-9999-f84210daac34]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2025-07-31T03:17:09.656Z CLI info [testhub:request-queue-handler]  [trungkinphm_X3vExD]  [9cr0o2gn5jqofyxjvp4gnrfy7oifr9sjsznisday]  [d4f6d03c-b52a-4505-9999-f84210daac34]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'nunit',
+    uuid: '11107021-3898-4709-b953-09ec89ffbced',
+    name: 'Drawing',
+    body: {
+      lang: 'csharp',
+      code: '        {\r\n            DrawingTest.Drawing_Test();\r\n        }\r\n'
+    },
+    identifier: 'Drawing',
+    scope: '',
+    scopes: [ 'BrowserStack', 'MainTest' ],
+    file_name: 'MainTest.cs',
+    vc_filepath: 'MainTest.cs',
+    location: 'MainTest.cs',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-07-31T03:17:09.628Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'Drawing' },
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: false,
+      app_automate: true
+    }
+  },
+  logs: []
+} to 2068:0
+2025-07-31T03:17:10.256Z CLI info [testhub:request-queue-handler]  [trungkinphm_X3vExD]  [9cr0o2gn5jqofyxjvp4gnrfy7oifr9sjsznisday]  [d4f6d03c-b52a-4505-9999-f84210daac34]  Processing batch event [
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'nunit',
+      uuid: '11107021-3898-4709-b953-09ec89ffbced',
+      name: 'Drawing',
+      body: [Object],
+      identifier: 'Drawing',
+      scope: '',
+      scopes: [Array],
+      file_name: 'MainTest.cs',
+      vc_filepath: 'MainTest.cs',
+      location: 'MainTest.cs',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-07-31T03:17:09.628Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      product_map: [Object]
+    },
+    logs: []
+  }
+] to 2068:0
+2025-07-31T03:17:10.257Z CLI info  [trungkinphm_X3vExD]  [9cr0o2gn5jqofyxjvp4gnrfy7oifr9sjsznisday]  [d4f6d03c-b52a-4505-9999-f84210daac34]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T03:17:28.606Z CLI info  [trungkinphm_X3vExD]  [9cr0o2gn5jqofyxjvp4gnrfy7oifr9sjsznisday]  [d4f6d03c-b52a-4505-9999-f84210daac34]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T03:17:32.928Z CLI warn [observability:csharp:nunit]  [trungkinphm_X3vExD]  [9cr0o2gn5jqofyxjvp4gnrfy7oifr9sjsznisday]  [d4f6d03c-b52a-4505-9999-f84210daac34]  TestRunFinished: event={"isBrowserstackAutomationSession":true,"test_framework_name":"nunit","test_framework_version":"latest","test_logs":[],"test_uuid":"11107021-3898-4709-b953-09ec89ffbced","test_result":"skipped","test_rerun_name":"Drawing","test_id":"0-1004","test_name":"Drawing","test_tags":[],"test_code":"        {\r\n            DrawingTest.Drawing_Test();\r\n        }\r\n","test_file_path":"MainTest.cs","test_location":"MainTest.cs","test_file_name":"MainTest.cs","test_scopes":["BrowserStack","MainTest"],"test_session_name":"BrowserStack.MainTest.Drawing","custom_metadata":{},"test_session_id":"99aeb49aefbe2cbb1fb15ce532453bf5479c90bb","test_started_at":"2025-07-31T03:17:09.6288129Z","test_result_at":"7/31/2025 10:17:31 AM","test_failure":null,"test_failure_type":null,"test_failure_reason":null,"logs":[]}
+2025-07-31T03:17:32.929Z CLI info [testhub:request-queue-handler]  [trungkinphm_X3vExD]  [9cr0o2gn5jqofyxjvp4gnrfy7oifr9sjsznisday]  [d4f6d03c-b52a-4505-9999-f84210daac34]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'nunit',
+    uuid: '11107021-3898-4709-b953-09ec89ffbced',
+    name: 'Drawing',
+    body: {
+      lang: 'csharp',
+      code: '        {\r\n            DrawingTest.Drawing_Test();\r\n        }\r\n'
+    },
+    identifier: 'Drawing',
+    scope: '',
+    scopes: [ 'BrowserStack', 'MainTest' ],
+    file_name: 'MainTest.cs',
+    vc_filepath: 'MainTest.cs',
+    location: 'MainTest.cs',
+    result: 'skipped',
+    duration_in_ms: null,
+    started_at: '2025-07-31T03:17:09.628Z',
+    failure: null,
+    failure_type: null,
+    failure_reason: null,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'Drawing' },
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: false,
+      app_automate: true
+    }
+  },
+  logs: []
+} to 2068:0
+2025-07-31T03:17:33.048Z CLI info [testhub:request-queue-handler]  [trungkinphm_X3vExD]  [9cr0o2gn5jqofyxjvp4gnrfy7oifr9sjsznisday]  [d4f6d03c-b52a-4505-9999-f84210daac34]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '11107021-3898-4709-b953-09ec89ffbced',
+    integrations: { browserstack: [Object] }
+  }
+} to 2068:0
+2025-07-31T03:17:33.055Z CLI warn [observability:csharp:nunit]  [trungkinphm_X3vExD]  [9cr0o2gn5jqofyxjvp4gnrfy7oifr9sjsznisday]  [d4f6d03c-b52a-4505-9999-f84210daac34]  TestRunFinished: event={"isBrowserstackAutomationSession":true,"test_framework_name":"nunit","test_framework_version":"latest","test_logs":[],"test_uuid":"11107021-3898-4709-b953-09ec89ffbced","test_result":"passed","test_rerun_name":"Drawing","test_id":"0-1004","test_name":"Drawing","test_tags":[],"test_code":"        {\r\n            DrawingTest.Drawing_Test();\r\n        }\r\n","test_file_path":"MainTest.cs","test_location":"MainTest.cs","test_file_name":"MainTest.cs","test_scopes":["BrowserStack","MainTest"],"test_session_name":"BrowserStack.MainTest.Drawing","custom_metadata":{},"test_session_id":"99aeb49aefbe2cbb1fb15ce532453bf5479c90bb","test_started_at":"2025-07-31T03:17:09.6288129Z","test_result_at":"7/31/2025 10:17:31 AM","test_failure":null,"test_failure_type":null,"test_failure_reason":null,"test_ended_at":"2025-07-31T03:17:32.9934904Z","cbt_session_created":true,"logs":[]}
+2025-07-31T03:17:33.056Z CLI info [testhub:request-queue-handler]  [trungkinphm_X3vExD]  [9cr0o2gn5jqofyxjvp4gnrfy7oifr9sjsznisday]  [d4f6d03c-b52a-4505-9999-f84210daac34]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'nunit',
+    uuid: '11107021-3898-4709-b953-09ec89ffbced',
+    name: 'Drawing',
+    body: {
+      lang: 'csharp',
+      code: '        {\r\n            DrawingTest.Drawing_Test();\r\n        }\r\n'
+    },
+    identifier: 'Drawing',
+    scope: '',
+    scopes: [ 'BrowserStack', 'MainTest' ],
+    file_name: 'MainTest.cs',
+    vc_filepath: 'MainTest.cs',
+    location: 'MainTest.cs',
+    result: 'passed',
+    duration_in_ms: 23365,
+    started_at: '2025-07-31T03:17:09.628Z',
+    finished_at: '2025-07-31T03:17:32.993Z',
+    failure: null,
+    failure_type: null,
+    failure_reason: null,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'Drawing' },
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: false,
+      app_automate: true
+    }
+  },
+  logs: []
+} to 2068:0
+2025-07-31T03:17:34.343Z CLI info [testhub:request-queue-handler]  [trungkinphm_X3vExD]  [9cr0o2gn5jqofyxjvp4gnrfy7oifr9sjsznisday]  [d4f6d03c-b52a-4505-9999-f84210daac34]  Processing batch event [
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'nunit',
+      uuid: '11107021-3898-4709-b953-09ec89ffbced',
+      name: 'Drawing',
+      body: [Object],
+      identifier: 'Drawing',
+      scope: '',
+      scopes: [Array],
+      file_name: 'MainTest.cs',
+      vc_filepath: 'MainTest.cs',
+      location: 'MainTest.cs',
+      result: 'skipped',
+      duration_in_ms: null,
+      started_at: '2025-07-31T03:17:09.628Z',
+      failure: null,
+      failure_type: null,
+      failure_reason: null,
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      product_map: [Object]
+    },
+    logs: []
+  },
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '11107021-3898-4709-b953-09ec89ffbced',
+      integrations: [Object]
+    }
+  },
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'nunit',
+      uuid: '11107021-3898-4709-b953-09ec89ffbced',
+      name: 'Drawing',
+      body: [Object],
+      identifier: 'Drawing',
+      scope: '',
+      scopes: [Array],
+      file_name: 'MainTest.cs',
+      vc_filepath: 'MainTest.cs',
+      location: 'MainTest.cs',
+      result: 'passed',
+      duration_in_ms: 23365,
+      started_at: '2025-07-31T03:17:09.628Z',
+      finished_at: '2025-07-31T03:17:32.993Z',
+      failure: null,
+      failure_type: null,
+      failure_reason: null,
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      product_map: [Object]
+    },
+    logs: []
+  }
+] to 2068:0
+2025-07-31T03:17:34.344Z CLI info  [trungkinphm_X3vExD]  [9cr0o2gn5jqofyxjvp4gnrfy7oifr9sjsznisday]  [d4f6d03c-b52a-4505-9999-f84210daac34]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T03:17:45.272Z CLI info  [trungkinphm_X3vExD]  [9cr0o2gn5jqofyxjvp4gnrfy7oifr9sjsznisday]  [d4f6d03c-b52a-4505-9999-f84210daac34]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T03:17:46.035Z CLI error [testhub:module]  [trungkinphm_X3vExD]  [9cr0o2gn5jqofyxjvp4gnrfy7oifr9sjsznisday]  [d4f6d03c-b52a-4505-9999-f84210daac34]  [collectBuildData] Exception in collecting build data for build UUID 9cr0o2gn5jqofyxjvp4gnrfy7oifr9sjsznisday: {"message":"Build data collection started"}
+2025-07-31T03:17:46.037Z CLI info  [trungkinphm_X3vExD]  [9cr0o2gn5jqofyxjvp4gnrfy7oifr9sjsznisday]  [d4f6d03c-b52a-4505-9999-f84210daac34]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-07-31T03:17:46.838Z CLI info [testhub:module]  [trungkinphm_X3vExD]  [9cr0o2gn5jqofyxjvp4gnrfy7oifr9sjsznisday]  [d4f6d03c-b52a-4505-9999-f84210daac34]  stopBuild: 9cr0o2gn5jqofyxjvp4gnrfy7oifr9sjsznisday request={"finished_at":"2025-07-31T03:17:44.951Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2025-07-31T03:17:46.841Z CLI info  [trungkinphm_X3vExD]  [9cr0o2gn5jqofyxjvp4gnrfy7oifr9sjsznisday]  [d4f6d03c-b52a-4505-9999-f84210daac34]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-07-31T03:17:46.842Z CLI info [observability:module]  [trungkinphm_X3vExD]  [9cr0o2gn5jqofyxjvp4gnrfy7oifr9sjsznisday]  [d4f6d03c-b52a-4505-9999-f84210daac34]  Visit https://observability.browserstack.com/builds/9cr0o2gn5jqofyxjvp4gnrfy7oifr9sjsznisday to view build report, insights, and many more debugging information all at one place!
+2025-07-31T03:17:49.668Z CLI info  [trungkinphm_X3vExD]  [9cr0o2gn5jqofyxjvp4gnrfy7oifr9sjsznisday]  [d4f6d03c-b52a-4505-9999-f84210daac34]  [PRODUCTION] Making POST request to https://eds.browserstack.com
+2025-07-31T03:19:32.838Z CLI info [main]     Server listening on port: 5400
+2025-07-31T03:19:33.032Z CLI info     Config : {"userName":"trungkinphm_X3vExD","accessKey":"LWqTUxCHdcLrLXhgXzAF","projectName":"BrowserStack Samples","buildName":"browserstack build","buildIdentifier":"#${BUILD_NUMBER}","source":"nunit:appium-sample-sdk:v1.0","app":"./SauceLabs-Demo-App.apk","platforms":[{"deviceName":"Samsung Galaxy S22","osVersion":12,"platformName":"android"}],"browserstackLocal":true,"debug":false,"networkLogs":false,"consoleLogs":"errors"}
+2025-07-31T03:19:33.076Z CLI info [testhub:module]  [trungkinphm_X3vExD]   [a437193e-5374-4c3a-9433-ad5b0f38a7db]  Starting testhub from 19076:0
+2025-07-31T03:19:33.077Z CLI info [testhub:module]  [trungkinphm_X3vExD]   [a437193e-5374-4c3a-9433-ad5b0f38a7db]  startBuild: payload=
+
+{"started_at":"2025-07-31T03:19:33.077Z","host_info":{"hostname":"LAPTOP-8LJ9PLF7","platform":"win32","type":"Windows_NT","version":"Windows 10 Home Single Language","arch":"x64"},"ci_info":{"build_number":null},"version_control":{"name":"git","sha":"9a7d41544c7a4ad98f3cef385f401c746dc719d7","short_sha":"9a7d41544c","branch":"main","tag":null,"committer":"WOFWind910 <kien.pt.64cntt@ntu.edu.vn>","committer_date":"2025-07-31T02:56:23.000Z","author":"WOFWind910 <kien.pt.64cntt@ntu.edu.vn>","author_date":"2025-07-31T02:56:23.000Z","commit_message":"up","root":"C:\\Users\\Admin\\Downloads\\BrowserStack\\android","common_git_dir":"C:\\Users\\Admin\\Downloads\\BrowserStack\\android\\.git","worktree_git_dir":"C:\\Users\\Admin\\Downloads\\BrowserStack\\android\\.git","last_tag":null,"commits_since_last_tag":0,"remotes":[{"name":"origin","url":"https://github.com/WOFWind910/BrowserStackMobile.git"}]},"project_name":"BrowserStack Samples","name":"browserstack build","build_identifier":"#93","build_run_identifier":null,"description":"","tags":[],"failed_tests_rerun":false,"accessibility":{"settings":{}},"framework_details":{"frameworkName":"nunit","frameworkVersion":"3.13.3","sdkVersion":"1.20.0","cliVersion":"1.6.2","language":"csharp","testFramework":{"name":"selenium","version":"3.141.0"},"source":"nunit:appium-sample-sdk:v1.0"},"product_map":{"observability":true,"accessibility":null,"percy":false,"automate":false,"app_automate":false},"browserstackAutomation":true,"test_orchestration":{}}
+2025-07-31T03:19:33.078Z CLI info  [trungkinphm_X3vExD]   [a437193e-5374-4c3a-9433-ad5b0f38a7db]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T03:19:34.277Z CLI info [testhub:module]  [trungkinphm_X3vExD]   [a437193e-5374-4c3a-9433-ad5b0f38a7db]  startBuild: response=vetuj20glwpiacea6eplxs3xjnvev98netupiard
+2025-07-31T03:19:34.280Z CLI info  [trungkinphm_X3vExD]  [vetuj20glwpiacea6eplxs3xjnvev98netupiard]  [a437193e-5374-4c3a-9433-ad5b0f38a7db]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-07-31T03:19:34.283Z CLI info  [trungkinphm_X3vExD]  [vetuj20glwpiacea6eplxs3xjnvev98netupiard]  [a437193e-5374-4c3a-9433-ad5b0f38a7db]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2025-07-31T03:19:34.735Z CLI error  [trungkinphm_X3vExD]  [vetuj20glwpiacea6eplxs3xjnvev98netupiard]  [a437193e-5374-4c3a-9433-ad5b0f38a7db]  error invoking callback for eventName: {}
+2025-07-31T03:19:34.735Z CLI error  [trungkinphm_X3vExD]  [vetuj20glwpiacea6eplxs3xjnvev98netupiard]  [a437193e-5374-4c3a-9433-ad5b0f38a7db]  Error: invalid percyToken=null
+    at C:\snapshot\browserstack-binary\cli\dist\index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-07-31T03:19:40.594Z CLI info [appautomate:service]  [trungkinphm_X3vExD]  [vetuj20glwpiacea6eplxs3xjnvev98netupiard]  [a437193e-5374-4c3a-9433-ad5b0f38a7db]  Using app: ./SauceLabs-Demo-App.apk
+2025-07-31T03:19:40.594Z CLI info [appautomate:service]  [trungkinphm_X3vExD]  [vetuj20glwpiacea6eplxs3xjnvev98netupiard]  [a437193e-5374-4c3a-9433-ad5b0f38a7db]  Uploading app C:\Users\Admin\Downloads\BrowserStack\android\SauceLabs-Demo-App.apk  to browserstack
+2025-07-31T03:19:40.597Z CLI info [appautomate:service]  [trungkinphm_X3vExD]  [vetuj20glwpiacea6eplxs3xjnvev98netupiard]  [a437193e-5374-4c3a-9433-ad5b0f38a7db]  App already uploaded with md5 Hash Id: bs://0a1bbed3029d51337bbb0230730a6deef4e9e0b3
+2025-07-31T03:19:50.588Z CLI info  [trungkinphm_X3vExD]  [vetuj20glwpiacea6eplxs3xjnvev98netupiard]  [a437193e-5374-4c3a-9433-ad5b0f38a7db]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2025-07-31T03:19:51.251Z CLI info  [trungkinphm_X3vExD]  [vetuj20glwpiacea6eplxs3xjnvev98netupiard]  [a437193e-5374-4c3a-9433-ad5b0f38a7db]  [PRODUCTION] Making GET request to https://hub-apse.browserstack.com
+2025-07-31T03:19:51.252Z CLI info  [trungkinphm_X3vExD]  [vetuj20glwpiacea6eplxs3xjnvev98netupiard]  [a437193e-5374-4c3a-9433-ad5b0f38a7db]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2025-07-31T03:19:51.252Z CLI info  [trungkinphm_X3vExD]  [vetuj20glwpiacea6eplxs3xjnvev98netupiard]  [a437193e-5374-4c3a-9433-ad5b0f38a7db]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2025-07-31T03:20:12.649Z CLI info [testhub:request-queue-handler]  [trungkinphm_X3vExD]  [vetuj20glwpiacea6eplxs3xjnvev98netupiard]  [a437193e-5374-4c3a-9433-ad5b0f38a7db]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'nunit',
+    uuid: '2f824b0a-7816-40b9-89ed-06ad91cdf336',
+    name: 'Login',
+    body: {
+      lang: 'csharp',
+      code: '        {\r\n            LoginTest.Login_Test();\r\n        }\r\n'
+    },
+    identifier: 'Login',
+    scope: '',
+    scopes: [ 'BrowserStack', 'MainTest' ],
+    file_name: 'MainTest.cs',
+    vc_filepath: 'MainTest.cs',
+    location: 'MainTest.cs',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-07-31T03:20:12.636Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'Login' },
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: false,
+      app_automate: true
+    }
+  },
+  logs: []
+} to 19076:0
+2025-07-31T03:20:14.438Z CLI info [testhub:request-queue-handler]  [trungkinphm_X3vExD]  [vetuj20glwpiacea6eplxs3xjnvev98netupiard]  [a437193e-5374-4c3a-9433-ad5b0f38a7db]  Processing batch event [
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'nunit',
+      uuid: '2f824b0a-7816-40b9-89ed-06ad91cdf336',
+      name: 'Login',
+      body: [Object],
+      identifier: 'Login',
+      scope: '',
+      scopes: [Array],
+      file_name: 'MainTest.cs',
+      vc_filepath: 'MainTest.cs',
+      location: 'MainTest.cs',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-07-31T03:20:12.636Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      product_map: [Object]
+    },
+    logs: []
+  }
+] to 19076:0
+2025-07-31T03:20:14.439Z CLI info  [trungkinphm_X3vExD]  [vetuj20glwpiacea6eplxs3xjnvev98netupiard]  [a437193e-5374-4c3a-9433-ad5b0f38a7db]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T03:20:34.726Z CLI info  [trungkinphm_X3vExD]  [vetuj20glwpiacea6eplxs3xjnvev98netupiard]  [a437193e-5374-4c3a-9433-ad5b0f38a7db]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T03:20:50.505Z CLI info  [trungkinphm_X3vExD]  [vetuj20glwpiacea6eplxs3xjnvev98netupiard]  [a437193e-5374-4c3a-9433-ad5b0f38a7db]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T03:21:06.027Z CLI info  [trungkinphm_X3vExD]  [vetuj20glwpiacea6eplxs3xjnvev98netupiard]  [a437193e-5374-4c3a-9433-ad5b0f38a7db]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T03:21:16.723Z CLI warn [observability:csharp:nunit]  [trungkinphm_X3vExD]  [vetuj20glwpiacea6eplxs3xjnvev98netupiard]  [a437193e-5374-4c3a-9433-ad5b0f38a7db]  TestRunFinished: event={"isBrowserstackAutomationSession":true,"test_framework_name":"nunit","test_framework_version":"latest","test_logs":[],"test_uuid":"2f824b0a-7816-40b9-89ed-06ad91cdf336","test_result":"skipped","test_rerun_name":"Login","test_id":"0-1001","test_name":"Login","test_tags":[],"test_code":"        {\r\n            LoginTest.Login_Test();\r\n        }\r\n","test_file_path":"MainTest.cs","test_location":"MainTest.cs","test_file_name":"MainTest.cs","test_scopes":["BrowserStack","MainTest"],"test_session_name":"BrowserStack.MainTest.Login","custom_metadata":{},"test_session_id":"482cdf54f0d27e7de4061131753b1b752a1403da","test_started_at":"2025-07-31T03:20:12.6365801Z","test_result_at":"7/31/2025 10:21:15 AM","test_failure":null,"test_failure_type":null,"test_failure_reason":null,"logs":[]}
+2025-07-31T03:21:16.725Z CLI info [testhub:request-queue-handler]  [trungkinphm_X3vExD]  [vetuj20glwpiacea6eplxs3xjnvev98netupiard]  [a437193e-5374-4c3a-9433-ad5b0f38a7db]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'nunit',
+    uuid: '2f824b0a-7816-40b9-89ed-06ad91cdf336',
+    name: 'Login',
+    body: {
+      lang: 'csharp',
+      code: '        {\r\n            LoginTest.Login_Test();\r\n        }\r\n'
+    },
+    identifier: 'Login',
+    scope: '',
+    scopes: [ 'BrowserStack', 'MainTest' ],
+    file_name: 'MainTest.cs',
+    vc_filepath: 'MainTest.cs',
+    location: 'MainTest.cs',
+    result: 'skipped',
+    duration_in_ms: null,
+    started_at: '2025-07-31T03:20:12.636Z',
+    failure: null,
+    failure_type: null,
+    failure_reason: null,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'Login' },
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: false,
+      app_automate: true
+    }
+  },
+  logs: []
+} to 19076:0
+2025-07-31T03:21:16.789Z CLI warn [observability:csharp]  [trungkinphm_X3vExD]  [vetuj20glwpiacea6eplxs3xjnvev98netupiard]  [a437193e-5374-4c3a-9433-ad5b0f38a7db]  onTestSessionEvent: empty automation sessions for testUuid=2f824b0a-7816-40b9-89ed-06ad91cdf336
+2025-07-31T03:21:16.794Z CLI warn [observability:csharp:nunit]  [trungkinphm_X3vExD]  [vetuj20glwpiacea6eplxs3xjnvev98netupiard]  [a437193e-5374-4c3a-9433-ad5b0f38a7db]  TestRunFinished: event={"isBrowserstackAutomationSession":true,"test_framework_name":"nunit","test_framework_version":"latest","test_logs":[],"test_uuid":"2f824b0a-7816-40b9-89ed-06ad91cdf336","test_result":"passed","test_rerun_name":"Login","test_id":"0-1001","test_name":"Login","test_tags":[],"test_code":"        {\r\n            LoginTest.Login_Test();\r\n        }\r\n","test_file_path":"MainTest.cs","test_location":"MainTest.cs","test_file_name":"MainTest.cs","test_scopes":["BrowserStack","MainTest"],"test_session_name":"BrowserStack.MainTest.Login","custom_metadata":{},"test_session_id":"482cdf54f0d27e7de4061131753b1b752a1403da","test_started_at":"2025-07-31T03:20:12.6365801Z","test_result_at":"7/31/2025 10:21:15 AM","test_failure":null,"test_failure_type":null,"test_failure_reason":null,"test_ended_at":"2025-07-31T03:21:16.7797073Z","cbt_session_created":true,"logs":[]}
+2025-07-31T03:21:16.794Z CLI info [testhub:request-queue-handler]  [trungkinphm_X3vExD]  [vetuj20glwpiacea6eplxs3xjnvev98netupiard]  [a437193e-5374-4c3a-9433-ad5b0f38a7db]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'nunit',
+    uuid: '2f824b0a-7816-40b9-89ed-06ad91cdf336',
+    name: 'Login',
+    body: {
+      lang: 'csharp',
+      code: '        {\r\n            LoginTest.Login_Test();\r\n        }\r\n'
+    },
+    identifier: 'Login',
+    scope: '',
+    scopes: [ 'BrowserStack', 'MainTest' ],
+    file_name: 'MainTest.cs',
+    vc_filepath: 'MainTest.cs',
+    location: 'MainTest.cs',
+    result: 'passed',
+    duration_in_ms: 64143,
+    started_at: '2025-07-31T03:20:12.636Z',
+    finished_at: '2025-07-31T03:21:16.779Z',
+    failure: null,
+    failure_type: null,
+    failure_reason: null,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'Login' },
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: false,
+      app_automate: true
+    }
+  },
+  logs: []
+} to 19076:0
+2025-07-31T03:21:18.644Z CLI info [testhub:request-queue-handler]  [trungkinphm_X3vExD]  [vetuj20glwpiacea6eplxs3xjnvev98netupiard]  [a437193e-5374-4c3a-9433-ad5b0f38a7db]  Processing batch event [
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'nunit',
+      uuid: '2f824b0a-7816-40b9-89ed-06ad91cdf336',
+      name: 'Login',
+      body: [Object],
+      identifier: 'Login',
+      scope: '',
+      scopes: [Array],
+      file_name: 'MainTest.cs',
+      vc_filepath: 'MainTest.cs',
+      location: 'MainTest.cs',
+      result: 'skipped',
+      duration_in_ms: null,
+      started_at: '2025-07-31T03:20:12.636Z',
+      failure: null,
+      failure_type: null,
+      failure_reason: null,
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      product_map: [Object]
+    },
+    logs: []
+  },
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'nunit',
+      uuid: '2f824b0a-7816-40b9-89ed-06ad91cdf336',
+      name: 'Login',
+      body: [Object],
+      identifier: 'Login',
+      scope: '',
+      scopes: [Array],
+      file_name: 'MainTest.cs',
+      vc_filepath: 'MainTest.cs',
+      location: 'MainTest.cs',
+      result: 'passed',
+      duration_in_ms: 64143,
+      started_at: '2025-07-31T03:20:12.636Z',
+      finished_at: '2025-07-31T03:21:16.779Z',
+      failure: null,
+      failure_type: null,
+      failure_reason: null,
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      product_map: [Object]
+    },
+    logs: []
+  }
+] to 19076:0
+2025-07-31T03:21:18.646Z CLI info  [trungkinphm_X3vExD]  [vetuj20glwpiacea6eplxs3xjnvev98netupiard]  [a437193e-5374-4c3a-9433-ad5b0f38a7db]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T03:21:36.069Z CLI warn [observability:csharp:nunit]  [trungkinphm_X3vExD]  [vetuj20glwpiacea6eplxs3xjnvev98netupiard]  [a437193e-5374-4c3a-9433-ad5b0f38a7db]  TestRunFinished: event={"isBrowserstackAutomationSession":true,"test_framework_name":"nunit","test_framework_version":"latest","test_logs":[],"test_uuid":"2f824b0a-7816-40b9-89ed-06ad91cdf336","test_result":"passed","test_rerun_name":"Login","test_id":"0-1001","test_name":"Login","test_tags":[],"test_code":"        {\r\n            LoginTest.Login_Test();\r\n        }\r\n","test_file_path":"MainTest.cs","test_location":"MainTest.cs","test_file_name":"MainTest.cs","test_scopes":["BrowserStack","MainTest"],"test_session_name":"BrowserStack.MainTest.Login","custom_metadata":{},"test_session_id":"482cdf54f0d27e7de4061131753b1b752a1403da","test_started_at":"2025-07-31T03:20:12.6365801Z","test_result_at":"7/31/2025 10:21:15 AM","test_failure":null,"test_failure_type":null,"test_failure_reason":null,"test_ended_at":"2025-07-31T03:21:16.7797073Z","cbt_session_created":true,"logs":[]}
+2025-07-31T03:21:36.069Z CLI info [testhub:request-queue-handler]  [trungkinphm_X3vExD]  [vetuj20glwpiacea6eplxs3xjnvev98netupiard]  [a437193e-5374-4c3a-9433-ad5b0f38a7db]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'nunit',
+    uuid: '2f824b0a-7816-40b9-89ed-06ad91cdf336',
+    name: 'Login',
+    body: {
+      lang: 'csharp',
+      code: '        {\r\n            LoginTest.Login_Test();\r\n        }\r\n'
+    },
+    identifier: 'Login',
+    scope: '',
+    scopes: [ 'BrowserStack', 'MainTest' ],
+    file_name: 'MainTest.cs',
+    vc_filepath: 'MainTest.cs',
+    location: 'MainTest.cs',
+    result: 'passed',
+    duration_in_ms: 64143,
+    started_at: '2025-07-31T03:20:12.636Z',
+    finished_at: '2025-07-31T03:21:16.779Z',
+    failure: null,
+    failure_type: null,
+    failure_reason: null,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'Login' },
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: false,
+      app_automate: true
+    }
+  },
+  logs: []
+} to 19076:0
+2025-07-31T03:21:36.700Z CLI info [testhub:request-queue-handler]  [trungkinphm_X3vExD]  [vetuj20glwpiacea6eplxs3xjnvev98netupiard]  [a437193e-5374-4c3a-9433-ad5b0f38a7db]  Processing batch event [
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'nunit',
+      uuid: '2f824b0a-7816-40b9-89ed-06ad91cdf336',
+      name: 'Login',
+      body: [Object],
+      identifier: 'Login',
+      scope: '',
+      scopes: [Array],
+      file_name: 'MainTest.cs',
+      vc_filepath: 'MainTest.cs',
+      location: 'MainTest.cs',
+      result: 'passed',
+      duration_in_ms: 64143,
+      started_at: '2025-07-31T03:20:12.636Z',
+      finished_at: '2025-07-31T03:21:16.779Z',
+      failure: null,
+      failure_type: null,
+      failure_reason: null,
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      product_map: [Object]
+    },
+    logs: []
+  }
+] to 19076:0
+2025-07-31T03:21:36.701Z CLI info  [trungkinphm_X3vExD]  [vetuj20glwpiacea6eplxs3xjnvev98netupiard]  [a437193e-5374-4c3a-9433-ad5b0f38a7db]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T03:21:55.213Z CLI warn [observability:csharp:nunit]  [trungkinphm_X3vExD]  [vetuj20glwpiacea6eplxs3xjnvev98netupiard]  [a437193e-5374-4c3a-9433-ad5b0f38a7db]  TestRunFinished: event={"isBrowserstackAutomationSession":true,"test_framework_name":"nunit","test_framework_version":"latest","test_logs":[],"test_uuid":"2f824b0a-7816-40b9-89ed-06ad91cdf336","test_result":"passed","test_rerun_name":"Login","test_id":"0-1001","test_name":"Login","test_tags":[],"test_code":"        {\r\n            LoginTest.Login_Test();\r\n        }\r\n","test_file_path":"MainTest.cs","test_location":"MainTest.cs","test_file_name":"MainTest.cs","test_scopes":["BrowserStack","MainTest"],"test_session_name":"BrowserStack.MainTest.Login","custom_metadata":{},"test_session_id":"482cdf54f0d27e7de4061131753b1b752a1403da","test_started_at":"2025-07-31T03:20:12.6365801Z","test_result_at":"7/31/2025 10:21:15 AM","test_failure":null,"test_failure_type":null,"test_failure_reason":null,"test_ended_at":"2025-07-31T03:21:16.7797073Z","cbt_session_created":true,"logs":[]}
+2025-07-31T03:21:55.213Z CLI info [testhub:request-queue-handler]  [trungkinphm_X3vExD]  [vetuj20glwpiacea6eplxs3xjnvev98netupiard]  [a437193e-5374-4c3a-9433-ad5b0f38a7db]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'nunit',
+    uuid: '2f824b0a-7816-40b9-89ed-06ad91cdf336',
+    name: 'Login',
+    body: {
+      lang: 'csharp',
+      code: '        {\r\n            LoginTest.Login_Test();\r\n        }\r\n'
+    },
+    identifier: 'Login',
+    scope: '',
+    scopes: [ 'BrowserStack', 'MainTest' ],
+    file_name: 'MainTest.cs',
+    vc_filepath: 'MainTest.cs',
+    location: 'MainTest.cs',
+    result: 'passed',
+    duration_in_ms: 64143,
+    started_at: '2025-07-31T03:20:12.636Z',
+    finished_at: '2025-07-31T03:21:16.779Z',
+    failure: null,
+    failure_type: null,
+    failure_reason: null,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'Login' },
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: false,
+      app_automate: true
+    }
+  },
+  logs: []
+} to 19076:0
+2025-07-31T03:21:56.771Z CLI info [testhub:request-queue-handler]  [trungkinphm_X3vExD]  [vetuj20glwpiacea6eplxs3xjnvev98netupiard]  [a437193e-5374-4c3a-9433-ad5b0f38a7db]  Processing batch event [
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'nunit',
+      uuid: '2f824b0a-7816-40b9-89ed-06ad91cdf336',
+      name: 'Login',
+      body: [Object],
+      identifier: 'Login',
+      scope: '',
+      scopes: [Array],
+      file_name: 'MainTest.cs',
+      vc_filepath: 'MainTest.cs',
+      location: 'MainTest.cs',
+      result: 'passed',
+      duration_in_ms: 64143,
+      started_at: '2025-07-31T03:20:12.636Z',
+      finished_at: '2025-07-31T03:21:16.779Z',
+      failure: null,
+      failure_type: null,
+      failure_reason: null,
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      product_map: [Object]
+    },
+    logs: []
+  }
+] to 19076:0
+2025-07-31T03:21:56.772Z CLI info  [trungkinphm_X3vExD]  [vetuj20glwpiacea6eplxs3xjnvev98netupiard]  [a437193e-5374-4c3a-9433-ad5b0f38a7db]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T03:22:14.250Z CLI warn [observability:csharp:nunit]  [trungkinphm_X3vExD]  [vetuj20glwpiacea6eplxs3xjnvev98netupiard]  [a437193e-5374-4c3a-9433-ad5b0f38a7db]  TestRunFinished: event={"isBrowserstackAutomationSession":true,"test_framework_name":"nunit","test_framework_version":"latest","test_logs":[],"test_uuid":"2f824b0a-7816-40b9-89ed-06ad91cdf336","test_result":"passed","test_rerun_name":"Login","test_id":"0-1001","test_name":"Login","test_tags":[],"test_code":"        {\r\n            LoginTest.Login_Test();\r\n        }\r\n","test_file_path":"MainTest.cs","test_location":"MainTest.cs","test_file_name":"MainTest.cs","test_scopes":["BrowserStack","MainTest"],"test_session_name":"BrowserStack.MainTest.Login","custom_metadata":{},"test_session_id":"482cdf54f0d27e7de4061131753b1b752a1403da","test_started_at":"2025-07-31T03:20:12.6365801Z","test_result_at":"7/31/2025 10:21:15 AM","test_failure":null,"test_failure_type":null,"test_failure_reason":null,"test_ended_at":"2025-07-31T03:21:16.7797073Z","cbt_session_created":true,"logs":[]}
+2025-07-31T03:22:14.251Z CLI info [testhub:request-queue-handler]  [trungkinphm_X3vExD]  [vetuj20glwpiacea6eplxs3xjnvev98netupiard]  [a437193e-5374-4c3a-9433-ad5b0f38a7db]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'nunit',
+    uuid: '2f824b0a-7816-40b9-89ed-06ad91cdf336',
+    name: 'Login',
+    body: {
+      lang: 'csharp',
+      code: '        {\r\n            LoginTest.Login_Test();\r\n        }\r\n'
+    },
+    identifier: 'Login',
+    scope: '',
+    scopes: [ 'BrowserStack', 'MainTest' ],
+    file_name: 'MainTest.cs',
+    vc_filepath: 'MainTest.cs',
+    location: 'MainTest.cs',
+    result: 'passed',
+    duration_in_ms: 64143,
+    started_at: '2025-07-31T03:20:12.636Z',
+    finished_at: '2025-07-31T03:21:16.779Z',
+    failure: null,
+    failure_type: null,
+    failure_reason: null,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'Login' },
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: false,
+      app_automate: true
+    }
+  },
+  logs: []
+} to 19076:0
+2025-07-31T03:22:14.834Z CLI info [testhub:request-queue-handler]  [trungkinphm_X3vExD]  [vetuj20glwpiacea6eplxs3xjnvev98netupiard]  [a437193e-5374-4c3a-9433-ad5b0f38a7db]  Processing batch event [
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'nunit',
+      uuid: '2f824b0a-7816-40b9-89ed-06ad91cdf336',
+      name: 'Login',
+      body: [Object],
+      identifier: 'Login',
+      scope: '',
+      scopes: [Array],
+      file_name: 'MainTest.cs',
+      vc_filepath: 'MainTest.cs',
+      location: 'MainTest.cs',
+      result: 'passed',
+      duration_in_ms: 64143,
+      started_at: '2025-07-31T03:20:12.636Z',
+      finished_at: '2025-07-31T03:21:16.779Z',
+      failure: null,
+      failure_type: null,
+      failure_reason: null,
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      product_map: [Object]
+    },
+    logs: []
+  }
+] to 19076:0
+2025-07-31T03:22:14.835Z CLI info  [trungkinphm_X3vExD]  [vetuj20glwpiacea6eplxs3xjnvev98netupiard]  [a437193e-5374-4c3a-9433-ad5b0f38a7db]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T03:22:24.207Z CLI info  [trungkinphm_X3vExD]  [vetuj20glwpiacea6eplxs3xjnvev98netupiard]  [a437193e-5374-4c3a-9433-ad5b0f38a7db]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T03:22:25.060Z CLI error [testhub:module]  [trungkinphm_X3vExD]  [vetuj20glwpiacea6eplxs3xjnvev98netupiard]  [a437193e-5374-4c3a-9433-ad5b0f38a7db]  [collectBuildData] Exception in collecting build data for build UUID vetuj20glwpiacea6eplxs3xjnvev98netupiard: {"message":"Build data collection started"}
+2025-07-31T03:22:25.060Z CLI info  [trungkinphm_X3vExD]  [vetuj20glwpiacea6eplxs3xjnvev98netupiard]  [a437193e-5374-4c3a-9433-ad5b0f38a7db]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-07-31T03:22:25.885Z CLI info [testhub:module]  [trungkinphm_X3vExD]  [vetuj20glwpiacea6eplxs3xjnvev98netupiard]  [a437193e-5374-4c3a-9433-ad5b0f38a7db]  stopBuild: vetuj20glwpiacea6eplxs3xjnvev98netupiard request={"finished_at":"2025-07-31T03:22:23.898Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2025-07-31T03:22:25.887Z CLI info  [trungkinphm_X3vExD]  [vetuj20glwpiacea6eplxs3xjnvev98netupiard]  [a437193e-5374-4c3a-9433-ad5b0f38a7db]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-07-31T03:22:25.888Z CLI info [observability:module]  [trungkinphm_X3vExD]  [vetuj20glwpiacea6eplxs3xjnvev98netupiard]  [a437193e-5374-4c3a-9433-ad5b0f38a7db]  Visit https://observability.browserstack.com/builds/vetuj20glwpiacea6eplxs3xjnvev98netupiard to view build report, insights, and many more debugging information all at one place!
+2025-07-31T03:22:28.679Z CLI info  [trungkinphm_X3vExD]  [vetuj20glwpiacea6eplxs3xjnvev98netupiard]  [a437193e-5374-4c3a-9433-ad5b0f38a7db]  [PRODUCTION] Making POST request to https://eds.browserstack.com
+2025-07-31T06:29:39.320Z CLI info [main]     Server listening on port: 5401
+2025-07-31T06:29:39.551Z CLI info     Config : {"userName":"trungkinphm_X3vExD","accessKey":"LWqTUxCHdcLrLXhgXzAF","projectName":"BrowserStack Samples","buildName":"browserstack build","buildIdentifier":"#${BUILD_NUMBER}","source":"nunit:appium-sample-sdk:v1.0","app":"./SauceLabs-Demo-App.apk","platforms":[{"deviceName":"Samsung Galaxy S22","osVersion":12,"platformName":"android"}],"browserstackLocal":true,"debug":false,"networkLogs":false,"consoleLogs":"errors"}
+2025-07-31T06:29:39.656Z CLI info [testhub:module]  [trungkinphm_X3vExD]   [44708435-8898-4966-be72-00ca3f4ba23e]  Starting testhub from 19544:0
+2025-07-31T06:29:39.657Z CLI info [testhub:module]  [trungkinphm_X3vExD]   [44708435-8898-4966-be72-00ca3f4ba23e]  startBuild: payload=
+
+{"started_at":"2025-07-31T06:29:39.657Z","host_info":{"hostname":"LAPTOP-8LJ9PLF7","platform":"win32","type":"Windows_NT","version":"Windows 10 Home Single Language","arch":"x64"},"ci_info":{"build_number":null},"version_control":{"name":"git","sha":"9a7d41544c7a4ad98f3cef385f401c746dc719d7","short_sha":"9a7d41544c","branch":"main","tag":null,"committer":"WOFWind910 <kien.pt.64cntt@ntu.edu.vn>","committer_date":"2025-07-31T02:56:23.000Z","author":"WOFWind910 <kien.pt.64cntt@ntu.edu.vn>","author_date":"2025-07-31T02:56:23.000Z","commit_message":"up","root":"C:\\Users\\Admin\\Downloads\\BrowserStack\\android","common_git_dir":"C:\\Users\\Admin\\Downloads\\BrowserStack\\android\\.git","worktree_git_dir":"C:\\Users\\Admin\\Downloads\\BrowserStack\\android\\.git","last_tag":null,"commits_since_last_tag":0,"remotes":[{"name":"origin","url":"https://github.com/WOFWind910/BrowserStackMobile.git"}]},"project_name":"BrowserStack Samples","name":"browserstack build","build_identifier":"#94","build_run_identifier":null,"description":"","tags":[],"failed_tests_rerun":false,"accessibility":{"settings":{}},"framework_details":{"frameworkName":"nunit","frameworkVersion":"3.13.3","sdkVersion":"1.20.0","cliVersion":"1.6.3","language":"csharp","testFramework":{"name":"selenium","version":"3.141.0"},"source":"nunit:appium-sample-sdk:v1.0"},"product_map":{"observability":true,"accessibility":null,"percy":false,"automate":false,"app_automate":false},"browserstackAutomation":true,"test_orchestration":{}}
+2025-07-31T06:29:39.657Z CLI info  [trungkinphm_X3vExD]   [44708435-8898-4966-be72-00ca3f4ba23e]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T06:29:40.689Z CLI info [testhub:module]  [trungkinphm_X3vExD]   [44708435-8898-4966-be72-00ca3f4ba23e]  startBuild: response=g3o6mj78zewxnvowpokir2u4y4xsfkzzxdcbcddg
+2025-07-31T06:29:40.692Z CLI info  [trungkinphm_X3vExD]  [g3o6mj78zewxnvowpokir2u4y4xsfkzzxdcbcddg]  [44708435-8898-4966-be72-00ca3f4ba23e]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-07-31T06:29:40.697Z CLI info  [trungkinphm_X3vExD]  [g3o6mj78zewxnvowpokir2u4y4xsfkzzxdcbcddg]  [44708435-8898-4966-be72-00ca3f4ba23e]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2025-07-31T06:29:41.742Z CLI error  [trungkinphm_X3vExD]  [g3o6mj78zewxnvowpokir2u4y4xsfkzzxdcbcddg]  [44708435-8898-4966-be72-00ca3f4ba23e]  error invoking callback for eventName: {}
+2025-07-31T06:29:41.742Z CLI error  [trungkinphm_X3vExD]  [g3o6mj78zewxnvowpokir2u4y4xsfkzzxdcbcddg]  [44708435-8898-4966-be72-00ca3f4ba23e]  Error: invalid percyToken=null
+    at C:\snapshot\browserstack-binary\cli\dist\index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-07-31T06:29:57.735Z CLI info [appautomate:service]  [trungkinphm_X3vExD]  [g3o6mj78zewxnvowpokir2u4y4xsfkzzxdcbcddg]  [44708435-8898-4966-be72-00ca3f4ba23e]  Using app: ./SauceLabs-Demo-App.apk
+2025-07-31T06:29:57.736Z CLI info [appautomate:service]  [trungkinphm_X3vExD]  [g3o6mj78zewxnvowpokir2u4y4xsfkzzxdcbcddg]  [44708435-8898-4966-be72-00ca3f4ba23e]  Uploading app C:\Users\Admin\Downloads\BrowserStack\android\SauceLabs-Demo-App.apk  to browserstack
+2025-07-31T06:29:57.746Z CLI info [appautomate:service]  [trungkinphm_X3vExD]  [g3o6mj78zewxnvowpokir2u4y4xsfkzzxdcbcddg]  [44708435-8898-4966-be72-00ca3f4ba23e]  App already uploaded with md5 Hash Id: bs://0a1bbed3029d51337bbb0230730a6deef4e9e0b3
+2025-07-31T06:30:08.520Z CLI info  [trungkinphm_X3vExD]  [g3o6mj78zewxnvowpokir2u4y4xsfkzzxdcbcddg]  [44708435-8898-4966-be72-00ca3f4ba23e]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2025-07-31T06:30:09.162Z CLI info  [trungkinphm_X3vExD]  [g3o6mj78zewxnvowpokir2u4y4xsfkzzxdcbcddg]  [44708435-8898-4966-be72-00ca3f4ba23e]  [PRODUCTION] Making GET request to https://hub-apse.browserstack.com
+2025-07-31T06:30:09.163Z CLI info  [trungkinphm_X3vExD]  [g3o6mj78zewxnvowpokir2u4y4xsfkzzxdcbcddg]  [44708435-8898-4966-be72-00ca3f4ba23e]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2025-07-31T06:30:09.163Z CLI info  [trungkinphm_X3vExD]  [g3o6mj78zewxnvowpokir2u4y4xsfkzzxdcbcddg]  [44708435-8898-4966-be72-00ca3f4ba23e]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2025-07-31T06:30:37.600Z CLI info [testhub:request-queue-handler]  [trungkinphm_X3vExD]  [g3o6mj78zewxnvowpokir2u4y4xsfkzzxdcbcddg]  [44708435-8898-4966-be72-00ca3f4ba23e]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'nunit',
+    uuid: '07e9e939-49ca-4f6a-abfb-88bd826767d1',
+    name: 'TestApp',
+    body: {
+      lang: 'csharp',
+      code: '        {\r\n' +
+        '            LoginTest.Login_Test();\r\n' +
+        '            HomeTest.ProductPageTest();\r\n' +
+        '            CartTest.CheckOut_Test();\r\n' +
+        '            DrawingTest.Drawing_Test();\r\n' +
+        '        }\r\n'
+    },
+    identifier: 'TestApp',
+    scope: '',
+    scopes: [ 'BrowserStack', 'MainTest' ],
+    file_name: 'MainTest.cs',
+    vc_filepath: 'MainTest.cs',
+    location: 'MainTest.cs',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-07-31T06:30:37.580Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'TestApp' },
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: false,
+      app_automate: true
+    }
+  },
+  logs: []
+} to 19544:0
+2025-07-31T06:30:39.493Z CLI info [testhub:request-queue-handler]  [trungkinphm_X3vExD]  [g3o6mj78zewxnvowpokir2u4y4xsfkzzxdcbcddg]  [44708435-8898-4966-be72-00ca3f4ba23e]  Processing batch event [
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'nunit',
+      uuid: '07e9e939-49ca-4f6a-abfb-88bd826767d1',
+      name: 'TestApp',
+      body: [Object],
+      identifier: 'TestApp',
+      scope: '',
+      scopes: [Array],
+      file_name: 'MainTest.cs',
+      vc_filepath: 'MainTest.cs',
+      location: 'MainTest.cs',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-07-31T06:30:37.580Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      product_map: [Object]
+    },
+    logs: []
+  }
+] to 19544:0
+2025-07-31T06:30:39.494Z CLI info  [trungkinphm_X3vExD]  [g3o6mj78zewxnvowpokir2u4y4xsfkzzxdcbcddg]  [44708435-8898-4966-be72-00ca3f4ba23e]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T06:30:59.336Z CLI info  [trungkinphm_X3vExD]  [g3o6mj78zewxnvowpokir2u4y4xsfkzzxdcbcddg]  [44708435-8898-4966-be72-00ca3f4ba23e]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T06:31:14.216Z CLI info  [trungkinphm_X3vExD]  [g3o6mj78zewxnvowpokir2u4y4xsfkzzxdcbcddg]  [44708435-8898-4966-be72-00ca3f4ba23e]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T06:31:29.650Z CLI info  [trungkinphm_X3vExD]  [g3o6mj78zewxnvowpokir2u4y4xsfkzzxdcbcddg]  [44708435-8898-4966-be72-00ca3f4ba23e]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T06:32:01.976Z CLI info [testhub:request-queue-handler]  [trungkinphm_X3vExD]  [g3o6mj78zewxnvowpokir2u4y4xsfkzzxdcbcddg]  [44708435-8898-4966-be72-00ca3f4ba23e]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkState: 'LOG',
+      timestamp: '2025-07-31T13:32:01.9789374+07:00',
+      uuid: '07e9e939-49ca-4f6a-abfb-88bd826767d1',
+      kind: 'TEST_LOG',
+      message: '"✅ Đã scroll tới phần tử có resource-id: com.saucelabs.mydemoapp.android:id/productHeightLightsTV"',
+      level: 'INFO',
+      test_run_uuid: '07e9e939-49ca-4f6a-abfb-88bd826767d1'
+    }
+  ]
+} to 19544:0
+2025-07-31T06:32:01.979Z CLI info [testhub:request-queue-handler]  [trungkinphm_X3vExD]  [g3o6mj78zewxnvowpokir2u4y4xsfkzzxdcbcddg]  [44708435-8898-4966-be72-00ca3f4ba23e]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkState: 'LOG',
+      timestamp: '2025-07-31T13:32:01.9830046+07:00',
+      uuid: '07e9e939-49ca-4f6a-abfb-88bd826767d1',
+      kind: 'TEST_LOG',
+      message: '"✅ Đã scroll tới phần tử có resource-id: com.saucelabs.mydemoapp.android:id/productHeightLightsTV"',
+      level: 'INFO',
+      test_run_uuid: '07e9e939-49ca-4f6a-abfb-88bd826767d1'
+    }
+  ]
+} to 19544:0
+2025-07-31T06:32:03.832Z CLI info [testhub:request-queue-handler]  [trungkinphm_X3vExD]  [g3o6mj78zewxnvowpokir2u4y4xsfkzzxdcbcddg]  [44708435-8898-4966-be72-00ca3f4ba23e]  Processing batch event [
+  { event_type: 'LogCreated', logs: [ [Object] ] },
+  { event_type: 'LogCreated', logs: [ [Object] ] }
+] to 19544:0
+2025-07-31T06:32:03.832Z CLI info  [trungkinphm_X3vExD]  [g3o6mj78zewxnvowpokir2u4y4xsfkzzxdcbcddg]  [44708435-8898-4966-be72-00ca3f4ba23e]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T06:32:18.036Z CLI info  [trungkinphm_X3vExD]  [g3o6mj78zewxnvowpokir2u4y4xsfkzzxdcbcddg]  [44708435-8898-4966-be72-00ca3f4ba23e]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T06:32:44.540Z CLI info  [trungkinphm_X3vExD]  [g3o6mj78zewxnvowpokir2u4y4xsfkzzxdcbcddg]  [44708435-8898-4966-be72-00ca3f4ba23e]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T06:33:01.674Z CLI info  [trungkinphm_X3vExD]  [g3o6mj78zewxnvowpokir2u4y4xsfkzzxdcbcddg]  [44708435-8898-4966-be72-00ca3f4ba23e]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T06:33:06.628Z CLI info [testhub:request-queue-handler]  [trungkinphm_X3vExD]  [g3o6mj78zewxnvowpokir2u4y4xsfkzzxdcbcddg]  [44708435-8898-4966-be72-00ca3f4ba23e]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkState: 'LOG',
+      timestamp: '2025-07-31T13:33:06.6278149+07:00',
+      uuid: '07e9e939-49ca-4f6a-abfb-88bd826767d1',
+      kind: 'TEST_LOG',
+      message: '"✅ Đã scroll tới phần tử có resource-id: com.saucelabs.mydemoapp.android:id/paymentBtn"',
+      level: 'INFO',
+      test_run_uuid: '07e9e939-49ca-4f6a-abfb-88bd826767d1'
+    }
+  ]
+} to 19544:0
+2025-07-31T06:33:06.631Z CLI info [testhub:request-queue-handler]  [trungkinphm_X3vExD]  [g3o6mj78zewxnvowpokir2u4y4xsfkzzxdcbcddg]  [44708435-8898-4966-be72-00ca3f4ba23e]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkState: 'LOG',
+      timestamp: '2025-07-31T13:33:06.6329995+07:00',
+      uuid: '07e9e939-49ca-4f6a-abfb-88bd826767d1',
+      kind: 'TEST_LOG',
+      message: '"✅ Đã scroll tới phần tử có resource-id: com.saucelabs.mydemoapp.android:id/paymentBtn"',
+      level: 'INFO',
+      test_run_uuid: '07e9e939-49ca-4f6a-abfb-88bd826767d1'
+    }
+  ]
+} to 19544:0
+2025-07-31T06:33:08.115Z CLI info [testhub:request-queue-handler]  [trungkinphm_X3vExD]  [g3o6mj78zewxnvowpokir2u4y4xsfkzzxdcbcddg]  [44708435-8898-4966-be72-00ca3f4ba23e]  Processing batch event [
+  { event_type: 'LogCreated', logs: [ [Object] ] },
+  { event_type: 'LogCreated', logs: [ [Object] ] }
+] to 19544:0
+2025-07-31T06:33:08.116Z CLI info  [trungkinphm_X3vExD]  [g3o6mj78zewxnvowpokir2u4y4xsfkzzxdcbcddg]  [44708435-8898-4966-be72-00ca3f4ba23e]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T06:33:23.449Z CLI info  [trungkinphm_X3vExD]  [g3o6mj78zewxnvowpokir2u4y4xsfkzzxdcbcddg]  [44708435-8898-4966-be72-00ca3f4ba23e]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T06:33:33.046Z CLI info  [trungkinphm_X3vExD]  [g3o6mj78zewxnvowpokir2u4y4xsfkzzxdcbcddg]  [44708435-8898-4966-be72-00ca3f4ba23e]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T06:34:18.697Z CLI warn [observability:csharp:nunit]  [trungkinphm_X3vExD]  [g3o6mj78zewxnvowpokir2u4y4xsfkzzxdcbcddg]  [44708435-8898-4966-be72-00ca3f4ba23e]  TestRunFinished: event={"isBrowserstackAutomationSession":true,"test_framework_name":"nunit","test_framework_version":"latest","test_logs":[],"test_uuid":"07e9e939-49ca-4f6a-abfb-88bd826767d1","test_result":"skipped","test_rerun_name":"TestApp","test_id":"0-1001","test_name":"TestApp","test_tags":[],"test_code":"        {\r\n            LoginTest.Login_Test();\r\n            HomeTest.ProductPageTest();\r\n            CartTest.CheckOut_Test();\r\n            DrawingTest.Drawing_Test();\r\n        }\r\n","test_file_path":"MainTest.cs","test_location":"MainTest.cs","test_file_name":"MainTest.cs","test_scopes":["BrowserStack","MainTest"],"test_session_name":"BrowserStack.MainTest.TestApp","custom_metadata":{},"test_session_id":"7a1630811158317124e6fa00d3aead881c12567c","test_started_at":"2025-07-31T06:30:37.5801453Z","test_result_at":"7/31/2025 1:34:17 PM","test_failure":null,"test_failure_type":null,"test_failure_reason":null,"logs":[]}
+2025-07-31T06:34:18.698Z CLI info [testhub:request-queue-handler]  [trungkinphm_X3vExD]  [g3o6mj78zewxnvowpokir2u4y4xsfkzzxdcbcddg]  [44708435-8898-4966-be72-00ca3f4ba23e]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'nunit',
+    uuid: '07e9e939-49ca-4f6a-abfb-88bd826767d1',
+    name: 'TestApp',
+    body: {
+      lang: 'csharp',
+      code: '        {\r\n' +
+        '            LoginTest.Login_Test();\r\n' +
+        '            HomeTest.ProductPageTest();\r\n' +
+        '            CartTest.CheckOut_Test();\r\n' +
+        '            DrawingTest.Drawing_Test();\r\n' +
+        '        }\r\n'
+    },
+    identifier: 'TestApp',
+    scope: '',
+    scopes: [ 'BrowserStack', 'MainTest' ],
+    file_name: 'MainTest.cs',
+    vc_filepath: 'MainTest.cs',
+    location: 'MainTest.cs',
+    result: 'skipped',
+    duration_in_ms: null,
+    started_at: '2025-07-31T06:30:37.580Z',
+    failure: null,
+    failure_type: null,
+    failure_reason: null,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'TestApp' },
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: false,
+      app_automate: true
+    }
+  },
+  logs: []
+} to 19544:0
+2025-07-31T06:34:20.234Z CLI warn [observability:csharp:nunit]  [trungkinphm_X3vExD]  [g3o6mj78zewxnvowpokir2u4y4xsfkzzxdcbcddg]  [44708435-8898-4966-be72-00ca3f4ba23e]  TestRunFinished: event={"isBrowserstackAutomationSession":true,"test_framework_name":"nunit","test_framework_version":"latest","test_logs":[],"test_uuid":"07e9e939-49ca-4f6a-abfb-88bd826767d1","test_result":"failed","test_rerun_name":"TestApp","test_id":"0-1001","test_name":"TestApp","test_tags":[],"test_code":"        {\r\n            LoginTest.Login_Test();\r\n            HomeTest.ProductPageTest();\r\n            CartTest.CheckOut_Test();\r\n            DrawingTest.Drawing_Test();\r\n        }\r\n","test_file_path":"MainTest.cs","test_location":"MainTest.cs","test_file_name":"MainTest.cs","test_scopes":["BrowserStack","MainTest"],"test_session_name":"BrowserStack.MainTest.TestApp","custom_metadata":{},"test_session_id":"7a1630811158317124e6fa00d3aead881c12567c","test_started_at":"2025-07-31T06:30:37.5801453Z","test_result_at":"7/31/2025 1:34:18 PM","test_failure":[{"backtrace":["at BrowserStack.MainTest.TestApp(MainTest this)","at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)","at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)","--NoSuchElementException","at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)","at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)","at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)","at OpenQA.Selenium.Appium.AppiumDriver`1.FindElement(String by, String value)","at OpenQA.Selenium.Appium.AppiumDriver`1.FindElementByAccessibilityId(String selector)","at OpenQA.Selenium.Appium.ByAccessibilityId.FindElement(ISearchContext context)","at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass19_0.<ElementToBeClickable>b__0(IWebDriver driver)","at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)"]}],"test_failure_type":"UnhandledError","test_failure_reason":"OpenQA.Selenium.WebDriverTimeoutException : Timed out after 30 seconds\r   ----> OpenQA.Selenium.NoSuchElementException : An element could not be located on the page using the given search parameters.","logs":[]}
+2025-07-31T06:34:20.236Z CLI info [testhub:request-queue-handler]  [trungkinphm_X3vExD]  [g3o6mj78zewxnvowpokir2u4y4xsfkzzxdcbcddg]  [44708435-8898-4966-be72-00ca3f4ba23e]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'nunit',
+    uuid: '07e9e939-49ca-4f6a-abfb-88bd826767d1',
+    name: 'TestApp',
+    body: {
+      lang: 'csharp',
+      code: '        {\r\n' +
+        '            LoginTest.Login_Test();\r\n' +
+        '            HomeTest.ProductPageTest();\r\n' +
+        '            CartTest.CheckOut_Test();\r\n' +
+        '            DrawingTest.Drawing_Test();\r\n' +
+        '        }\r\n'
+    },
+    identifier: 'TestApp',
+    scope: '',
+    scopes: [ 'BrowserStack', 'MainTest' ],
+    file_name: 'MainTest.cs',
+    vc_filepath: 'MainTest.cs',
+    location: 'MainTest.cs',
+    result: 'failed',
+    duration_in_ms: null,
+    started_at: '2025-07-31T06:30:37.580Z',
+    failure: [ [Object] ],
+    failure_type: 'UnhandledError',
+    failure_reason: 'OpenQA.Selenium.WebDriverTimeoutException : Timed out after 30 seconds\r   ----> OpenQA.Selenium.NoSuchElementException : An element could not be located on the page using the given search parameters.',
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'TestApp' },
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: false,
+      app_automate: true
+    }
+  },
+  logs: []
+} to 19544:0
+2025-07-31T06:34:20.282Z CLI info [testhub:request-queue-handler]  [trungkinphm_X3vExD]  [g3o6mj78zewxnvowpokir2u4y4xsfkzzxdcbcddg]  [44708435-8898-4966-be72-00ca3f4ba23e]  Processing batch event [
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'nunit',
+      uuid: '07e9e939-49ca-4f6a-abfb-88bd826767d1',
+      name: 'TestApp',
+      body: [Object],
+      identifier: 'TestApp',
+      scope: '',
+      scopes: [Array],
+      file_name: 'MainTest.cs',
+      vc_filepath: 'MainTest.cs',
+      location: 'MainTest.cs',
+      result: 'skipped',
+      duration_in_ms: null,
+      started_at: '2025-07-31T06:30:37.580Z',
+      failure: null,
+      failure_type: null,
+      failure_reason: null,
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      product_map: [Object]
+    },
+    logs: []
+  },
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'nunit',
+      uuid: '07e9e939-49ca-4f6a-abfb-88bd826767d1',
+      name: 'TestApp',
+      body: [Object],
+      identifier: 'TestApp',
+      scope: '',
+      scopes: [Array],
+      file_name: 'MainTest.cs',
+      vc_filepath: 'MainTest.cs',
+      location: 'MainTest.cs',
+      result: 'failed',
+      duration_in_ms: null,
+      started_at: '2025-07-31T06:30:37.580Z',
+      failure: [Array],
+      failure_type: 'UnhandledError',
+      failure_reason: 'OpenQA.Selenium.WebDriverTimeoutException : Timed out after 30 seconds\r   ----> OpenQA.Selenium.NoSuchElementException : An element could not be located on the page using the given search parameters.',
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      product_map: [Object]
+    },
+    logs: []
+  }
+] to 19544:0
+2025-07-31T06:34:20.283Z CLI info  [trungkinphm_X3vExD]  [g3o6mj78zewxnvowpokir2u4y4xsfkzzxdcbcddg]  [44708435-8898-4966-be72-00ca3f4ba23e]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T06:34:26.839Z CLI info [testhub:request-queue-handler]  [trungkinphm_X3vExD]  [g3o6mj78zewxnvowpokir2u4y4xsfkzzxdcbcddg]  [44708435-8898-4966-be72-00ca3f4ba23e]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '07e9e939-49ca-4f6a-abfb-88bd826767d1',
+    integrations: { browserstack: [Object] }
+  }
+} to 19544:0
+2025-07-31T06:34:26.844Z CLI warn [observability:csharp:nunit]  [trungkinphm_X3vExD]  [g3o6mj78zewxnvowpokir2u4y4xsfkzzxdcbcddg]  [44708435-8898-4966-be72-00ca3f4ba23e]  TestRunFinished: event={"isBrowserstackAutomationSession":true,"test_framework_name":"nunit","test_framework_version":"latest","test_logs":[],"test_uuid":"07e9e939-49ca-4f6a-abfb-88bd826767d1","test_result":"failed","test_rerun_name":"TestApp","test_id":"0-1001","test_name":"TestApp","test_tags":[],"test_code":"        {\r\n            LoginTest.Login_Test();\r\n            HomeTest.ProductPageTest();\r\n            CartTest.CheckOut_Test();\r\n            DrawingTest.Drawing_Test();\r\n        }\r\n","test_file_path":"MainTest.cs","test_location":"MainTest.cs","test_file_name":"MainTest.cs","test_scopes":["BrowserStack","MainTest"],"test_session_name":"BrowserStack.MainTest.TestApp","custom_metadata":{},"test_session_id":"7a1630811158317124e6fa00d3aead881c12567c","test_started_at":"2025-07-31T06:30:37.5801453Z","test_result_at":"7/31/2025 1:34:18 PM","test_failure":[{"backtrace":["OpenQA.Selenium.WebDriverTimeoutException : Timed out after 30 seconds\r\n  ----> OpenQA.Selenium.NoSuchElementException : An element could not be located on the page using the given search parameters.\n   at BrowserStack.MainTest.TestApp(MainTest this)\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)\r\n--NoSuchElementException\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1.FindElement(String by, String value)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1.FindElementByAccessibilityId(String selector)\r\n   at OpenQA.Selenium.Appium.ByAccessibilityId.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass19_0.<ElementToBeClickable>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)"]}],"test_failure_type":"UnhandledError","test_failure_reason":"OpenQA.Selenium.WebDriverTimeoutException : Timed out after 30 seconds\r\n  ----> OpenQA.Selenium.NoSuchElementException : An element could not be located on the page using the given search parameters.","test_ended_at":"2025-07-31T06:34:26.8172653Z","cbt_session_created":true,"logs":[]}
+2025-07-31T06:34:26.846Z CLI info [testhub:request-queue-handler]  [trungkinphm_X3vExD]  [g3o6mj78zewxnvowpokir2u4y4xsfkzzxdcbcddg]  [44708435-8898-4966-be72-00ca3f4ba23e]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'nunit',
+    uuid: '07e9e939-49ca-4f6a-abfb-88bd826767d1',
+    name: 'TestApp',
+    body: {
+      lang: 'csharp',
+      code: '        {\r\n' +
+        '            LoginTest.Login_Test();\r\n' +
+        '            HomeTest.ProductPageTest();\r\n' +
+        '            CartTest.CheckOut_Test();\r\n' +
+        '            DrawingTest.Drawing_Test();\r\n' +
+        '        }\r\n'
+    },
+    identifier: 'TestApp',
+    scope: '',
+    scopes: [ 'BrowserStack', 'MainTest' ],
+    file_name: 'MainTest.cs',
+    vc_filepath: 'MainTest.cs',
+    location: 'MainTest.cs',
+    result: 'failed',
+    duration_in_ms: 229237,
+    started_at: '2025-07-31T06:30:37.580Z',
+    finished_at: '2025-07-31T06:34:26.817Z',
+    failure: [ [Object] ],
+    failure_type: 'UnhandledError',
+    failure_reason: 'OpenQA.Selenium.WebDriverTimeoutException : Timed out after 30 seconds\r\n' +
+      '  ----> OpenQA.Selenium.NoSuchElementException : An element could not be located on the page using the given search parameters.',
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'TestApp' },
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: false,
+      app_automate: true
+    }
+  },
+  logs: []
+} to 19544:0
+2025-07-31T06:34:28.299Z CLI info [testhub:request-queue-handler]  [trungkinphm_X3vExD]  [g3o6mj78zewxnvowpokir2u4y4xsfkzzxdcbcddg]  [44708435-8898-4966-be72-00ca3f4ba23e]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '07e9e939-49ca-4f6a-abfb-88bd826767d1',
+      integrations: [Object]
+    }
+  },
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'nunit',
+      uuid: '07e9e939-49ca-4f6a-abfb-88bd826767d1',
+      name: 'TestApp',
+      body: [Object],
+      identifier: 'TestApp',
+      scope: '',
+      scopes: [Array],
+      file_name: 'MainTest.cs',
+      vc_filepath: 'MainTest.cs',
+      location: 'MainTest.cs',
+      result: 'failed',
+      duration_in_ms: 229237,
+      started_at: '2025-07-31T06:30:37.580Z',
+      finished_at: '2025-07-31T06:34:26.817Z',
+      failure: [Array],
+      failure_type: 'UnhandledError',
+      failure_reason: 'OpenQA.Selenium.WebDriverTimeoutException : Timed out after 30 seconds\r\n' +
+        '  ----> OpenQA.Selenium.NoSuchElementException : An element could not be located on the page using the given search parameters.',
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      product_map: [Object]
+    },
+    logs: []
+  }
+] to 19544:0
+2025-07-31T06:34:28.300Z CLI info  [trungkinphm_X3vExD]  [g3o6mj78zewxnvowpokir2u4y4xsfkzzxdcbcddg]  [44708435-8898-4966-be72-00ca3f4ba23e]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T06:34:30.436Z CLI info  [trungkinphm_X3vExD]  [g3o6mj78zewxnvowpokir2u4y4xsfkzzxdcbcddg]  [44708435-8898-4966-be72-00ca3f4ba23e]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T06:34:31.283Z CLI error [testhub:module]  [trungkinphm_X3vExD]  [g3o6mj78zewxnvowpokir2u4y4xsfkzzxdcbcddg]  [44708435-8898-4966-be72-00ca3f4ba23e]  [collectBuildData] Exception in collecting build data for build UUID g3o6mj78zewxnvowpokir2u4y4xsfkzzxdcbcddg: {"message":"Build data collection started"}
+2025-07-31T06:34:31.284Z CLI info  [trungkinphm_X3vExD]  [g3o6mj78zewxnvowpokir2u4y4xsfkzzxdcbcddg]  [44708435-8898-4966-be72-00ca3f4ba23e]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-07-31T06:34:32.136Z CLI info [testhub:module]  [trungkinphm_X3vExD]  [g3o6mj78zewxnvowpokir2u4y4xsfkzzxdcbcddg]  [44708435-8898-4966-be72-00ca3f4ba23e]  stopBuild: g3o6mj78zewxnvowpokir2u4y4xsfkzzxdcbcddg request={"finished_at":"2025-07-31T06:34:30.093Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2025-07-31T06:34:32.138Z CLI info  [trungkinphm_X3vExD]  [g3o6mj78zewxnvowpokir2u4y4xsfkzzxdcbcddg]  [44708435-8898-4966-be72-00ca3f4ba23e]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-07-31T06:34:32.139Z CLI info [observability:module]  [trungkinphm_X3vExD]  [g3o6mj78zewxnvowpokir2u4y4xsfkzzxdcbcddg]  [44708435-8898-4966-be72-00ca3f4ba23e]  Visit https://observability.browserstack.com/builds/g3o6mj78zewxnvowpokir2u4y4xsfkzzxdcbcddg to view build report, insights, and many more debugging information all at one place!
+2025-07-31T06:34:34.984Z CLI info  [trungkinphm_X3vExD]  [g3o6mj78zewxnvowpokir2u4y4xsfkzzxdcbcddg]  [44708435-8898-4966-be72-00ca3f4ba23e]  [PRODUCTION] Making POST request to https://eds.browserstack.com
+2025-07-31T06:38:42.507Z CLI info [main]     Server listening on port: 5401
+2025-07-31T06:38:42.672Z CLI info     Config : {"userName":"trungkinphm_X3vExD","accessKey":"LWqTUxCHdcLrLXhgXzAF","projectName":"BrowserStack Samples","buildName":"browserstack build","buildIdentifier":"#${BUILD_NUMBER}","source":"nunit:appium-sample-sdk:v1.0","app":"./SauceLabs-Demo-App.apk","platforms":[{"deviceName":"Samsung Galaxy S22","osVersion":12,"platformName":"android"}],"browserstackLocal":true,"debug":false,"networkLogs":false,"consoleLogs":"errors"}
+2025-07-31T06:38:42.702Z CLI info [testhub:module]  [trungkinphm_X3vExD]   [5ff5ddb3-9cbc-4487-b654-2bda8ed91df5]  Starting testhub from 23996:0
+2025-07-31T06:38:42.702Z CLI info [testhub:module]  [trungkinphm_X3vExD]   [5ff5ddb3-9cbc-4487-b654-2bda8ed91df5]  startBuild: payload=
+
+{"started_at":"2025-07-31T06:38:42.702Z","host_info":{"hostname":"LAPTOP-8LJ9PLF7","platform":"win32","type":"Windows_NT","version":"Windows 10 Home Single Language","arch":"x64"},"ci_info":{"build_number":null},"version_control":{"name":"git","sha":"9a7d41544c7a4ad98f3cef385f401c746dc719d7","short_sha":"9a7d41544c","branch":"main","tag":null,"committer":"WOFWind910 <kien.pt.64cntt@ntu.edu.vn>","committer_date":"2025-07-31T02:56:23.000Z","author":"WOFWind910 <kien.pt.64cntt@ntu.edu.vn>","author_date":"2025-07-31T02:56:23.000Z","commit_message":"up","root":"C:\\Users\\Admin\\Downloads\\BrowserStack\\android","common_git_dir":"C:\\Users\\Admin\\Downloads\\BrowserStack\\android\\.git","worktree_git_dir":"C:\\Users\\Admin\\Downloads\\BrowserStack\\android\\.git","last_tag":null,"commits_since_last_tag":0,"remotes":[{"name":"origin","url":"https://github.com/WOFWind910/BrowserStackMobile.git"}]},"project_name":"BrowserStack Samples","name":"browserstack build","build_identifier":"#95","build_run_identifier":null,"description":"","tags":[],"failed_tests_rerun":false,"accessibility":{"settings":{}},"framework_details":{"frameworkName":"nunit","frameworkVersion":"3.13.3","sdkVersion":"1.20.0","cliVersion":"1.6.3","language":"csharp","testFramework":{"name":"selenium","version":"3.141.0"},"source":"nunit:appium-sample-sdk:v1.0"},"product_map":{"observability":true,"accessibility":null,"percy":false,"automate":false,"app_automate":false},"browserstackAutomation":true,"test_orchestration":{}}
+2025-07-31T06:38:42.703Z CLI info  [trungkinphm_X3vExD]   [5ff5ddb3-9cbc-4487-b654-2bda8ed91df5]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T06:38:43.721Z CLI info [testhub:module]  [trungkinphm_X3vExD]   [5ff5ddb3-9cbc-4487-b654-2bda8ed91df5]  startBuild: response=de2kswwj8feiuj5ir6rjgp8i2dw40r9olzmhlnou
+2025-07-31T06:38:43.723Z CLI info  [trungkinphm_X3vExD]  [de2kswwj8feiuj5ir6rjgp8i2dw40r9olzmhlnou]  [5ff5ddb3-9cbc-4487-b654-2bda8ed91df5]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-07-31T06:38:43.727Z CLI info  [trungkinphm_X3vExD]  [de2kswwj8feiuj5ir6rjgp8i2dw40r9olzmhlnou]  [5ff5ddb3-9cbc-4487-b654-2bda8ed91df5]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2025-07-31T06:38:44.203Z CLI error  [trungkinphm_X3vExD]  [de2kswwj8feiuj5ir6rjgp8i2dw40r9olzmhlnou]  [5ff5ddb3-9cbc-4487-b654-2bda8ed91df5]  error invoking callback for eventName: {}
+2025-07-31T06:38:44.203Z CLI error  [trungkinphm_X3vExD]  [de2kswwj8feiuj5ir6rjgp8i2dw40r9olzmhlnou]  [5ff5ddb3-9cbc-4487-b654-2bda8ed91df5]  Error: invalid percyToken=null
+    at C:\snapshot\browserstack-binary\cli\dist\index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-07-31T06:38:50.030Z CLI info [appautomate:service]  [trungkinphm_X3vExD]  [de2kswwj8feiuj5ir6rjgp8i2dw40r9olzmhlnou]  [5ff5ddb3-9cbc-4487-b654-2bda8ed91df5]  Using app: ./SauceLabs-Demo-App.apk
+2025-07-31T06:38:50.031Z CLI info [appautomate:service]  [trungkinphm_X3vExD]  [de2kswwj8feiuj5ir6rjgp8i2dw40r9olzmhlnou]  [5ff5ddb3-9cbc-4487-b654-2bda8ed91df5]  Uploading app C:\Users\Admin\Downloads\BrowserStack\android\SauceLabs-Demo-App.apk  to browserstack
+2025-07-31T06:38:50.033Z CLI info [appautomate:service]  [trungkinphm_X3vExD]  [de2kswwj8feiuj5ir6rjgp8i2dw40r9olzmhlnou]  [5ff5ddb3-9cbc-4487-b654-2bda8ed91df5]  App already uploaded with md5 Hash Id: bs://0a1bbed3029d51337bbb0230730a6deef4e9e0b3
+2025-07-31T06:39:00.087Z CLI info  [trungkinphm_X3vExD]  [de2kswwj8feiuj5ir6rjgp8i2dw40r9olzmhlnou]  [5ff5ddb3-9cbc-4487-b654-2bda8ed91df5]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2025-07-31T06:39:00.758Z CLI info  [trungkinphm_X3vExD]  [de2kswwj8feiuj5ir6rjgp8i2dw40r9olzmhlnou]  [5ff5ddb3-9cbc-4487-b654-2bda8ed91df5]  [PRODUCTION] Making GET request to https://hub-apse.browserstack.com
+2025-07-31T06:39:00.758Z CLI info  [trungkinphm_X3vExD]  [de2kswwj8feiuj5ir6rjgp8i2dw40r9olzmhlnou]  [5ff5ddb3-9cbc-4487-b654-2bda8ed91df5]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2025-07-31T06:39:00.759Z CLI info  [trungkinphm_X3vExD]  [de2kswwj8feiuj5ir6rjgp8i2dw40r9olzmhlnou]  [5ff5ddb3-9cbc-4487-b654-2bda8ed91df5]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2025-07-31T06:39:22.869Z CLI info [testhub:request-queue-handler]  [trungkinphm_X3vExD]  [de2kswwj8feiuj5ir6rjgp8i2dw40r9olzmhlnou]  [5ff5ddb3-9cbc-4487-b654-2bda8ed91df5]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'nunit',
+    uuid: 'cb9d1718-7d33-4140-a6ff-54b1efbb02cf',
+    name: 'TestApp',
+    body: {
+      lang: 'csharp',
+      code: '        {\r\n' +
+        '            LoginTest.Login_Test();\r\n' +
+        '            HomeTest.ProductPageTest();\r\n' +
+        '            CartTest.CheckOut_Test();\r\n' +
+        '            DrawingTest.Drawing_Test();\r\n' +
+        '        }\r\n'
+    },
+    identifier: 'TestApp',
+    scope: '',
+    scopes: [ 'BrowserStack', 'MainTest' ],
+    file_name: 'MainTest.cs',
+    vc_filepath: 'MainTest.cs',
+    location: 'MainTest.cs',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-07-31T06:39:22.823Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'TestApp' },
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: false,
+      app_automate: true
+    }
+  },
+  logs: []
+} to 23996:0
+2025-07-31T06:39:23.847Z CLI info [testhub:request-queue-handler]  [trungkinphm_X3vExD]  [de2kswwj8feiuj5ir6rjgp8i2dw40r9olzmhlnou]  [5ff5ddb3-9cbc-4487-b654-2bda8ed91df5]  Processing batch event [
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'nunit',
+      uuid: 'cb9d1718-7d33-4140-a6ff-54b1efbb02cf',
+      name: 'TestApp',
+      body: [Object],
+      identifier: 'TestApp',
+      scope: '',
+      scopes: [Array],
+      file_name: 'MainTest.cs',
+      vc_filepath: 'MainTest.cs',
+      location: 'MainTest.cs',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-07-31T06:39:22.823Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      product_map: [Object]
+    },
+    logs: []
+  }
+] to 23996:0
+2025-07-31T06:39:23.851Z CLI info  [trungkinphm_X3vExD]  [de2kswwj8feiuj5ir6rjgp8i2dw40r9olzmhlnou]  [5ff5ddb3-9cbc-4487-b654-2bda8ed91df5]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T06:39:46.943Z CLI info  [trungkinphm_X3vExD]  [de2kswwj8feiuj5ir6rjgp8i2dw40r9olzmhlnou]  [5ff5ddb3-9cbc-4487-b654-2bda8ed91df5]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T06:40:02.244Z CLI info  [trungkinphm_X3vExD]  [de2kswwj8feiuj5ir6rjgp8i2dw40r9olzmhlnou]  [5ff5ddb3-9cbc-4487-b654-2bda8ed91df5]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T06:40:17.758Z CLI info  [trungkinphm_X3vExD]  [de2kswwj8feiuj5ir6rjgp8i2dw40r9olzmhlnou]  [5ff5ddb3-9cbc-4487-b654-2bda8ed91df5]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T06:40:51.915Z CLI info [testhub:request-queue-handler]  [trungkinphm_X3vExD]  [de2kswwj8feiuj5ir6rjgp8i2dw40r9olzmhlnou]  [5ff5ddb3-9cbc-4487-b654-2bda8ed91df5]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkState: 'LOG',
+      timestamp: '2025-07-31T13:40:51.9049834+07:00',
+      uuid: 'cb9d1718-7d33-4140-a6ff-54b1efbb02cf',
+      kind: 'TEST_LOG',
+      message: '"✅ Đã scroll tới phần tử có resource-id: com.saucelabs.mydemoapp.android:id/productHeightLightsTV"',
+      level: 'INFO',
+      test_run_uuid: 'cb9d1718-7d33-4140-a6ff-54b1efbb02cf'
+    }
+  ]
+} to 23996:0
+2025-07-31T06:40:51.923Z CLI info [testhub:request-queue-handler]  [trungkinphm_X3vExD]  [de2kswwj8feiuj5ir6rjgp8i2dw40r9olzmhlnou]  [5ff5ddb3-9cbc-4487-b654-2bda8ed91df5]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkState: 'LOG',
+      timestamp: '2025-07-31T13:40:51.9192340+07:00',
+      uuid: 'cb9d1718-7d33-4140-a6ff-54b1efbb02cf',
+      kind: 'TEST_LOG',
+      message: '"✅ Đã scroll tới phần tử có resource-id: com.saucelabs.mydemoapp.android:id/productHeightLightsTV"',
+      level: 'INFO',
+      test_run_uuid: 'cb9d1718-7d33-4140-a6ff-54b1efbb02cf'
+    }
+  ]
+} to 23996:0
+2025-07-31T06:40:52.215Z CLI info [testhub:request-queue-handler]  [trungkinphm_X3vExD]  [de2kswwj8feiuj5ir6rjgp8i2dw40r9olzmhlnou]  [5ff5ddb3-9cbc-4487-b654-2bda8ed91df5]  Processing batch event [
+  { event_type: 'LogCreated', logs: [ [Object] ] },
+  { event_type: 'LogCreated', logs: [ [Object] ] }
+] to 23996:0
+2025-07-31T06:40:52.223Z CLI info  [trungkinphm_X3vExD]  [de2kswwj8feiuj5ir6rjgp8i2dw40r9olzmhlnou]  [5ff5ddb3-9cbc-4487-b654-2bda8ed91df5]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T06:41:08.251Z CLI info  [trungkinphm_X3vExD]  [de2kswwj8feiuj5ir6rjgp8i2dw40r9olzmhlnou]  [5ff5ddb3-9cbc-4487-b654-2bda8ed91df5]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T06:41:35.853Z CLI info  [trungkinphm_X3vExD]  [de2kswwj8feiuj5ir6rjgp8i2dw40r9olzmhlnou]  [5ff5ddb3-9cbc-4487-b654-2bda8ed91df5]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T06:41:52.731Z CLI info  [trungkinphm_X3vExD]  [de2kswwj8feiuj5ir6rjgp8i2dw40r9olzmhlnou]  [5ff5ddb3-9cbc-4487-b654-2bda8ed91df5]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T06:41:57.637Z CLI info [testhub:request-queue-handler]  [trungkinphm_X3vExD]  [de2kswwj8feiuj5ir6rjgp8i2dw40r9olzmhlnou]  [5ff5ddb3-9cbc-4487-b654-2bda8ed91df5]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkState: 'LOG',
+      timestamp: '2025-07-31T13:41:57.6345732+07:00',
+      uuid: 'cb9d1718-7d33-4140-a6ff-54b1efbb02cf',
+      kind: 'TEST_LOG',
+      message: '"✅ Đã scroll tới phần tử có resource-id: com.saucelabs.mydemoapp.android:id/paymentBtn"',
+      level: 'INFO',
+      test_run_uuid: 'cb9d1718-7d33-4140-a6ff-54b1efbb02cf'
+    }
+  ]
+} to 23996:0
+2025-07-31T06:41:57.640Z CLI info [testhub:request-queue-handler]  [trungkinphm_X3vExD]  [de2kswwj8feiuj5ir6rjgp8i2dw40r9olzmhlnou]  [5ff5ddb3-9cbc-4487-b654-2bda8ed91df5]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkState: 'LOG',
+      timestamp: '2025-07-31T13:41:57.6385720+07:00',
+      uuid: 'cb9d1718-7d33-4140-a6ff-54b1efbb02cf',
+      kind: 'TEST_LOG',
+      message: '"✅ Đã scroll tới phần tử có resource-id: com.saucelabs.mydemoapp.android:id/paymentBtn"',
+      level: 'INFO',
+      test_run_uuid: 'cb9d1718-7d33-4140-a6ff-54b1efbb02cf'
+    }
+  ]
+} to 23996:0
+2025-07-31T06:41:58.449Z CLI info [testhub:request-queue-handler]  [trungkinphm_X3vExD]  [de2kswwj8feiuj5ir6rjgp8i2dw40r9olzmhlnou]  [5ff5ddb3-9cbc-4487-b654-2bda8ed91df5]  Processing batch event [
+  { event_type: 'LogCreated', logs: [ [Object] ] },
+  { event_type: 'LogCreated', logs: [ [Object] ] }
+] to 23996:0
+2025-07-31T06:41:58.450Z CLI info  [trungkinphm_X3vExD]  [de2kswwj8feiuj5ir6rjgp8i2dw40r9olzmhlnou]  [5ff5ddb3-9cbc-4487-b654-2bda8ed91df5]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T06:42:14.705Z CLI info  [trungkinphm_X3vExD]  [de2kswwj8feiuj5ir6rjgp8i2dw40r9olzmhlnou]  [5ff5ddb3-9cbc-4487-b654-2bda8ed91df5]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T06:42:24.343Z CLI info  [trungkinphm_X3vExD]  [de2kswwj8feiuj5ir6rjgp8i2dw40r9olzmhlnou]  [5ff5ddb3-9cbc-4487-b654-2bda8ed91df5]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T06:42:46.423Z CLI info  [trungkinphm_X3vExD]  [de2kswwj8feiuj5ir6rjgp8i2dw40r9olzmhlnou]  [5ff5ddb3-9cbc-4487-b654-2bda8ed91df5]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T06:42:50.768Z CLI warn [observability:csharp:nunit]  [trungkinphm_X3vExD]  [de2kswwj8feiuj5ir6rjgp8i2dw40r9olzmhlnou]  [5ff5ddb3-9cbc-4487-b654-2bda8ed91df5]  TestRunFinished: event={"isBrowserstackAutomationSession":true,"test_framework_name":"nunit","test_framework_version":"latest","test_logs":[],"test_uuid":"cb9d1718-7d33-4140-a6ff-54b1efbb02cf","test_result":"skipped","test_rerun_name":"TestApp","test_id":"0-1001","test_name":"TestApp","test_tags":[],"test_code":"        {\r\n            LoginTest.Login_Test();\r\n            HomeTest.ProductPageTest();\r\n            CartTest.CheckOut_Test();\r\n            DrawingTest.Drawing_Test();\r\n        }\r\n","test_file_path":"MainTest.cs","test_location":"MainTest.cs","test_file_name":"MainTest.cs","test_scopes":["BrowserStack","MainTest"],"test_session_name":"BrowserStack.MainTest.TestApp","custom_metadata":{},"test_session_id":"90ee89eaa25cddc7f4b57bf67d65d9c7e0637ca3","test_started_at":"2025-07-31T06:39:22.8234027Z","test_result_at":"7/31/2025 1:42:49 PM","test_failure":null,"test_failure_type":null,"test_failure_reason":null,"logs":[]}
+2025-07-31T06:42:50.776Z CLI info [testhub:request-queue-handler]  [trungkinphm_X3vExD]  [de2kswwj8feiuj5ir6rjgp8i2dw40r9olzmhlnou]  [5ff5ddb3-9cbc-4487-b654-2bda8ed91df5]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'nunit',
+    uuid: 'cb9d1718-7d33-4140-a6ff-54b1efbb02cf',
+    name: 'TestApp',
+    body: {
+      lang: 'csharp',
+      code: '        {\r\n' +
+        '            LoginTest.Login_Test();\r\n' +
+        '            HomeTest.ProductPageTest();\r\n' +
+        '            CartTest.CheckOut_Test();\r\n' +
+        '            DrawingTest.Drawing_Test();\r\n' +
+        '        }\r\n'
+    },
+    identifier: 'TestApp',
+    scope: '',
+    scopes: [ 'BrowserStack', 'MainTest' ],
+    file_name: 'MainTest.cs',
+    vc_filepath: 'MainTest.cs',
+    location: 'MainTest.cs',
+    result: 'skipped',
+    duration_in_ms: null,
+    started_at: '2025-07-31T06:39:22.823Z',
+    failure: null,
+    failure_type: null,
+    failure_reason: null,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'TestApp' },
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: false,
+      app_automate: true
+    }
+  },
+  logs: []
+} to 23996:0
+2025-07-31T06:42:52.304Z CLI warn [observability:csharp:nunit]  [trungkinphm_X3vExD]  [de2kswwj8feiuj5ir6rjgp8i2dw40r9olzmhlnou]  [5ff5ddb3-9cbc-4487-b654-2bda8ed91df5]  TestRunFinished: event={"isBrowserstackAutomationSession":true,"test_framework_name":"nunit","test_framework_version":"latest","test_logs":[],"test_uuid":"cb9d1718-7d33-4140-a6ff-54b1efbb02cf","test_result":"passed","test_rerun_name":"TestApp","test_id":"0-1001","test_name":"TestApp","test_tags":[],"test_code":"        {\r\n            LoginTest.Login_Test();\r\n            HomeTest.ProductPageTest();\r\n            CartTest.CheckOut_Test();\r\n            DrawingTest.Drawing_Test();\r\n        }\r\n","test_file_path":"MainTest.cs","test_location":"MainTest.cs","test_file_name":"MainTest.cs","test_scopes":["BrowserStack","MainTest"],"test_session_name":"BrowserStack.MainTest.TestApp","custom_metadata":{},"test_session_id":"90ee89eaa25cddc7f4b57bf67d65d9c7e0637ca3","test_started_at":"2025-07-31T06:39:22.8234027Z","test_result_at":"7/31/2025 1:42:49 PM","test_failure":null,"test_failure_type":null,"test_failure_reason":null,"logs":[]}
+2025-07-31T06:42:52.305Z CLI info [testhub:request-queue-handler]  [trungkinphm_X3vExD]  [de2kswwj8feiuj5ir6rjgp8i2dw40r9olzmhlnou]  [5ff5ddb3-9cbc-4487-b654-2bda8ed91df5]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'nunit',
+    uuid: 'cb9d1718-7d33-4140-a6ff-54b1efbb02cf',
+    name: 'TestApp',
+    body: {
+      lang: 'csharp',
+      code: '        {\r\n' +
+        '            LoginTest.Login_Test();\r\n' +
+        '            HomeTest.ProductPageTest();\r\n' +
+        '            CartTest.CheckOut_Test();\r\n' +
+        '            DrawingTest.Drawing_Test();\r\n' +
+        '        }\r\n'
+    },
+    identifier: 'TestApp',
+    scope: '',
+    scopes: [ 'BrowserStack', 'MainTest' ],
+    file_name: 'MainTest.cs',
+    vc_filepath: 'MainTest.cs',
+    location: 'MainTest.cs',
+    result: 'passed',
+    duration_in_ms: null,
+    started_at: '2025-07-31T06:39:22.823Z',
+    failure: null,
+    failure_type: null,
+    failure_reason: null,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'TestApp' },
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: false,
+      app_automate: true
+    }
+  },
+  logs: []
+} to 23996:0
+2025-07-31T06:42:52.590Z CLI info [testhub:request-queue-handler]  [trungkinphm_X3vExD]  [de2kswwj8feiuj5ir6rjgp8i2dw40r9olzmhlnou]  [5ff5ddb3-9cbc-4487-b654-2bda8ed91df5]  Processing batch event [
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'nunit',
+      uuid: 'cb9d1718-7d33-4140-a6ff-54b1efbb02cf',
+      name: 'TestApp',
+      body: [Object],
+      identifier: 'TestApp',
+      scope: '',
+      scopes: [Array],
+      file_name: 'MainTest.cs',
+      vc_filepath: 'MainTest.cs',
+      location: 'MainTest.cs',
+      result: 'skipped',
+      duration_in_ms: null,
+      started_at: '2025-07-31T06:39:22.823Z',
+      failure: null,
+      failure_type: null,
+      failure_reason: null,
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      product_map: [Object]
+    },
+    logs: []
+  },
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'nunit',
+      uuid: 'cb9d1718-7d33-4140-a6ff-54b1efbb02cf',
+      name: 'TestApp',
+      body: [Object],
+      identifier: 'TestApp',
+      scope: '',
+      scopes: [Array],
+      file_name: 'MainTest.cs',
+      vc_filepath: 'MainTest.cs',
+      location: 'MainTest.cs',
+      result: 'passed',
+      duration_in_ms: null,
+      started_at: '2025-07-31T06:39:22.823Z',
+      failure: null,
+      failure_type: null,
+      failure_reason: null,
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      product_map: [Object]
+    },
+    logs: []
+  }
+] to 23996:0
+2025-07-31T06:42:52.590Z CLI info  [trungkinphm_X3vExD]  [de2kswwj8feiuj5ir6rjgp8i2dw40r9olzmhlnou]  [5ff5ddb3-9cbc-4487-b654-2bda8ed91df5]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T06:42:59.738Z CLI info [testhub:request-queue-handler]  [trungkinphm_X3vExD]  [de2kswwj8feiuj5ir6rjgp8i2dw40r9olzmhlnou]  [5ff5ddb3-9cbc-4487-b654-2bda8ed91df5]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: 'cb9d1718-7d33-4140-a6ff-54b1efbb02cf',
+    integrations: { browserstack: [Object] }
+  }
+} to 23996:0
+2025-07-31T06:42:59.742Z CLI warn [observability:csharp:nunit]  [trungkinphm_X3vExD]  [de2kswwj8feiuj5ir6rjgp8i2dw40r9olzmhlnou]  [5ff5ddb3-9cbc-4487-b654-2bda8ed91df5]  TestRunFinished: event={"isBrowserstackAutomationSession":true,"test_framework_name":"nunit","test_framework_version":"latest","test_logs":[],"test_uuid":"cb9d1718-7d33-4140-a6ff-54b1efbb02cf","test_result":"passed","test_rerun_name":"TestApp","test_id":"0-1001","test_name":"TestApp","test_tags":[],"test_code":"        {\r\n            LoginTest.Login_Test();\r\n            HomeTest.ProductPageTest();\r\n            CartTest.CheckOut_Test();\r\n            DrawingTest.Drawing_Test();\r\n        }\r\n","test_file_path":"MainTest.cs","test_location":"MainTest.cs","test_file_name":"MainTest.cs","test_scopes":["BrowserStack","MainTest"],"test_session_name":"BrowserStack.MainTest.TestApp","custom_metadata":{},"test_session_id":"90ee89eaa25cddc7f4b57bf67d65d9c7e0637ca3","test_started_at":"2025-07-31T06:39:22.8234027Z","test_result_at":"7/31/2025 1:42:49 PM","test_failure":null,"test_failure_type":null,"test_failure_reason":null,"test_ended_at":"2025-07-31T06:42:59.7216400Z","cbt_session_created":true,"logs":[]}
+2025-07-31T06:42:59.743Z CLI info [testhub:request-queue-handler]  [trungkinphm_X3vExD]  [de2kswwj8feiuj5ir6rjgp8i2dw40r9olzmhlnou]  [5ff5ddb3-9cbc-4487-b654-2bda8ed91df5]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'nunit',
+    uuid: 'cb9d1718-7d33-4140-a6ff-54b1efbb02cf',
+    name: 'TestApp',
+    body: {
+      lang: 'csharp',
+      code: '        {\r\n' +
+        '            LoginTest.Login_Test();\r\n' +
+        '            HomeTest.ProductPageTest();\r\n' +
+        '            CartTest.CheckOut_Test();\r\n' +
+        '            DrawingTest.Drawing_Test();\r\n' +
+        '        }\r\n'
+    },
+    identifier: 'TestApp',
+    scope: '',
+    scopes: [ 'BrowserStack', 'MainTest' ],
+    file_name: 'MainTest.cs',
+    vc_filepath: 'MainTest.cs',
+    location: 'MainTest.cs',
+    result: 'passed',
+    duration_in_ms: 216898,
+    started_at: '2025-07-31T06:39:22.823Z',
+    finished_at: '2025-07-31T06:42:59.721Z',
+    failure: null,
+    failure_type: null,
+    failure_reason: null,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'TestApp' },
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: false,
+      app_automate: true
+    }
+  },
+  logs: []
+} to 23996:0
+2025-07-31T06:43:00.604Z CLI info [testhub:request-queue-handler]  [trungkinphm_X3vExD]  [de2kswwj8feiuj5ir6rjgp8i2dw40r9olzmhlnou]  [5ff5ddb3-9cbc-4487-b654-2bda8ed91df5]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: 'cb9d1718-7d33-4140-a6ff-54b1efbb02cf',
+      integrations: [Object]
+    }
+  },
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'nunit',
+      uuid: 'cb9d1718-7d33-4140-a6ff-54b1efbb02cf',
+      name: 'TestApp',
+      body: [Object],
+      identifier: 'TestApp',
+      scope: '',
+      scopes: [Array],
+      file_name: 'MainTest.cs',
+      vc_filepath: 'MainTest.cs',
+      location: 'MainTest.cs',
+      result: 'passed',
+      duration_in_ms: 216898,
+      started_at: '2025-07-31T06:39:22.823Z',
+      finished_at: '2025-07-31T06:42:59.721Z',
+      failure: null,
+      failure_type: null,
+      failure_reason: null,
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      product_map: [Object]
+    },
+    logs: []
+  }
+] to 23996:0
+2025-07-31T06:43:00.605Z CLI info  [trungkinphm_X3vExD]  [de2kswwj8feiuj5ir6rjgp8i2dw40r9olzmhlnou]  [5ff5ddb3-9cbc-4487-b654-2bda8ed91df5]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T06:43:04.135Z CLI info  [trungkinphm_X3vExD]  [de2kswwj8feiuj5ir6rjgp8i2dw40r9olzmhlnou]  [5ff5ddb3-9cbc-4487-b654-2bda8ed91df5]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T06:43:04.906Z CLI error [testhub:module]  [trungkinphm_X3vExD]  [de2kswwj8feiuj5ir6rjgp8i2dw40r9olzmhlnou]  [5ff5ddb3-9cbc-4487-b654-2bda8ed91df5]  [collectBuildData] Exception in collecting build data for build UUID de2kswwj8feiuj5ir6rjgp8i2dw40r9olzmhlnou: {"message":"Build data collection started"}
+2025-07-31T06:43:04.906Z CLI info  [trungkinphm_X3vExD]  [de2kswwj8feiuj5ir6rjgp8i2dw40r9olzmhlnou]  [5ff5ddb3-9cbc-4487-b654-2bda8ed91df5]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-07-31T06:43:05.775Z CLI info [testhub:module]  [trungkinphm_X3vExD]  [de2kswwj8feiuj5ir6rjgp8i2dw40r9olzmhlnou]  [5ff5ddb3-9cbc-4487-b654-2bda8ed91df5]  stopBuild: de2kswwj8feiuj5ir6rjgp8i2dw40r9olzmhlnou request={"finished_at":"2025-07-31T06:43:03.750Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2025-07-31T06:43:05.776Z CLI info  [trungkinphm_X3vExD]  [de2kswwj8feiuj5ir6rjgp8i2dw40r9olzmhlnou]  [5ff5ddb3-9cbc-4487-b654-2bda8ed91df5]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-07-31T06:43:05.777Z CLI info [observability:module]  [trungkinphm_X3vExD]  [de2kswwj8feiuj5ir6rjgp8i2dw40r9olzmhlnou]  [5ff5ddb3-9cbc-4487-b654-2bda8ed91df5]  Visit https://observability.browserstack.com/builds/de2kswwj8feiuj5ir6rjgp8i2dw40r9olzmhlnou to view build report, insights, and many more debugging information all at one place!
+2025-07-31T06:43:08.622Z CLI info  [trungkinphm_X3vExD]  [de2kswwj8feiuj5ir6rjgp8i2dw40r9olzmhlnou]  [5ff5ddb3-9cbc-4487-b654-2bda8ed91df5]  [PRODUCTION] Making POST request to https://eds.browserstack.com
+2025-07-31T06:48:37.038Z CLI info [main]     Server listening on port: 5401
+2025-07-31T06:48:37.220Z CLI info     Config : {"userName":"trungkinphm_X3vExD","accessKey":"LWqTUxCHdcLrLXhgXzAF","projectName":"BrowserStack Samples","buildName":"browserstack build","buildIdentifier":"#${BUILD_NUMBER}","source":"nunit:appium-sample-sdk:v1.0","app":"./SauceLabs-Demo-App.apk","platforms":[{"deviceName":"Samsung Galaxy S22","osVersion":12,"platformName":"android"}],"browserstackLocal":true,"debug":false,"networkLogs":false,"consoleLogs":"errors"}
+2025-07-31T06:48:37.240Z CLI info [testhub:module]  [trungkinphm_X3vExD]   [8d099f8d-4152-4c08-a3c1-162d9dfe4c18]  Starting testhub from 23868:0
+2025-07-31T06:48:37.241Z CLI info [testhub:module]  [trungkinphm_X3vExD]   [8d099f8d-4152-4c08-a3c1-162d9dfe4c18]  startBuild: payload=
+
+{"started_at":"2025-07-31T06:48:37.241Z","host_info":{"hostname":"LAPTOP-8LJ9PLF7","platform":"win32","type":"Windows_NT","version":"Windows 10 Home Single Language","arch":"x64"},"ci_info":{"build_number":null},"version_control":{"name":"git","sha":"9a7d41544c7a4ad98f3cef385f401c746dc719d7","short_sha":"9a7d41544c","branch":"main","tag":null,"committer":"WOFWind910 <kien.pt.64cntt@ntu.edu.vn>","committer_date":"2025-07-31T02:56:23.000Z","author":"WOFWind910 <kien.pt.64cntt@ntu.edu.vn>","author_date":"2025-07-31T02:56:23.000Z","commit_message":"up","root":"C:\\Users\\Admin\\Downloads\\BrowserStack\\android","common_git_dir":"C:\\Users\\Admin\\Downloads\\BrowserStack\\android\\.git","worktree_git_dir":"C:\\Users\\Admin\\Downloads\\BrowserStack\\android\\.git","last_tag":null,"commits_since_last_tag":0,"remotes":[{"name":"origin","url":"https://github.com/WOFWind910/BrowserStackMobile.git"}]},"project_name":"BrowserStack Samples","name":"browserstack build","build_identifier":"#96","build_run_identifier":null,"description":"","tags":[],"failed_tests_rerun":false,"accessibility":{"settings":{}},"framework_details":{"frameworkName":"nunit","frameworkVersion":"3.13.3","sdkVersion":"1.20.0","cliVersion":"1.6.3","language":"csharp","testFramework":{"name":"selenium","version":"3.141.0"},"source":"nunit:appium-sample-sdk:v1.0"},"product_map":{"observability":true,"accessibility":null,"percy":false,"automate":false,"app_automate":false},"browserstackAutomation":true,"test_orchestration":{}}
+2025-07-31T06:48:37.242Z CLI info  [trungkinphm_X3vExD]   [8d099f8d-4152-4c08-a3c1-162d9dfe4c18]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T06:48:38.368Z CLI info [testhub:module]  [trungkinphm_X3vExD]   [8d099f8d-4152-4c08-a3c1-162d9dfe4c18]  startBuild: response=x30yv4wwuwmdjhmdjjj70z3fryee5shqszenusoc
+2025-07-31T06:48:38.371Z CLI info  [trungkinphm_X3vExD]  [x30yv4wwuwmdjhmdjjj70z3fryee5shqszenusoc]  [8d099f8d-4152-4c08-a3c1-162d9dfe4c18]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-07-31T06:48:38.373Z CLI info  [trungkinphm_X3vExD]  [x30yv4wwuwmdjhmdjjj70z3fryee5shqszenusoc]  [8d099f8d-4152-4c08-a3c1-162d9dfe4c18]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2025-07-31T06:48:38.806Z CLI error  [trungkinphm_X3vExD]  [x30yv4wwuwmdjhmdjjj70z3fryee5shqszenusoc]  [8d099f8d-4152-4c08-a3c1-162d9dfe4c18]  error invoking callback for eventName: {}
+2025-07-31T06:48:38.806Z CLI error  [trungkinphm_X3vExD]  [x30yv4wwuwmdjhmdjjj70z3fryee5shqszenusoc]  [8d099f8d-4152-4c08-a3c1-162d9dfe4c18]  Error: invalid percyToken=null
+    at C:\snapshot\browserstack-binary\cli\dist\index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-07-31T06:48:44.237Z CLI info [appautomate:service]  [trungkinphm_X3vExD]  [x30yv4wwuwmdjhmdjjj70z3fryee5shqszenusoc]  [8d099f8d-4152-4c08-a3c1-162d9dfe4c18]  Using app: ./SauceLabs-Demo-App.apk
+2025-07-31T06:48:44.238Z CLI info [appautomate:service]  [trungkinphm_X3vExD]  [x30yv4wwuwmdjhmdjjj70z3fryee5shqszenusoc]  [8d099f8d-4152-4c08-a3c1-162d9dfe4c18]  Uploading app C:\Users\Admin\Downloads\BrowserStack\android\SauceLabs-Demo-App.apk  to browserstack
+2025-07-31T06:48:44.240Z CLI info [appautomate:service]  [trungkinphm_X3vExD]  [x30yv4wwuwmdjhmdjjj70z3fryee5shqszenusoc]  [8d099f8d-4152-4c08-a3c1-162d9dfe4c18]  App already uploaded with md5 Hash Id: bs://0a1bbed3029d51337bbb0230730a6deef4e9e0b3
+2025-07-31T06:48:54.982Z CLI info  [trungkinphm_X3vExD]  [x30yv4wwuwmdjhmdjjj70z3fryee5shqszenusoc]  [8d099f8d-4152-4c08-a3c1-162d9dfe4c18]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2025-07-31T06:48:55.628Z CLI info  [trungkinphm_X3vExD]  [x30yv4wwuwmdjhmdjjj70z3fryee5shqszenusoc]  [8d099f8d-4152-4c08-a3c1-162d9dfe4c18]  [PRODUCTION] Making GET request to https://hub-apse.browserstack.com
+2025-07-31T06:48:55.629Z CLI info  [trungkinphm_X3vExD]  [x30yv4wwuwmdjhmdjjj70z3fryee5shqszenusoc]  [8d099f8d-4152-4c08-a3c1-162d9dfe4c18]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2025-07-31T06:48:55.629Z CLI info  [trungkinphm_X3vExD]  [x30yv4wwuwmdjhmdjjj70z3fryee5shqszenusoc]  [8d099f8d-4152-4c08-a3c1-162d9dfe4c18]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2025-07-31T06:49:01.981Z CLI info  [trungkinphm_X3vExD]  [x30yv4wwuwmdjhmdjjj70z3fryee5shqszenusoc]  [8d099f8d-4152-4c08-a3c1-162d9dfe4c18]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T06:49:02.744Z CLI error [testhub:module]  [trungkinphm_X3vExD]  [x30yv4wwuwmdjhmdjjj70z3fryee5shqszenusoc]  [8d099f8d-4152-4c08-a3c1-162d9dfe4c18]  [collectBuildData] Exception in collecting build data for build UUID x30yv4wwuwmdjhmdjjj70z3fryee5shqszenusoc: {"message":"Build data collection started"}
+2025-07-31T06:49:02.744Z CLI info  [trungkinphm_X3vExD]  [x30yv4wwuwmdjhmdjjj70z3fryee5shqszenusoc]  [8d099f8d-4152-4c08-a3c1-162d9dfe4c18]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-07-31T06:49:03.531Z CLI info [testhub:module]  [trungkinphm_X3vExD]  [x30yv4wwuwmdjhmdjjj70z3fryee5shqszenusoc]  [8d099f8d-4152-4c08-a3c1-162d9dfe4c18]  stopBuild: x30yv4wwuwmdjhmdjjj70z3fryee5shqszenusoc request={"finished_at":"2025-07-31T06:49:01.663Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2025-07-31T06:49:03.534Z CLI info  [trungkinphm_X3vExD]  [x30yv4wwuwmdjhmdjjj70z3fryee5shqszenusoc]  [8d099f8d-4152-4c08-a3c1-162d9dfe4c18]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-07-31T06:49:03.535Z CLI info [observability:module]  [trungkinphm_X3vExD]  [x30yv4wwuwmdjhmdjjj70z3fryee5shqszenusoc]  [8d099f8d-4152-4c08-a3c1-162d9dfe4c18]  Visit https://observability.browserstack.com/builds/x30yv4wwuwmdjhmdjjj70z3fryee5shqszenusoc to view build report, insights, and many more debugging information all at one place!
+2025-07-31T06:49:06.424Z CLI info  [trungkinphm_X3vExD]  [x30yv4wwuwmdjhmdjjj70z3fryee5shqszenusoc]  [8d099f8d-4152-4c08-a3c1-162d9dfe4c18]  [PRODUCTION] Making POST request to https://eds.browserstack.com
+2025-07-31T06:50:32.983Z CLI info [main]     Server listening on port: 5401
+2025-07-31T06:50:33.124Z CLI info     Config : {"userName":"trungkinphm_X3vExD","accessKey":"LWqTUxCHdcLrLXhgXzAF","projectName":"BrowserStack Samples","buildName":"browserstack build","buildIdentifier":"#${BUILD_NUMBER}","source":"nunit:appium-sample-sdk:v1.0","app":"./SauceLabs-Demo-App.apk","platforms":[{"deviceName":"Samsung Galaxy S22","osVersion":12,"platformName":"android"}],"browserstackLocal":true,"debug":false,"networkLogs":false,"consoleLogs":"errors"}
+2025-07-31T06:50:33.145Z CLI info [testhub:module]  [trungkinphm_X3vExD]   [9ff66343-ff2e-4fad-ac45-3585a5e1caf1]  Starting testhub from 18128:0
+2025-07-31T06:50:33.146Z CLI info [testhub:module]  [trungkinphm_X3vExD]   [9ff66343-ff2e-4fad-ac45-3585a5e1caf1]  startBuild: payload=
+
+{"started_at":"2025-07-31T06:50:33.145Z","host_info":{"hostname":"LAPTOP-8LJ9PLF7","platform":"win32","type":"Windows_NT","version":"Windows 10 Home Single Language","arch":"x64"},"ci_info":{"build_number":null},"version_control":{"name":"git","sha":"9a7d41544c7a4ad98f3cef385f401c746dc719d7","short_sha":"9a7d41544c","branch":"main","tag":null,"committer":"WOFWind910 <kien.pt.64cntt@ntu.edu.vn>","committer_date":"2025-07-31T02:56:23.000Z","author":"WOFWind910 <kien.pt.64cntt@ntu.edu.vn>","author_date":"2025-07-31T02:56:23.000Z","commit_message":"up","root":"C:\\Users\\Admin\\Downloads\\BrowserStack\\android","common_git_dir":"C:\\Users\\Admin\\Downloads\\BrowserStack\\android\\.git","worktree_git_dir":"C:\\Users\\Admin\\Downloads\\BrowserStack\\android\\.git","last_tag":null,"commits_since_last_tag":0,"remotes":[{"name":"origin","url":"https://github.com/WOFWind910/BrowserStackMobile.git"}]},"project_name":"BrowserStack Samples","name":"browserstack build","build_identifier":"#97","build_run_identifier":null,"description":"","tags":[],"failed_tests_rerun":false,"accessibility":{"settings":{}},"framework_details":{"frameworkName":"nunit","frameworkVersion":"3.13.3","sdkVersion":"1.20.0","cliVersion":"1.6.3","language":"csharp","testFramework":{"name":"selenium","version":"3.141.0"},"source":"nunit:appium-sample-sdk:v1.0"},"product_map":{"observability":true,"accessibility":null,"percy":false,"automate":false,"app_automate":false},"browserstackAutomation":true,"test_orchestration":{}}
+2025-07-31T06:50:33.146Z CLI info  [trungkinphm_X3vExD]   [9ff66343-ff2e-4fad-ac45-3585a5e1caf1]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T06:50:34.185Z CLI info [testhub:module]  [trungkinphm_X3vExD]   [9ff66343-ff2e-4fad-ac45-3585a5e1caf1]  startBuild: response=px0svt2couwyrz7tnsouy8blfyutkb4u4lbfdnmr
+2025-07-31T06:50:34.187Z CLI info  [trungkinphm_X3vExD]  [px0svt2couwyrz7tnsouy8blfyutkb4u4lbfdnmr]  [9ff66343-ff2e-4fad-ac45-3585a5e1caf1]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-07-31T06:50:34.190Z CLI info  [trungkinphm_X3vExD]  [px0svt2couwyrz7tnsouy8blfyutkb4u4lbfdnmr]  [9ff66343-ff2e-4fad-ac45-3585a5e1caf1]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2025-07-31T06:50:34.645Z CLI error  [trungkinphm_X3vExD]  [px0svt2couwyrz7tnsouy8blfyutkb4u4lbfdnmr]  [9ff66343-ff2e-4fad-ac45-3585a5e1caf1]  error invoking callback for eventName: {}
+2025-07-31T06:50:34.645Z CLI error  [trungkinphm_X3vExD]  [px0svt2couwyrz7tnsouy8blfyutkb4u4lbfdnmr]  [9ff66343-ff2e-4fad-ac45-3585a5e1caf1]  Error: invalid percyToken=null
+    at C:\snapshot\browserstack-binary\cli\dist\index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-07-31T06:50:40.271Z CLI info [appautomate:service]  [trungkinphm_X3vExD]  [px0svt2couwyrz7tnsouy8blfyutkb4u4lbfdnmr]  [9ff66343-ff2e-4fad-ac45-3585a5e1caf1]  Using app: ./SauceLabs-Demo-App.apk
+2025-07-31T06:50:40.272Z CLI info [appautomate:service]  [trungkinphm_X3vExD]  [px0svt2couwyrz7tnsouy8blfyutkb4u4lbfdnmr]  [9ff66343-ff2e-4fad-ac45-3585a5e1caf1]  Uploading app C:\Users\Admin\Downloads\BrowserStack\android\SauceLabs-Demo-App.apk  to browserstack
+2025-07-31T06:50:40.274Z CLI info [appautomate:service]  [trungkinphm_X3vExD]  [px0svt2couwyrz7tnsouy8blfyutkb4u4lbfdnmr]  [9ff66343-ff2e-4fad-ac45-3585a5e1caf1]  App already uploaded with md5 Hash Id: bs://0a1bbed3029d51337bbb0230730a6deef4e9e0b3
+2025-07-31T06:50:49.787Z CLI info  [trungkinphm_X3vExD]  [px0svt2couwyrz7tnsouy8blfyutkb4u4lbfdnmr]  [9ff66343-ff2e-4fad-ac45-3585a5e1caf1]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2025-07-31T06:50:50.426Z CLI info  [trungkinphm_X3vExD]  [px0svt2couwyrz7tnsouy8blfyutkb4u4lbfdnmr]  [9ff66343-ff2e-4fad-ac45-3585a5e1caf1]  [PRODUCTION] Making GET request to https://hub-apse.browserstack.com
+2025-07-31T06:50:50.427Z CLI info  [trungkinphm_X3vExD]  [px0svt2couwyrz7tnsouy8blfyutkb4u4lbfdnmr]  [9ff66343-ff2e-4fad-ac45-3585a5e1caf1]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2025-07-31T06:50:50.427Z CLI info  [trungkinphm_X3vExD]  [px0svt2couwyrz7tnsouy8blfyutkb4u4lbfdnmr]  [9ff66343-ff2e-4fad-ac45-3585a5e1caf1]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2025-07-31T06:50:56.396Z CLI info  [trungkinphm_X3vExD]  [px0svt2couwyrz7tnsouy8blfyutkb4u4lbfdnmr]  [9ff66343-ff2e-4fad-ac45-3585a5e1caf1]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T06:50:57.168Z CLI error [testhub:module]  [trungkinphm_X3vExD]  [px0svt2couwyrz7tnsouy8blfyutkb4u4lbfdnmr]  [9ff66343-ff2e-4fad-ac45-3585a5e1caf1]  [collectBuildData] Exception in collecting build data for build UUID px0svt2couwyrz7tnsouy8blfyutkb4u4lbfdnmr: {"message":"Build data collection started"}
+2025-07-31T06:50:57.169Z CLI info  [trungkinphm_X3vExD]  [px0svt2couwyrz7tnsouy8blfyutkb4u4lbfdnmr]  [9ff66343-ff2e-4fad-ac45-3585a5e1caf1]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-07-31T06:50:57.936Z CLI info [testhub:module]  [trungkinphm_X3vExD]  [px0svt2couwyrz7tnsouy8blfyutkb4u4lbfdnmr]  [9ff66343-ff2e-4fad-ac45-3585a5e1caf1]  stopBuild: px0svt2couwyrz7tnsouy8blfyutkb4u4lbfdnmr request={"finished_at":"2025-07-31T06:50:56.067Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2025-07-31T06:50:57.939Z CLI info  [trungkinphm_X3vExD]  [px0svt2couwyrz7tnsouy8blfyutkb4u4lbfdnmr]  [9ff66343-ff2e-4fad-ac45-3585a5e1caf1]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-07-31T06:50:57.941Z CLI info [observability:module]  [trungkinphm_X3vExD]  [px0svt2couwyrz7tnsouy8blfyutkb4u4lbfdnmr]  [9ff66343-ff2e-4fad-ac45-3585a5e1caf1]  Visit https://observability.browserstack.com/builds/px0svt2couwyrz7tnsouy8blfyutkb4u4lbfdnmr to view build report, insights, and many more debugging information all at one place!
+2025-07-31T06:51:00.806Z CLI info  [trungkinphm_X3vExD]  [px0svt2couwyrz7tnsouy8blfyutkb4u4lbfdnmr]  [9ff66343-ff2e-4fad-ac45-3585a5e1caf1]  [PRODUCTION] Making POST request to https://eds.browserstack.com
+2025-07-31T06:55:17.918Z CLI info [main]     Server listening on port: 5401
+2025-07-31T06:55:18.102Z CLI info     Config : {"userName":"trungkinphm_X3vExD","accessKey":"LWqTUxCHdcLrLXhgXzAF","projectName":"BrowserStack Samples","buildName":"browserstack build","buildIdentifier":"#${BUILD_NUMBER}","source":"nunit:appium-sample-sdk:v1.0","app":"./SauceLabs-Demo-App.apk","platforms":[{"deviceName":"Samsung Galaxy S22","osVersion":12,"platformName":"android"}],"browserstackLocal":true,"debug":false,"networkLogs":false,"consoleLogs":"errors"}
+2025-07-31T06:55:18.156Z CLI info [testhub:module]  [trungkinphm_X3vExD]   [bce9607b-10f8-405d-b58b-84aaa6070645]  Starting testhub from 23720:0
+2025-07-31T06:55:18.156Z CLI info [testhub:module]  [trungkinphm_X3vExD]   [bce9607b-10f8-405d-b58b-84aaa6070645]  startBuild: payload=
+
+{"started_at":"2025-07-31T06:55:18.156Z","host_info":{"hostname":"LAPTOP-8LJ9PLF7","platform":"win32","type":"Windows_NT","version":"Windows 10 Home Single Language","arch":"x64"},"ci_info":{"build_number":null},"version_control":{"name":"git","sha":"9a7d41544c7a4ad98f3cef385f401c746dc719d7","short_sha":"9a7d41544c","branch":"main","tag":null,"committer":"WOFWind910 <kien.pt.64cntt@ntu.edu.vn>","committer_date":"2025-07-31T02:56:23.000Z","author":"WOFWind910 <kien.pt.64cntt@ntu.edu.vn>","author_date":"2025-07-31T02:56:23.000Z","commit_message":"up","root":"C:\\Users\\Admin\\Downloads\\BrowserStack\\android","common_git_dir":"C:\\Users\\Admin\\Downloads\\BrowserStack\\android\\.git","worktree_git_dir":"C:\\Users\\Admin\\Downloads\\BrowserStack\\android\\.git","last_tag":null,"commits_since_last_tag":0,"remotes":[{"name":"origin","url":"https://github.com/WOFWind910/BrowserStackMobile.git"}]},"project_name":"BrowserStack Samples","name":"browserstack build","build_identifier":"#98","build_run_identifier":null,"description":"","tags":[],"failed_tests_rerun":false,"accessibility":{"settings":{}},"framework_details":{"frameworkName":"nunit","frameworkVersion":"3.13.3","sdkVersion":"1.20.0","cliVersion":"1.6.3","language":"csharp","testFramework":{"name":"selenium","version":"3.141.0"},"source":"nunit:appium-sample-sdk:v1.0"},"product_map":{"observability":true,"accessibility":null,"percy":false,"automate":false,"app_automate":false},"browserstackAutomation":true,"test_orchestration":{}}
+2025-07-31T06:55:18.157Z CLI info  [trungkinphm_X3vExD]   [bce9607b-10f8-405d-b58b-84aaa6070645]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T06:55:19.171Z CLI info [testhub:module]  [trungkinphm_X3vExD]   [bce9607b-10f8-405d-b58b-84aaa6070645]  startBuild: response=6yxzldsri6rbn53xjhsg340vcysrt7mitod2psyg
+2025-07-31T06:55:19.173Z CLI info  [trungkinphm_X3vExD]  [6yxzldsri6rbn53xjhsg340vcysrt7mitod2psyg]  [bce9607b-10f8-405d-b58b-84aaa6070645]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-07-31T06:55:19.176Z CLI info  [trungkinphm_X3vExD]  [6yxzldsri6rbn53xjhsg340vcysrt7mitod2psyg]  [bce9607b-10f8-405d-b58b-84aaa6070645]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2025-07-31T06:55:19.607Z CLI error  [trungkinphm_X3vExD]  [6yxzldsri6rbn53xjhsg340vcysrt7mitod2psyg]  [bce9607b-10f8-405d-b58b-84aaa6070645]  error invoking callback for eventName: {}
+2025-07-31T06:55:19.607Z CLI error  [trungkinphm_X3vExD]  [6yxzldsri6rbn53xjhsg340vcysrt7mitod2psyg]  [bce9607b-10f8-405d-b58b-84aaa6070645]  Error: invalid percyToken=null
+    at C:\snapshot\browserstack-binary\cli\dist\index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-07-31T06:55:25.179Z CLI info [appautomate:service]  [trungkinphm_X3vExD]  [6yxzldsri6rbn53xjhsg340vcysrt7mitod2psyg]  [bce9607b-10f8-405d-b58b-84aaa6070645]  Using app: ./SauceLabs-Demo-App.apk
+2025-07-31T06:55:25.180Z CLI info [appautomate:service]  [trungkinphm_X3vExD]  [6yxzldsri6rbn53xjhsg340vcysrt7mitod2psyg]  [bce9607b-10f8-405d-b58b-84aaa6070645]  Uploading app C:\Users\Admin\Downloads\BrowserStack\android\SauceLabs-Demo-App.apk  to browserstack
+2025-07-31T06:55:25.183Z CLI info [appautomate:service]  [trungkinphm_X3vExD]  [6yxzldsri6rbn53xjhsg340vcysrt7mitod2psyg]  [bce9607b-10f8-405d-b58b-84aaa6070645]  App already uploaded with md5 Hash Id: bs://0a1bbed3029d51337bbb0230730a6deef4e9e0b3
+2025-07-31T06:55:35.388Z CLI info  [trungkinphm_X3vExD]  [6yxzldsri6rbn53xjhsg340vcysrt7mitod2psyg]  [bce9607b-10f8-405d-b58b-84aaa6070645]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2025-07-31T06:55:36.045Z CLI info  [trungkinphm_X3vExD]  [6yxzldsri6rbn53xjhsg340vcysrt7mitod2psyg]  [bce9607b-10f8-405d-b58b-84aaa6070645]  [PRODUCTION] Making GET request to https://hub-apse.browserstack.com
+2025-07-31T06:55:36.045Z CLI info  [trungkinphm_X3vExD]  [6yxzldsri6rbn53xjhsg340vcysrt7mitod2psyg]  [bce9607b-10f8-405d-b58b-84aaa6070645]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2025-07-31T06:55:36.046Z CLI info  [trungkinphm_X3vExD]  [6yxzldsri6rbn53xjhsg340vcysrt7mitod2psyg]  [bce9607b-10f8-405d-b58b-84aaa6070645]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2025-07-31T06:55:42.035Z CLI info  [trungkinphm_X3vExD]  [6yxzldsri6rbn53xjhsg340vcysrt7mitod2psyg]  [bce9607b-10f8-405d-b58b-84aaa6070645]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T06:55:42.882Z CLI error [testhub:module]  [trungkinphm_X3vExD]  [6yxzldsri6rbn53xjhsg340vcysrt7mitod2psyg]  [bce9607b-10f8-405d-b58b-84aaa6070645]  [collectBuildData] Exception in collecting build data for build UUID 6yxzldsri6rbn53xjhsg340vcysrt7mitod2psyg: {"message":"Build data collection started"}
+2025-07-31T06:55:42.882Z CLI info  [trungkinphm_X3vExD]  [6yxzldsri6rbn53xjhsg340vcysrt7mitod2psyg]  [bce9607b-10f8-405d-b58b-84aaa6070645]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-07-31T06:55:43.626Z CLI info [testhub:module]  [trungkinphm_X3vExD]  [6yxzldsri6rbn53xjhsg340vcysrt7mitod2psyg]  [bce9607b-10f8-405d-b58b-84aaa6070645]  stopBuild: 6yxzldsri6rbn53xjhsg340vcysrt7mitod2psyg request={"finished_at":"2025-07-31T06:55:41.717Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2025-07-31T06:55:43.629Z CLI info  [trungkinphm_X3vExD]  [6yxzldsri6rbn53xjhsg340vcysrt7mitod2psyg]  [bce9607b-10f8-405d-b58b-84aaa6070645]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-07-31T06:55:43.630Z CLI info [observability:module]  [trungkinphm_X3vExD]  [6yxzldsri6rbn53xjhsg340vcysrt7mitod2psyg]  [bce9607b-10f8-405d-b58b-84aaa6070645]  Visit https://observability.browserstack.com/builds/6yxzldsri6rbn53xjhsg340vcysrt7mitod2psyg to view build report, insights, and many more debugging information all at one place!
+2025-07-31T06:55:46.461Z CLI info  [trungkinphm_X3vExD]  [6yxzldsri6rbn53xjhsg340vcysrt7mitod2psyg]  [bce9607b-10f8-405d-b58b-84aaa6070645]  [PRODUCTION] Making POST request to https://eds.browserstack.com
+2025-07-31T06:58:47.310Z CLI info [main]     Server listening on port: 5401
+2025-07-31T06:58:47.466Z CLI info     Config : {"userName":"trungkinphm_X3vExD","accessKey":"LWqTUxCHdcLrLXhgXzAF","projectName":"BrowserStack Samples","buildName":"browserstack build","buildIdentifier":"#${BUILD_NUMBER}","source":"nunit:appium-sample-sdk:v1.0","app":"./SauceLabs-Demo-App.apk","platforms":[{"deviceName":"Samsung Galaxy S22","osVersion":12,"platformName":"android"}],"browserstackLocal":true,"debug":false,"networkLogs":false,"consoleLogs":"errors"}
+2025-07-31T06:58:47.484Z CLI info [testhub:module]  [trungkinphm_X3vExD]   [19ae0d93-3fb9-4b51-9ad8-202009bf6d69]  Starting testhub from 23652:0
+2025-07-31T06:58:47.485Z CLI info [testhub:module]  [trungkinphm_X3vExD]   [19ae0d93-3fb9-4b51-9ad8-202009bf6d69]  startBuild: payload=
+
+{"started_at":"2025-07-31T06:58:47.485Z","host_info":{"hostname":"LAPTOP-8LJ9PLF7","platform":"win32","type":"Windows_NT","version":"Windows 10 Home Single Language","arch":"x64"},"ci_info":{"build_number":null},"version_control":{"name":"git","sha":"9a7d41544c7a4ad98f3cef385f401c746dc719d7","short_sha":"9a7d41544c","branch":"main","tag":null,"committer":"WOFWind910 <kien.pt.64cntt@ntu.edu.vn>","committer_date":"2025-07-31T02:56:23.000Z","author":"WOFWind910 <kien.pt.64cntt@ntu.edu.vn>","author_date":"2025-07-31T02:56:23.000Z","commit_message":"up","root":"C:\\Users\\Admin\\Downloads\\BrowserStack\\android","common_git_dir":"C:\\Users\\Admin\\Downloads\\BrowserStack\\android\\.git","worktree_git_dir":"C:\\Users\\Admin\\Downloads\\BrowserStack\\android\\.git","last_tag":null,"commits_since_last_tag":0,"remotes":[{"name":"origin","url":"https://github.com/WOFWind910/BrowserStackMobile.git"}]},"project_name":"BrowserStack Samples","name":"browserstack build","build_identifier":"#99","build_run_identifier":null,"description":"","tags":[],"failed_tests_rerun":false,"accessibility":{"settings":{}},"framework_details":{"frameworkName":"nunit","frameworkVersion":"3.13.3","sdkVersion":"1.20.0","cliVersion":"1.6.3","language":"csharp","testFramework":{"name":"selenium","version":"3.141.0"},"source":"nunit:appium-sample-sdk:v1.0"},"product_map":{"observability":true,"accessibility":null,"percy":false,"automate":false,"app_automate":false},"browserstackAutomation":true,"test_orchestration":{}}
+2025-07-31T06:58:47.486Z CLI info  [trungkinphm_X3vExD]   [19ae0d93-3fb9-4b51-9ad8-202009bf6d69]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T06:58:48.480Z CLI info [testhub:module]  [trungkinphm_X3vExD]   [19ae0d93-3fb9-4b51-9ad8-202009bf6d69]  startBuild: response=s46skexgyh9gxnnew344iofuzj717bfms7fagxg8
+2025-07-31T06:58:48.483Z CLI info  [trungkinphm_X3vExD]  [s46skexgyh9gxnnew344iofuzj717bfms7fagxg8]  [19ae0d93-3fb9-4b51-9ad8-202009bf6d69]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-07-31T06:58:48.486Z CLI info  [trungkinphm_X3vExD]  [s46skexgyh9gxnnew344iofuzj717bfms7fagxg8]  [19ae0d93-3fb9-4b51-9ad8-202009bf6d69]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2025-07-31T06:58:48.921Z CLI error  [trungkinphm_X3vExD]  [s46skexgyh9gxnnew344iofuzj717bfms7fagxg8]  [19ae0d93-3fb9-4b51-9ad8-202009bf6d69]  error invoking callback for eventName: {}
+2025-07-31T06:58:48.921Z CLI error  [trungkinphm_X3vExD]  [s46skexgyh9gxnnew344iofuzj717bfms7fagxg8]  [19ae0d93-3fb9-4b51-9ad8-202009bf6d69]  Error: invalid percyToken=null
+    at C:\snapshot\browserstack-binary\cli\dist\index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-07-31T06:58:54.730Z CLI info [appautomate:service]  [trungkinphm_X3vExD]  [s46skexgyh9gxnnew344iofuzj717bfms7fagxg8]  [19ae0d93-3fb9-4b51-9ad8-202009bf6d69]  Using app: ./SauceLabs-Demo-App.apk
+2025-07-31T06:58:54.731Z CLI info [appautomate:service]  [trungkinphm_X3vExD]  [s46skexgyh9gxnnew344iofuzj717bfms7fagxg8]  [19ae0d93-3fb9-4b51-9ad8-202009bf6d69]  Uploading app C:\Users\Admin\Downloads\BrowserStack\android\SauceLabs-Demo-App.apk  to browserstack
+2025-07-31T06:58:54.734Z CLI info [appautomate:service]  [trungkinphm_X3vExD]  [s46skexgyh9gxnnew344iofuzj717bfms7fagxg8]  [19ae0d93-3fb9-4b51-9ad8-202009bf6d69]  App already uploaded with md5 Hash Id: bs://0a1bbed3029d51337bbb0230730a6deef4e9e0b3
+2025-07-31T06:59:04.128Z CLI info  [trungkinphm_X3vExD]  [s46skexgyh9gxnnew344iofuzj717bfms7fagxg8]  [19ae0d93-3fb9-4b51-9ad8-202009bf6d69]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2025-07-31T06:59:04.774Z CLI info  [trungkinphm_X3vExD]  [s46skexgyh9gxnnew344iofuzj717bfms7fagxg8]  [19ae0d93-3fb9-4b51-9ad8-202009bf6d69]  [PRODUCTION] Making GET request to https://hub-apse.browserstack.com
+2025-07-31T06:59:04.775Z CLI info  [trungkinphm_X3vExD]  [s46skexgyh9gxnnew344iofuzj717bfms7fagxg8]  [19ae0d93-3fb9-4b51-9ad8-202009bf6d69]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2025-07-31T06:59:04.776Z CLI info  [trungkinphm_X3vExD]  [s46skexgyh9gxnnew344iofuzj717bfms7fagxg8]  [19ae0d93-3fb9-4b51-9ad8-202009bf6d69]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2025-07-31T06:59:10.767Z CLI info  [trungkinphm_X3vExD]  [s46skexgyh9gxnnew344iofuzj717bfms7fagxg8]  [19ae0d93-3fb9-4b51-9ad8-202009bf6d69]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T06:59:11.558Z CLI error [testhub:module]  [trungkinphm_X3vExD]  [s46skexgyh9gxnnew344iofuzj717bfms7fagxg8]  [19ae0d93-3fb9-4b51-9ad8-202009bf6d69]  [collectBuildData] Exception in collecting build data for build UUID s46skexgyh9gxnnew344iofuzj717bfms7fagxg8: {"message":"Build data collection started"}
+2025-07-31T06:59:11.558Z CLI info  [trungkinphm_X3vExD]  [s46skexgyh9gxnnew344iofuzj717bfms7fagxg8]  [19ae0d93-3fb9-4b51-9ad8-202009bf6d69]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-07-31T06:59:12.306Z CLI info [testhub:module]  [trungkinphm_X3vExD]  [s46skexgyh9gxnnew344iofuzj717bfms7fagxg8]  [19ae0d93-3fb9-4b51-9ad8-202009bf6d69]  stopBuild: s46skexgyh9gxnnew344iofuzj717bfms7fagxg8 request={"finished_at":"2025-07-31T06:59:10.430Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2025-07-31T06:59:12.308Z CLI info  [trungkinphm_X3vExD]  [s46skexgyh9gxnnew344iofuzj717bfms7fagxg8]  [19ae0d93-3fb9-4b51-9ad8-202009bf6d69]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-07-31T06:59:12.311Z CLI info [observability:module]  [trungkinphm_X3vExD]  [s46skexgyh9gxnnew344iofuzj717bfms7fagxg8]  [19ae0d93-3fb9-4b51-9ad8-202009bf6d69]  Visit https://observability.browserstack.com/builds/s46skexgyh9gxnnew344iofuzj717bfms7fagxg8 to view build report, insights, and many more debugging information all at one place!
+2025-07-31T06:59:15.161Z CLI info  [trungkinphm_X3vExD]  [s46skexgyh9gxnnew344iofuzj717bfms7fagxg8]  [19ae0d93-3fb9-4b51-9ad8-202009bf6d69]  [PRODUCTION] Making POST request to https://eds.browserstack.com
+2025-07-31T07:03:15.490Z CLI info [main]     Server listening on port: 5401
+2025-07-31T07:03:15.650Z CLI info     Config : {"userName":"trungkinphm_X3vExD","accessKey":"LWqTUxCHdcLrLXhgXzAF","projectName":"BrowserStack Samples","buildName":"browserstack build","buildIdentifier":"#${BUILD_NUMBER}","source":"nunit:appium-sample-sdk:v1.0","app":"./SauceLabs-Demo-App.apk","platforms":[{"deviceName":"Samsung Galaxy S22","osVersion":12,"platformName":"android"}],"browserstackLocal":true,"debug":false,"networkLogs":false,"consoleLogs":"errors"}
+2025-07-31T07:03:15.672Z CLI info [testhub:module]  [trungkinphm_X3vExD]   [2f322d0d-d22c-43a8-9fb5-0342e6b545ca]  Starting testhub from 20840:0
+2025-07-31T07:03:15.673Z CLI info [testhub:module]  [trungkinphm_X3vExD]   [2f322d0d-d22c-43a8-9fb5-0342e6b545ca]  startBuild: payload=
+
+{"started_at":"2025-07-31T07:03:15.673Z","host_info":{"hostname":"LAPTOP-8LJ9PLF7","platform":"win32","type":"Windows_NT","version":"Windows 10 Home Single Language","arch":"x64"},"ci_info":{"build_number":null},"version_control":{"name":"git","sha":"9a7d41544c7a4ad98f3cef385f401c746dc719d7","short_sha":"9a7d41544c","branch":"main","tag":null,"committer":"WOFWind910 <kien.pt.64cntt@ntu.edu.vn>","committer_date":"2025-07-31T02:56:23.000Z","author":"WOFWind910 <kien.pt.64cntt@ntu.edu.vn>","author_date":"2025-07-31T02:56:23.000Z","commit_message":"up","root":"C:\\Users\\Admin\\Downloads\\BrowserStack\\android","common_git_dir":"C:\\Users\\Admin\\Downloads\\BrowserStack\\android\\.git","worktree_git_dir":"C:\\Users\\Admin\\Downloads\\BrowserStack\\android\\.git","last_tag":null,"commits_since_last_tag":0,"remotes":[{"name":"origin","url":"https://github.com/WOFWind910/BrowserStackMobile.git"}]},"project_name":"BrowserStack Samples","name":"browserstack build","build_identifier":"#100","build_run_identifier":null,"description":"","tags":[],"failed_tests_rerun":false,"accessibility":{"settings":{}},"framework_details":{"frameworkName":"nunit","frameworkVersion":"3.13.3","sdkVersion":"1.20.0","cliVersion":"1.6.3","language":"csharp","testFramework":{"name":"selenium","version":"3.141.0"},"source":"nunit:appium-sample-sdk:v1.0"},"product_map":{"observability":true,"accessibility":null,"percy":false,"automate":false,"app_automate":false},"browserstackAutomation":true,"test_orchestration":{}}
+2025-07-31T07:03:15.673Z CLI info  [trungkinphm_X3vExD]   [2f322d0d-d22c-43a8-9fb5-0342e6b545ca]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T07:03:16.717Z CLI info [testhub:module]  [trungkinphm_X3vExD]   [2f322d0d-d22c-43a8-9fb5-0342e6b545ca]  startBuild: response=8cn9hcgqeti7quvwoygbdttyjq408ag0uhunwtur
+2025-07-31T07:03:16.719Z CLI info  [trungkinphm_X3vExD]  [8cn9hcgqeti7quvwoygbdttyjq408ag0uhunwtur]  [2f322d0d-d22c-43a8-9fb5-0342e6b545ca]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-07-31T07:03:16.722Z CLI info  [trungkinphm_X3vExD]  [8cn9hcgqeti7quvwoygbdttyjq408ag0uhunwtur]  [2f322d0d-d22c-43a8-9fb5-0342e6b545ca]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2025-07-31T07:03:17.184Z CLI error  [trungkinphm_X3vExD]  [8cn9hcgqeti7quvwoygbdttyjq408ag0uhunwtur]  [2f322d0d-d22c-43a8-9fb5-0342e6b545ca]  error invoking callback for eventName: {}
+2025-07-31T07:03:17.184Z CLI error  [trungkinphm_X3vExD]  [8cn9hcgqeti7quvwoygbdttyjq408ag0uhunwtur]  [2f322d0d-d22c-43a8-9fb5-0342e6b545ca]  Error: invalid percyToken=null
+    at C:\snapshot\browserstack-binary\cli\dist\index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-07-31T07:03:22.564Z CLI info [appautomate:service]  [trungkinphm_X3vExD]  [8cn9hcgqeti7quvwoygbdttyjq408ag0uhunwtur]  [2f322d0d-d22c-43a8-9fb5-0342e6b545ca]  Using app: ./SauceLabs-Demo-App.apk
+2025-07-31T07:03:22.564Z CLI info [appautomate:service]  [trungkinphm_X3vExD]  [8cn9hcgqeti7quvwoygbdttyjq408ag0uhunwtur]  [2f322d0d-d22c-43a8-9fb5-0342e6b545ca]  Uploading app C:\Users\Admin\Downloads\BrowserStack\android\SauceLabs-Demo-App.apk  to browserstack
+2025-07-31T07:03:22.567Z CLI info [appautomate:service]  [trungkinphm_X3vExD]  [8cn9hcgqeti7quvwoygbdttyjq408ag0uhunwtur]  [2f322d0d-d22c-43a8-9fb5-0342e6b545ca]  App already uploaded with md5 Hash Id: bs://0a1bbed3029d51337bbb0230730a6deef4e9e0b3
+2025-07-31T07:03:32.691Z CLI info  [trungkinphm_X3vExD]  [8cn9hcgqeti7quvwoygbdttyjq408ag0uhunwtur]  [2f322d0d-d22c-43a8-9fb5-0342e6b545ca]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2025-07-31T07:03:33.334Z CLI info  [trungkinphm_X3vExD]  [8cn9hcgqeti7quvwoygbdttyjq408ag0uhunwtur]  [2f322d0d-d22c-43a8-9fb5-0342e6b545ca]  [PRODUCTION] Making GET request to https://hub-apse.browserstack.com
+2025-07-31T07:03:33.334Z CLI info  [trungkinphm_X3vExD]  [8cn9hcgqeti7quvwoygbdttyjq408ag0uhunwtur]  [2f322d0d-d22c-43a8-9fb5-0342e6b545ca]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2025-07-31T07:03:33.334Z CLI info  [trungkinphm_X3vExD]  [8cn9hcgqeti7quvwoygbdttyjq408ag0uhunwtur]  [2f322d0d-d22c-43a8-9fb5-0342e6b545ca]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2025-07-31T07:03:39.324Z CLI info  [trungkinphm_X3vExD]  [8cn9hcgqeti7quvwoygbdttyjq408ag0uhunwtur]  [2f322d0d-d22c-43a8-9fb5-0342e6b545ca]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-31T07:03:40.088Z CLI error [testhub:module]  [trungkinphm_X3vExD]  [8cn9hcgqeti7quvwoygbdttyjq408ag0uhunwtur]  [2f322d0d-d22c-43a8-9fb5-0342e6b545ca]  [collectBuildData] Exception in collecting build data for build UUID 8cn9hcgqeti7quvwoygbdttyjq408ag0uhunwtur: {"message":"Build data collection started"}
+2025-07-31T07:03:40.088Z CLI info  [trungkinphm_X3vExD]  [8cn9hcgqeti7quvwoygbdttyjq408ag0uhunwtur]  [2f322d0d-d22c-43a8-9fb5-0342e6b545ca]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-07-31T07:03:40.876Z CLI info [testhub:module]  [trungkinphm_X3vExD]  [8cn9hcgqeti7quvwoygbdttyjq408ag0uhunwtur]  [2f322d0d-d22c-43a8-9fb5-0342e6b545ca]  stopBuild: 8cn9hcgqeti7quvwoygbdttyjq408ag0uhunwtur request={"finished_at":"2025-07-31T07:03:39.000Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2025-07-31T07:03:40.877Z CLI info  [trungkinphm_X3vExD]  [8cn9hcgqeti7quvwoygbdttyjq408ag0uhunwtur]  [2f322d0d-d22c-43a8-9fb5-0342e6b545ca]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-07-31T07:03:40.878Z CLI info [observability:module]  [trungkinphm_X3vExD]  [8cn9hcgqeti7quvwoygbdttyjq408ag0uhunwtur]  [2f322d0d-d22c-43a8-9fb5-0342e6b545ca]  Visit https://observability.browserstack.com/builds/8cn9hcgqeti7quvwoygbdttyjq408ag0uhunwtur to view build report, insights, and many more debugging information all at one place!
+2025-07-31T07:03:43.691Z CLI info  [trungkinphm_X3vExD]  [8cn9hcgqeti7quvwoygbdttyjq408ag0uhunwtur]  [2f322d0d-d22c-43a8-9fb5-0342e6b545ca]  [PRODUCTION] Making POST request to https://eds.browserstack.com

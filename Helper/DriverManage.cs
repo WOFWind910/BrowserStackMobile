@@ -9,7 +9,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static BrowserStack.Test.BaseTest;
+using static BrowserStack.Tests.BaseTest;
 namespace BrowserStack.Helper
 {
     internal class DriverManage

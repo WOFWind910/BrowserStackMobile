@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using  BrowserStack.Page.Controller;
 
-namespace BrowserStack.Test
+namespace BrowserStack.Tests
 {
     internal class LoginTest
     {

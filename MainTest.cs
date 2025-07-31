@@ -6,7 +6,7 @@ using OpenQA.Selenium;
 using OpenQA.Selenium.Appium;
 using OpenQA.Selenium.Appium.Android;
 using OpenQA.Selenium.Support.UI;
-using BrowserStack.Test;
+using BrowserStack.Tests;
 using BrowserStack.Page.Controller;
 using BrowserStack.Datatest;
 using BrowserStack.Page.Locator;
@@ -19,9 +19,9 @@ namespace BrowserStack
         public void TestApp()
         {
             LoginTest.Login_Test();
-            HomeTest.AddToCart();
-            CartTest.CheckOut();
-            DrawingTest.Drawing();
+            HomeTest.ProductPageTest();
+            CartTest.CheckOut_Test();
+            DrawingTest.Drawing_Test();
         }
     }
 }
